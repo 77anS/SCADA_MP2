@@ -1,0 +1,666 @@
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.exe.config
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.exe
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.pdb
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\netstandard.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.AppContext.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.Concurrent.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.NonGeneric.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.Specialized.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.Primitives.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.TypeConverter.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Console.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Data.Common.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Contracts.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Debug.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Process.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.StackTrace.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Tools.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.TraceSource.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Drawing.Primitives.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Dynamic.Runtime.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.Calendars.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.Extensions.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Compression.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.DriveInfo.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.Watcher.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.IsolatedStorage.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.MemoryMappedFiles.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Pipes.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Expressions.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Parallel.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Queryable.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Http.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.NameResolution.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.NetworkInformation.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Ping.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Primitives.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Requests.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Security.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Sockets.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebHeaderCollection.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebSockets.Client.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebSockets.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ObjectModel.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.Extensions.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.Primitives.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.Reader.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.ResourceManager.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.Writer.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Extensions.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Handles.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Numerics.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Formatters.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Json.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Claims.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Csp.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Principal.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.SecureString.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.Encoding.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.Encoding.Extensions.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Overlapped.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Tasks.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Thread.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.ThreadPool.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Timer.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ValueTuple.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XDocument.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XmlDocument.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XmlSerializer.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XPath.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XPath.XDocument.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Crc32C.NET.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\DnsClient.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.exe
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Bson.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.Core.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\NetToolKit.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\S7.Net.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SharpCompress.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SKCLNET.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Snappy.NET.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SymbolFactoryDotNet.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SymbolFactoryNetEngine.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Buffers.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ZedGraph.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.pdb
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.exe.config
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Crc32C.NET.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\DnsClient.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Bson.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.Core.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\S7.Net.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Snappy.NET.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Buffers.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ZedGraph.xml
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\de\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\es\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\fr\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\hu\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\it\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ja\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\pt\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ru\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\sk\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\sv\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\tr\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\zh-cn\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\zh-tw\ZedGraph.resources.dll
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.AssemblyReference.cache
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.exe.config
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.ALARM.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.BECAMEX_INFO.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.DEVICE_LIST.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.Frame.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.HOME.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.LOGIN.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.Properties.Resources.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RESET.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_COLLECTION.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD1.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD1MR.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD2.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.SETTING.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.TREND.resources
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.GenerateResource.cache
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.CoreCompileInputs.cache
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.CopyComplete
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.exe
+C:\Users\LiDo\Desktop\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.pdb
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.exe.config
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.exe
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.pdb
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\netstandard.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.AppContext.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.Concurrent.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.NonGeneric.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.Specialized.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.TypeConverter.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Console.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Data.Common.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Contracts.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Debug.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Process.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.StackTrace.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Tools.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.TraceSource.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Drawing.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Dynamic.Runtime.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.Calendars.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.Extensions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Compression.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.DriveInfo.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.Watcher.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.IsolatedStorage.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.MemoryMappedFiles.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Pipes.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Expressions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Parallel.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Queryable.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Http.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.NameResolution.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.NetworkInformation.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Ping.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Requests.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Security.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Sockets.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebHeaderCollection.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebSockets.Client.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebSockets.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ObjectModel.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.Extensions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.Reader.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.ResourceManager.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.Writer.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Extensions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Handles.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Numerics.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Formatters.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Json.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Claims.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Csp.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Principal.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.SecureString.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.Encoding.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.Encoding.Extensions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Overlapped.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Tasks.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Thread.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.ThreadPool.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Timer.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ValueTuple.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XDocument.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XmlDocument.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XmlSerializer.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XPath.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XPath.XDocument.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Crc32C.NET.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\DnsClient.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.exe
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Bson.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.Core.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\NetToolKit.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\S7.Net.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SharpCompress.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SKCLNET.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Snappy.NET.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SymbolFactoryDotNet.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SymbolFactoryNetEngine.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Buffers.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ZedGraph.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.pdb
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.exe.config
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Crc32C.NET.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\DnsClient.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Bson.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.Core.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\S7.Net.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Snappy.NET.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Buffers.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ZedGraph.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\de\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\es\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\fr\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\hu\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\it\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ja\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\pt\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ru\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\sk\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\sv\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\tr\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\zh-cn\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\zh-tw\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.AssemblyReference.cache
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.exe.config
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.ALARM.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.BECAMEX_INFO.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.DEVICE_LIST.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.Frame.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.HOME.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.LOGIN.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.Properties.Resources.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RESET.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_COLLECTION.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD1.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD1MR.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD2.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.SETTING.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.TREND.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.GenerateResource.cache
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.CoreCompileInputs.cache
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.CopyComplete
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.exe
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.pdb
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.exe.config
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.exe
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MP2_V01.pdb
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\netstandard.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.AppContext.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.Concurrent.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.NonGeneric.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Collections.Specialized.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ComponentModel.TypeConverter.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Console.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Data.Common.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Contracts.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Debug.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Process.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.StackTrace.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Tools.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.TraceSource.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Drawing.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Dynamic.Runtime.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.Calendars.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Globalization.Extensions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Compression.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.DriveInfo.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.FileSystem.Watcher.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.IsolatedStorage.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.MemoryMappedFiles.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Pipes.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Expressions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Parallel.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Linq.Queryable.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Http.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.NameResolution.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.NetworkInformation.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Ping.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Requests.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Security.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.Sockets.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebHeaderCollection.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebSockets.Client.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Net.WebSockets.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ObjectModel.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.Extensions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Reflection.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.Reader.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.ResourceManager.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Resources.Writer.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Extensions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Handles.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Numerics.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Formatters.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Json.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Claims.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Csp.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.Principal.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Security.SecureString.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.Encoding.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.Encoding.Extensions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Overlapped.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Tasks.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Thread.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.ThreadPool.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Threading.Timer.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.ValueTuple.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XDocument.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XmlDocument.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XmlSerializer.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XPath.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Xml.XPath.XDocument.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Crc32C.NET.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\DnsClient.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.exe
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Bson.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.Core.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\NetToolKit.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\S7.Net.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SharpCompress.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SKCLNET.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Snappy.NET.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SymbolFactoryDotNet.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\SymbolFactoryNetEngine.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Buffers.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ZedGraph.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.pdb
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ElementBase_Template.exe.config
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Crc32C.NET.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\DnsClient.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Bson.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\MongoDB.Driver.Core.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\S7.Net.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\Snappy.NET.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.Buffers.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ZedGraph.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\de\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\es\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\fr\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\hu\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\it\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ja\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\pt\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ru\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\sk\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\sv\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\tr\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\zh-cn\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\zh-tw\ZedGraph.resources.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.AssemblyReference.cache
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.exe.config
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.ALARM.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.BECAMEX_INFO.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.DEVICE_LIST.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.Frame.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.HOME.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.LOGIN.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.Properties.Resources.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RESET.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_COLLECTION.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD1.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD1MR.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD2.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.SETTING.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.TREND.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.GenerateResource.cache
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.CoreCompileInputs.cache
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.CopyComplete
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.exe
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.pdb
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.csproj.ResolveComReference.cache
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.ADMIN_PAGEcs.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.DATA_EXPORT.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\obj\Release\MP2_V01.TESTING_ENVIRONMENT.resources
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ClosedXML.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ExcelNumberFormat.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\System.IO.Packaging.dll
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ClosedXML.pdb
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ClosedXML.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\LiDo\AndrewSwift\Company\Becamex IDC\Workspace\SCADA\Nhà_Máy_Mỹ_Phước_2\MP2.2\Assembly\SCADA\MP2-SCADA Winform\MP2_V0.1\MP2_V01\bin\Release\ExcelNumberFormat.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MP2_V01.exe.config
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MP2_V01.exe
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MP2_V01.pdb
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\en\MP2_V01.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\vi\MP2_V01.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\netstandard.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.AppContext.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Collections.Concurrent.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Collections.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Collections.NonGeneric.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Collections.Specialized.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.ComponentModel.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.ComponentModel.Primitives.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.ComponentModel.TypeConverter.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Console.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Data.Common.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.Contracts.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.Debug.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.FileVersionInfo.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.Process.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.StackTrace.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.Tools.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.TraceSource.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Drawing.Primitives.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Dynamic.Runtime.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Globalization.Calendars.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Globalization.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Globalization.Extensions.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.Compression.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.FileSystem.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.FileSystem.DriveInfo.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.FileSystem.Watcher.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.IsolatedStorage.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.MemoryMappedFiles.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.Pipes.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Linq.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Linq.Expressions.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Linq.Parallel.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Linq.Queryable.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.Http.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.NameResolution.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.NetworkInformation.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.Ping.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.Primitives.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.Requests.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.Security.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.Sockets.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.WebHeaderCollection.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.WebSockets.Client.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Net.WebSockets.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.ObjectModel.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Reflection.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Reflection.Extensions.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Reflection.Primitives.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Resources.Reader.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Resources.ResourceManager.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Resources.Writer.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.Extensions.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.Handles.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.Numerics.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.Serialization.Formatters.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.Serialization.Json.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Security.Claims.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Security.Cryptography.Csp.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Security.Principal.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Security.SecureString.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Text.Encoding.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Text.Encoding.Extensions.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Threading.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Threading.Overlapped.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Threading.Tasks.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Threading.Thread.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Threading.ThreadPool.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Threading.Timer.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.ValueTuple.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Xml.XDocument.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Xml.XmlDocument.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Xml.XmlSerializer.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Xml.XPath.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Xml.XPath.XDocument.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ClosedXML.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\Crc32C.NET.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\DnsClient.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ElementBase_Template.exe
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ExcelNumberFormat.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MongoDB.Bson.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MongoDB.Driver.Core.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MongoDB.Driver.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\NetToolKit.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\S7.Net.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\SharpCompress.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\SKCLNET.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\Snappy.NET.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\SymbolFactoryDotNet.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\SymbolFactoryNetEngine.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Buffers.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.IO.Packaging.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ZedGraph.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ElementBase_Template.pdb
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ElementBase_Template.exe.config
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ClosedXML.pdb
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ClosedXML.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\Crc32C.NET.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\DnsClient.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ExcelNumberFormat.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MongoDB.Bson.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MongoDB.Driver.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\MongoDB.Driver.Core.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\S7.Net.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\Snappy.NET.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\System.Buffers.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ZedGraph.xml
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\de\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\es\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\fr\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\hu\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\it\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ja\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\pt\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\ru\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\sk\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\sv\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\tr\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\zh-cn\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\bin\Release\zh-tw\ZedGraph.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.exe.config
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.csproj.ResolveComReference.cache
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.ADMIN_PAGE.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.ALARM.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.BECAMEX_INFO.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.DATA_EXPORT.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.DEVICE_LIST.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.Frame.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.HOME.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.LOGIN.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.Properties.Resources.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.RESET.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.RUNTIME_COLLECTION.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD1.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD1MR.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.RUNTIME_GD2.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.SETTING.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.TESTING_ENVIRONMENT.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.TREND.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.Frame.en.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.Frame.vi.resources
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\en\MP2_V01.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\vi\MP2_V01.resources.dll
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.csproj.CopyComplete
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.exe
+C:\Users\DELL\Desktop\MP2_2_SCADA_Winform_V0.9.3_Develop\MP2_V01\obj\Release\MP2_V01.pdb
