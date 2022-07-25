@@ -109,11 +109,15 @@
     <Compile Include="ALARM\AlarmItems.cs" />
     <Compile Include="ALARM\AlarmMethods.cs" />
     <Compile Include="Chart\ChartRealtime.cs" />
-    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPlate\Faceplate\Faceplate_Pump.cs" />
+    <Compile Include="FormPlate\Faceplate\Faceplate_Pump.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormPlate\Faceplate\Faceplate_Pump.Designer.cs">
       <DependentUpon>Faceplate_Pump.cs</DependentUpon>
     </Compile>
