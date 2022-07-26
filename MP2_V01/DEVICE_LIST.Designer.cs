@@ -2440,11 +2440,10 @@ namespace MP2_V01
             // 
             this.btnClose_deviceListPage.FlatAppearance.BorderSize = 0;
             this.btnClose_deviceListPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-
             this.btnClose_deviceListPage.Image = global::MP2_V01.Properties.Resources.icons8_close_window_5_32;
-            this.btnClose_deviceListPage.Location = new System.Drawing.Point(1875, 8);
+            this.btnClose_deviceListPage.Location = new System.Drawing.Point(1875, 2);
             this.btnClose_deviceListPage.Name = "btnClose_deviceListPage";
-            this.btnClose_deviceListPage.Size = new System.Drawing.Size(33, 31);
+            this.btnClose_deviceListPage.Size = new System.Drawing.Size(43, 37);
             this.btnClose_deviceListPage.TabIndex = 407;
             this.btnClose_deviceListPage.UseVisualStyleBackColor = true;
             this.btnClose_deviceListPage.Click += new System.EventHandler(this.btnClose_deviceListPage_Click);

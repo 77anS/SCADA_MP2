@@ -67,11 +67,12 @@ namespace MP2_V01
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(800, 18);
+            this.label3.Location = new System.Drawing.Point(925, 31);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(151, 24);
+            this.label3.Size = new System.Drawing.Size(180, 24);
             this.label3.TabIndex = 414;
-            this.label3.Text = "ALARM TABLE";
+            this.label3.Text = "BẢNG CẢNH BÁO";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnInfo_framePage
             // 
@@ -79,7 +80,7 @@ namespace MP2_V01
             this.btnInfo_framePage.Enabled = false;
             this.btnInfo_framePage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInfo_framePage.ForeColor = System.Drawing.Color.White;
-            this.btnInfo_framePage.Location = new System.Drawing.Point(22, 867);
+            this.btnInfo_framePage.Location = new System.Drawing.Point(22, 915);
             this.btnInfo_framePage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnInfo_framePage.Name = "btnInfo_framePage";
             this.btnInfo_framePage.Size = new System.Drawing.Size(179, 45);
@@ -95,49 +96,49 @@ namespace MP2_V01
             // 
             // dateColumn
             // 
-            this.dateColumn.Text = "DATE";
+            this.dateColumn.Text = "NGÀY";
             this.dateColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.dateColumn.Width = 120;
+            this.dateColumn.Width = 200;
             // 
             // timeColum
             // 
-            this.timeColum.Text = "TIME";
+            this.timeColum.Text = "THỜI GIAN";
             this.timeColum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.timeColum.Width = 128;
             // 
             // durationColumn
             // 
-            this.durationColumn.Text = "DURATION";
+            this.durationColumn.Text = "QUÁ TRÌNH";
             this.durationColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.durationColumn.Width = 132;
+            this.durationColumn.Width = 150;
             // 
             // erIdColumn
             // 
-            this.erIdColumn.Text = "ERROR ID";
+            this.erIdColumn.Text = "MÃ LỖI";
             this.erIdColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.erIdColumn.Width = 113;
+            this.erIdColumn.Width = 120;
             // 
             // statusColumn
             // 
-            this.statusColumn.Text = "STATUS";
+            this.statusColumn.Text = "TRẠNG THÁI";
             this.statusColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.statusColumn.Width = 222;
+            this.statusColumn.Width = 200;
             // 
             // serverityColumn
             // 
-            this.serverityColumn.Text = "SEVERITY";
+            this.serverityColumn.Text = "ƯU TIÊN";
             this.serverityColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.serverityColumn.Width = 144;
+            this.serverityColumn.Width = 150;
             // 
             // alarmTextColumn
             // 
-            this.alarmTextColumn.Text = "DESCRIPTION";
+            this.alarmTextColumn.Text = "MÔ TẢ";
             this.alarmTextColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.alarmTextColumn.Width = 385;
+            this.alarmTextColumn.Width = 300;
             // 
             // ackColumn
             // 
-            this.ackColumn.Text = "Acknowledgment";
+            this.ackColumn.Text = "XÁC NHẬN";
             this.ackColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ackColumn.Width = 146;
             // 
@@ -161,9 +162,9 @@ namespace MP2_V01
             this.alarmTable_alm_alarmPage.FullRowSelect = true;
             this.alarmTable_alm_alarmPage.GridLines = true;
             this.alarmTable_alm_alarmPage.HideSelection = false;
-            this.alarmTable_alm_alarmPage.Location = new System.Drawing.Point(22, 57);
+            this.alarmTable_alm_alarmPage.Location = new System.Drawing.Point(22, 85);
             this.alarmTable_alm_alarmPage.Name = "alarmTable_alm_alarmPage";
-            this.alarmTable_alm_alarmPage.Size = new System.Drawing.Size(1843, 747);
+            this.alarmTable_alm_alarmPage.Size = new System.Drawing.Size(1843, 776);
             this.alarmTable_alm_alarmPage.TabIndex = 413;
             this.alarmTable_alm_alarmPage.UseCompatibleStateImageBehavior = false;
             this.alarmTable_alm_alarmPage.View = System.Windows.Forms.View.Details;
@@ -175,7 +176,7 @@ namespace MP2_V01
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "ON ACTIVE"});
-            this.comboBox1.Location = new System.Drawing.Point(22, 829);
+            this.comboBox1.Location = new System.Drawing.Point(22, 877);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(179, 21);
             this.comboBox1.TabIndex = 415;

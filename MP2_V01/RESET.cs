@@ -69,14 +69,9 @@ namespace MP2_V01
         }
 
 
-        [DllImport("user32.dll", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
-        [DllImport("user32.dll", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         private void RESET_MouseDown(object sender, MouseEventArgs e)
         {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
+
         }
         private void btn_resetFlowIn_resetPage_Click(object sender, EventArgs e)
         {
@@ -146,6 +141,17 @@ namespace MP2_V01
         private void btnClose_resetPage_MouseLeave(object sender, EventArgs e)
         {
             btnClose_resetPage.BackColor = Color.FromArgb(255, 24, 42, 91); //227, 227, 227
+        }
+
+        //Drag Form
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        private void panel2_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

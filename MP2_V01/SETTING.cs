@@ -342,12 +342,11 @@ namespace MP2_V01
 
             private void btnClose_settingPage_MouseHover(object sender, EventArgs e)
             {
-                btnClose_settingPage.BackColor = Color.FromArgb(255, 240, 0, 0);
+
             }
 
             private void btnClose_settingPage_MouseLeave(object sender, EventArgs e)
             {
-                btnClose_settingPage.BackColor = Color.FromArgb(255, 24, 42, 91);
             }
 
             private void btnExit_settingPage_Click(object sender, EventArgs e)

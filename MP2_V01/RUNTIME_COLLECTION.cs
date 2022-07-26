@@ -40,7 +40,7 @@ namespace MP2_V01
 
         private void btnClose_runtimeCollectionPage_MouseLeave(object sender, EventArgs e)
         {
-            btnClose_runtimeCollectionPage.BackColor = Color.FromArgb(255, 24, 42, 92);
+            btnClose_runtimeCollectionPage.BackColor = Color.FromArgb(255, 192, 192, 192);
         }
 
         private void btnCancel_runtimeCollectionPage_Click(object sender, EventArgs e)

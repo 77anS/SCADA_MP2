@@ -122,11 +122,38 @@ namespace MP2_V01
             this.btnReset_anoxic1_runtimeGd1mrPage = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tbRuntime_bomBun2_runtimeGd1mrPage = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label110 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbRuntime_etanol2_runtimeGd1mrPage
             // 
-            this.tbRuntime_etanol2_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 793);
+            this.tbRuntime_etanol2_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 782);
             this.tbRuntime_etanol2_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_etanol2_runtimeGd1mrPage.Name = "tbRuntime_etanol2_runtimeGd1mrPage";
             this.tbRuntime_etanol2_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -134,7 +161,7 @@ namespace MP2_V01
             // 
             // tbRuntime_bomBun1_runtimeGd1mrPage
             // 
-            this.tbRuntime_bomBun1_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 722);
+            this.tbRuntime_bomBun1_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 711);
             this.tbRuntime_bomBun1_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_bomBun1_runtimeGd1mrPage.Name = "tbRuntime_bomBun1_runtimeGd1mrPage";
             this.tbRuntime_bomBun1_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -142,7 +169,7 @@ namespace MP2_V01
             // 
             // tbRuntime_etanol1_runtimeGd1mrPage
             // 
-            this.tbRuntime_etanol1_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 720);
+            this.tbRuntime_etanol1_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 709);
             this.tbRuntime_etanol1_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_etanol1_runtimeGd1mrPage.Name = "tbRuntime_etanol1_runtimeGd1mrPage";
             this.tbRuntime_etanol1_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -153,7 +180,7 @@ namespace MP2_V01
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label42.Location = new System.Drawing.Point(988, 803);
+            this.label42.Location = new System.Drawing.Point(982, 792);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(29, 20);
             this.label42.TabIndex = 338;
@@ -164,7 +191,7 @@ namespace MP2_V01
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(356, 801);
+            this.label22.Location = new System.Drawing.Point(350, 790);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(29, 20);
             this.label22.TabIndex = 340;
@@ -175,7 +202,7 @@ namespace MP2_V01
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label41.Location = new System.Drawing.Point(988, 730);
+            this.label41.Location = new System.Drawing.Point(982, 719);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(29, 20);
             this.label41.TabIndex = 341;
@@ -186,7 +213,7 @@ namespace MP2_V01
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(356, 728);
+            this.label20.Location = new System.Drawing.Point(350, 717);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(29, 20);
             this.label20.TabIndex = 330;
@@ -194,7 +221,7 @@ namespace MP2_V01
             // 
             // tbRuntime_gatBun_runtimeGd1mrPage
             // 
-            this.tbRuntime_gatBun_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 649);
+            this.tbRuntime_gatBun_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 638);
             this.tbRuntime_gatBun_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_gatBun_runtimeGd1mrPage.Name = "tbRuntime_gatBun_runtimeGd1mrPage";
             this.tbRuntime_gatBun_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -202,7 +229,7 @@ namespace MP2_V01
             // 
             // tbRuntime_anoxic8_runtimeGd1mrPage
             // 
-            this.tbRuntime_anoxic8_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 647);
+            this.tbRuntime_anoxic8_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 636);
             this.tbRuntime_anoxic8_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_anoxic8_runtimeGd1mrPage.Name = "tbRuntime_anoxic8_runtimeGd1mrPage";
             this.tbRuntime_anoxic8_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -213,7 +240,7 @@ namespace MP2_V01
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label40.Location = new System.Drawing.Point(988, 657);
+            this.label40.Location = new System.Drawing.Point(982, 646);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(29, 20);
             this.label40.TabIndex = 321;
@@ -224,7 +251,7 @@ namespace MP2_V01
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(356, 655);
+            this.label18.Location = new System.Drawing.Point(350, 644);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(29, 20);
             this.label18.TabIndex = 317;
@@ -232,7 +259,7 @@ namespace MP2_V01
             // 
             // tbRuntime_tuanHoan3_runtimeGd1mrPage
             // 
-            this.tbRuntime_tuanHoan3_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 576);
+            this.tbRuntime_tuanHoan3_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 565);
             this.tbRuntime_tuanHoan3_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_tuanHoan3_runtimeGd1mrPage.Name = "tbRuntime_tuanHoan3_runtimeGd1mrPage";
             this.tbRuntime_tuanHoan3_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -240,7 +267,7 @@ namespace MP2_V01
             // 
             // tbRuntime_anoxic7_runtimeGd1mrPage
             // 
-            this.tbRuntime_anoxic7_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 574);
+            this.tbRuntime_anoxic7_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 563);
             this.tbRuntime_anoxic7_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_anoxic7_runtimeGd1mrPage.Name = "tbRuntime_anoxic7_runtimeGd1mrPage";
             this.tbRuntime_anoxic7_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -251,7 +278,7 @@ namespace MP2_V01
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label39.Location = new System.Drawing.Point(988, 584);
+            this.label39.Location = new System.Drawing.Point(982, 573);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(29, 20);
             this.label39.TabIndex = 327;
@@ -262,7 +289,7 @@ namespace MP2_V01
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(356, 582);
+            this.label16.Location = new System.Drawing.Point(350, 571);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(29, 20);
             this.label16.TabIndex = 342;
@@ -270,7 +297,7 @@ namespace MP2_V01
             // 
             // tbRuntime_tuanHoan2_runtimeGd1mrPage
             // 
-            this.tbRuntime_tuanHoan2_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 503);
+            this.tbRuntime_tuanHoan2_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 492);
             this.tbRuntime_tuanHoan2_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_tuanHoan2_runtimeGd1mrPage.Name = "tbRuntime_tuanHoan2_runtimeGd1mrPage";
             this.tbRuntime_tuanHoan2_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -278,7 +305,7 @@ namespace MP2_V01
             // 
             // tbRuntime_anoxic6_runtimeGd1mrPage
             // 
-            this.tbRuntime_anoxic6_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 501);
+            this.tbRuntime_anoxic6_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 490);
             this.tbRuntime_anoxic6_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_anoxic6_runtimeGd1mrPage.Name = "tbRuntime_anoxic6_runtimeGd1mrPage";
             this.tbRuntime_anoxic6_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -289,7 +316,7 @@ namespace MP2_V01
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label38.Location = new System.Drawing.Point(988, 511);
+            this.label38.Location = new System.Drawing.Point(982, 500);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(29, 20);
             this.label38.TabIndex = 315;
@@ -300,7 +327,7 @@ namespace MP2_V01
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(356, 509);
+            this.label14.Location = new System.Drawing.Point(350, 498);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(29, 20);
             this.label14.TabIndex = 316;
@@ -308,7 +335,7 @@ namespace MP2_V01
             // 
             // tbRuntime_tuanHoan1_runtimeGd1mrPage
             // 
-            this.tbRuntime_tuanHoan1_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 430);
+            this.tbRuntime_tuanHoan1_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 419);
             this.tbRuntime_tuanHoan1_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_tuanHoan1_runtimeGd1mrPage.Name = "tbRuntime_tuanHoan1_runtimeGd1mrPage";
             this.tbRuntime_tuanHoan1_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -316,7 +343,7 @@ namespace MP2_V01
             // 
             // tbRuntime_anoxic5_runtimeGd1mrPage
             // 
-            this.tbRuntime_anoxic5_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 428);
+            this.tbRuntime_anoxic5_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 417);
             this.tbRuntime_anoxic5_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_anoxic5_runtimeGd1mrPage.Name = "tbRuntime_anoxic5_runtimeGd1mrPage";
             this.tbRuntime_anoxic5_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -327,7 +354,7 @@ namespace MP2_V01
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label37.Location = new System.Drawing.Point(988, 438);
+            this.label37.Location = new System.Drawing.Point(982, 427);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(29, 20);
             this.label37.TabIndex = 318;
@@ -338,7 +365,7 @@ namespace MP2_V01
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(356, 436);
+            this.label12.Location = new System.Drawing.Point(350, 425);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(29, 20);
             this.label12.TabIndex = 319;
@@ -349,7 +376,7 @@ namespace MP2_V01
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(664, 804);
+            this.label36.Location = new System.Drawing.Point(658, 793);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(105, 20);
             this.label36.TabIndex = 320;
@@ -360,7 +387,7 @@ namespace MP2_V01
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(32, 802);
+            this.label21.Location = new System.Drawing.Point(26, 791);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(93, 20);
             this.label21.TabIndex = 314;
@@ -371,7 +398,7 @@ namespace MP2_V01
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(664, 731);
+            this.label35.Location = new System.Drawing.Point(658, 720);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(105, 20);
             this.label35.TabIndex = 322;
@@ -382,7 +409,7 @@ namespace MP2_V01
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(32, 729);
+            this.label19.Location = new System.Drawing.Point(26, 718);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(93, 20);
             this.label19.TabIndex = 323;
@@ -390,7 +417,7 @@ namespace MP2_V01
             // 
             // tbRuntime_mkt3_runtimeGd1mrPage
             // 
-            this.tbRuntime_mkt3_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 357);
+            this.tbRuntime_mkt3_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 346);
             this.tbRuntime_mkt3_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_mkt3_runtimeGd1mrPage.Name = "tbRuntime_mkt3_runtimeGd1mrPage";
             this.tbRuntime_mkt3_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -398,7 +425,7 @@ namespace MP2_V01
             // 
             // tbRuntime_anoxic4_runtimeGd1mrPage
             // 
-            this.tbRuntime_anoxic4_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 355);
+            this.tbRuntime_anoxic4_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 344);
             this.tbRuntime_anoxic4_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_anoxic4_runtimeGd1mrPage.Name = "tbRuntime_anoxic4_runtimeGd1mrPage";
             this.tbRuntime_anoxic4_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -409,7 +436,7 @@ namespace MP2_V01
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(664, 658);
+            this.label34.Location = new System.Drawing.Point(658, 647);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(87, 20);
             this.label34.TabIndex = 324;
@@ -420,7 +447,7 @@ namespace MP2_V01
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(32, 656);
+            this.label17.Location = new System.Drawing.Point(26, 645);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(91, 20);
             this.label17.TabIndex = 325;
@@ -431,7 +458,7 @@ namespace MP2_V01
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label33.Location = new System.Drawing.Point(988, 365);
+            this.label33.Location = new System.Drawing.Point(982, 354);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(29, 20);
             this.label33.TabIndex = 326;
@@ -442,7 +469,7 @@ namespace MP2_V01
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(356, 363);
+            this.label10.Location = new System.Drawing.Point(350, 352);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(29, 20);
             this.label10.TabIndex = 329;
@@ -453,7 +480,7 @@ namespace MP2_V01
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(664, 585);
+            this.label32.Location = new System.Drawing.Point(658, 574);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(126, 20);
             this.label32.TabIndex = 328;
@@ -464,7 +491,7 @@ namespace MP2_V01
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(32, 583);
+            this.label15.Location = new System.Drawing.Point(26, 572);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(91, 20);
             this.label15.TabIndex = 336;
@@ -472,7 +499,7 @@ namespace MP2_V01
             // 
             // tbRuntime_Al2so4_runtimeGd1mrPage
             // 
-            this.tbRuntime_Al2so4_runtimeGd1mrPage.Location = new System.Drawing.Point(1456, 286);
+            this.tbRuntime_Al2so4_runtimeGd1mrPage.Location = new System.Drawing.Point(1450, 275);
             this.tbRuntime_Al2so4_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_Al2so4_runtimeGd1mrPage.Name = "tbRuntime_Al2so4_runtimeGd1mrPage";
             this.tbRuntime_Al2so4_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -480,7 +507,7 @@ namespace MP2_V01
             // 
             // tbRuntime_mkt2_runtimeGd1mrPage
             // 
-            this.tbRuntime_mkt2_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 284);
+            this.tbRuntime_mkt2_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 273);
             this.tbRuntime_mkt2_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_mkt2_runtimeGd1mrPage.Name = "tbRuntime_mkt2_runtimeGd1mrPage";
             this.tbRuntime_mkt2_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -488,7 +515,7 @@ namespace MP2_V01
             // 
             // tbRuntime_anoxic3_runtimeGd1mrPage
             // 
-            this.tbRuntime_anoxic3_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 282);
+            this.tbRuntime_anoxic3_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 271);
             this.tbRuntime_anoxic3_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_anoxic3_runtimeGd1mrPage.Name = "tbRuntime_anoxic3_runtimeGd1mrPage";
             this.tbRuntime_anoxic3_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -499,7 +526,7 @@ namespace MP2_V01
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(664, 512);
+            this.label31.Location = new System.Drawing.Point(658, 501);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(126, 20);
             this.label31.TabIndex = 339;
@@ -510,7 +537,7 @@ namespace MP2_V01
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(32, 510);
+            this.label13.Location = new System.Drawing.Point(26, 499);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(91, 20);
             this.label13.TabIndex = 337;
@@ -521,7 +548,7 @@ namespace MP2_V01
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.Color.White;
-            this.label48.Location = new System.Drawing.Point(1634, 294);
+            this.label48.Location = new System.Drawing.Point(1628, 283);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(29, 20);
             this.label48.TabIndex = 335;
@@ -532,7 +559,7 @@ namespace MP2_V01
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label30.Location = new System.Drawing.Point(988, 292);
+            this.label30.Location = new System.Drawing.Point(982, 281);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(29, 20);
             this.label30.TabIndex = 334;
@@ -543,7 +570,7 @@ namespace MP2_V01
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(356, 290);
+            this.label8.Location = new System.Drawing.Point(350, 279);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(29, 20);
             this.label8.TabIndex = 333;
@@ -554,7 +581,7 @@ namespace MP2_V01
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(664, 439);
+            this.label29.Location = new System.Drawing.Point(658, 428);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(126, 20);
             this.label29.TabIndex = 332;
@@ -565,7 +592,7 @@ namespace MP2_V01
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(32, 437);
+            this.label11.Location = new System.Drawing.Point(26, 426);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(91, 20);
             this.label11.TabIndex = 331;
@@ -573,7 +600,7 @@ namespace MP2_V01
             // 
             // tbRuntime_dlNaoh_runtimeGd1mrPage
             // 
-            this.tbRuntime_dlNaoh_runtimeGd1mrPage.Location = new System.Drawing.Point(1456, 213);
+            this.tbRuntime_dlNaoh_runtimeGd1mrPage.Location = new System.Drawing.Point(1450, 202);
             this.tbRuntime_dlNaoh_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_dlNaoh_runtimeGd1mrPage.Name = "tbRuntime_dlNaoh_runtimeGd1mrPage";
             this.tbRuntime_dlNaoh_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -581,7 +608,7 @@ namespace MP2_V01
             // 
             // tbRuntime_mtk1_runtimeGd1mrPage
             // 
-            this.tbRuntime_mtk1_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 211);
+            this.tbRuntime_mtk1_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 200);
             this.tbRuntime_mtk1_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_mtk1_runtimeGd1mrPage.Name = "tbRuntime_mtk1_runtimeGd1mrPage";
             this.tbRuntime_mtk1_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -589,7 +616,7 @@ namespace MP2_V01
             // 
             // tbRuntime_anoxic2_runtimeGd1mrPage
             // 
-            this.tbRuntime_anoxic2_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 209);
+            this.tbRuntime_anoxic2_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 198);
             this.tbRuntime_anoxic2_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_anoxic2_runtimeGd1mrPage.Name = "tbRuntime_anoxic2_runtimeGd1mrPage";
             this.tbRuntime_anoxic2_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -600,7 +627,7 @@ namespace MP2_V01
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(664, 366);
+            this.label28.Location = new System.Drawing.Point(658, 355);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(59, 20);
             this.label28.TabIndex = 312;
@@ -611,7 +638,7 @@ namespace MP2_V01
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(32, 364);
+            this.label9.Location = new System.Drawing.Point(26, 353);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(91, 20);
             this.label9.TabIndex = 313;
@@ -622,7 +649,7 @@ namespace MP2_V01
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.White;
-            this.label47.Location = new System.Drawing.Point(1634, 221);
+            this.label47.Location = new System.Drawing.Point(1628, 210);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(29, 20);
             this.label47.TabIndex = 298;
@@ -633,7 +660,7 @@ namespace MP2_V01
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label27.Location = new System.Drawing.Point(988, 219);
+            this.label27.Location = new System.Drawing.Point(982, 208);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(29, 20);
             this.label27.TabIndex = 299;
@@ -644,7 +671,7 @@ namespace MP2_V01
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(356, 217);
+            this.label6.Location = new System.Drawing.Point(350, 206);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(29, 20);
             this.label6.TabIndex = 300;
@@ -655,7 +682,7 @@ namespace MP2_V01
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.Color.White;
-            this.label46.Location = new System.Drawing.Point(1310, 295);
+            this.label46.Location = new System.Drawing.Point(1304, 284);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(76, 20);
             this.label46.TabIndex = 301;
@@ -666,7 +693,7 @@ namespace MP2_V01
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(664, 293);
+            this.label26.Location = new System.Drawing.Point(658, 282);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(59, 20);
             this.label26.TabIndex = 302;
@@ -677,7 +704,7 @@ namespace MP2_V01
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(32, 291);
+            this.label7.Location = new System.Drawing.Point(26, 280);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(91, 20);
             this.label7.TabIndex = 297;
@@ -685,7 +712,7 @@ namespace MP2_V01
             // 
             // tbRuntime_khuayNaoh_runtimeGd1mrPage
             // 
-            this.tbRuntime_khuayNaoh_runtimeGd1mrPage.Location = new System.Drawing.Point(1456, 140);
+            this.tbRuntime_khuayNaoh_runtimeGd1mrPage.Location = new System.Drawing.Point(1450, 129);
             this.tbRuntime_khuayNaoh_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_khuayNaoh_runtimeGd1mrPage.Name = "tbRuntime_khuayNaoh_runtimeGd1mrPage";
             this.tbRuntime_khuayNaoh_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -693,7 +720,7 @@ namespace MP2_V01
             // 
             // tbRuntime_metanol_runtimeGd1mrPage
             // 
-            this.tbRuntime_metanol_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 138);
+            this.tbRuntime_metanol_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 127);
             this.tbRuntime_metanol_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_metanol_runtimeGd1mrPage.Name = "tbRuntime_metanol_runtimeGd1mrPage";
             this.tbRuntime_metanol_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -701,7 +728,7 @@ namespace MP2_V01
             // 
             // tbRuntime_anoxic1_runtimeGd1mrPage
             // 
-            this.tbRuntime_anoxic1_runtimeGd1mrPage.Location = new System.Drawing.Point(178, 136);
+            this.tbRuntime_anoxic1_runtimeGd1mrPage.Location = new System.Drawing.Point(172, 125);
             this.tbRuntime_anoxic1_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_anoxic1_runtimeGd1mrPage.Name = "tbRuntime_anoxic1_runtimeGd1mrPage";
             this.tbRuntime_anoxic1_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
@@ -712,7 +739,7 @@ namespace MP2_V01
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.White;
-            this.label45.Location = new System.Drawing.Point(1310, 222);
+            this.label45.Location = new System.Drawing.Point(1304, 211);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(87, 20);
             this.label45.TabIndex = 303;
@@ -723,7 +750,7 @@ namespace MP2_V01
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(664, 220);
+            this.label25.Location = new System.Drawing.Point(658, 209);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(59, 20);
             this.label25.TabIndex = 311;
@@ -734,7 +761,7 @@ namespace MP2_V01
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(32, 218);
+            this.label5.Location = new System.Drawing.Point(26, 207);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(91, 20);
             this.label5.TabIndex = 305;
@@ -745,7 +772,7 @@ namespace MP2_V01
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(1634, 148);
+            this.label44.Location = new System.Drawing.Point(1628, 137);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(29, 20);
             this.label44.TabIndex = 306;
@@ -756,7 +783,7 @@ namespace MP2_V01
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
-            this.label24.Location = new System.Drawing.Point(988, 146);
+            this.label24.Location = new System.Drawing.Point(982, 135);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(29, 20);
             this.label24.TabIndex = 307;
@@ -767,7 +794,7 @@ namespace MP2_V01
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(356, 144);
+            this.label4.Location = new System.Drawing.Point(350, 133);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 20);
             this.label4.TabIndex = 308;
@@ -778,7 +805,7 @@ namespace MP2_V01
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(1310, 149);
+            this.label43.Location = new System.Drawing.Point(1304, 138);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(125, 20);
             this.label43.TabIndex = 309;
@@ -789,7 +816,7 @@ namespace MP2_V01
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(664, 147);
+            this.label23.Location = new System.Drawing.Point(658, 136);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(92, 20);
             this.label23.TabIndex = 310;
@@ -800,7 +827,7 @@ namespace MP2_V01
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(32, 145);
+            this.label3.Location = new System.Drawing.Point(26, 134);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 304;
@@ -812,12 +839,12 @@ namespace MP2_V01
             this.btnReset_bomBun2_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_bomBun2_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_bomBun2_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_bomBun2_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 792);
+            this.btnReset_bomBun2_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 781);
             this.btnReset_bomBun2_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_bomBun2_runtimeGd1mrPage.Name = "btnReset_bomBun2_runtimeGd1mrPage";
             this.btnReset_bomBun2_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_bomBun2_runtimeGd1mrPage.TabIndex = 266;
-            this.btnReset_bomBun2_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_bomBun2_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_bomBun2_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_bomBun2_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_bomBun2_runtimeGd1mrPage_Click);
             // 
@@ -827,12 +854,12 @@ namespace MP2_V01
             this.btnReset_etanol2_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_etanol2_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_etanol2_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_etanol2_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 790);
+            this.btnReset_etanol2_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 779);
             this.btnReset_etanol2_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_etanol2_runtimeGd1mrPage.Name = "btnReset_etanol2_runtimeGd1mrPage";
             this.btnReset_etanol2_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_etanol2_runtimeGd1mrPage.TabIndex = 267;
-            this.btnReset_etanol2_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_etanol2_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_etanol2_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_etanol2_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_etanol2_runtimeGd1mrPage_Click);
             // 
@@ -842,12 +869,12 @@ namespace MP2_V01
             this.btnReset_bomBun1_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_bomBun1_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_bomBun1_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_bomBun1_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 719);
+            this.btnReset_bomBun1_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 708);
             this.btnReset_bomBun1_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_bomBun1_runtimeGd1mrPage.Name = "btnReset_bomBun1_runtimeGd1mrPage";
             this.btnReset_bomBun1_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_bomBun1_runtimeGd1mrPage.TabIndex = 268;
-            this.btnReset_bomBun1_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_bomBun1_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_bomBun1_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_bomBun1_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_bomBun1_runtimeGd1mrPage_Click);
             // 
@@ -857,12 +884,12 @@ namespace MP2_V01
             this.btnReset_etanol1_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_etanol1_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_etanol1_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_etanol1_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 717);
+            this.btnReset_etanol1_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 706);
             this.btnReset_etanol1_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_etanol1_runtimeGd1mrPage.Name = "btnReset_etanol1_runtimeGd1mrPage";
             this.btnReset_etanol1_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_etanol1_runtimeGd1mrPage.TabIndex = 269;
-            this.btnReset_etanol1_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_etanol1_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_etanol1_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_etanol1_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_etanol1_runtimeGd1mrPage_Click);
             // 
@@ -872,12 +899,12 @@ namespace MP2_V01
             this.btnReset_gatBun_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_gatBun_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_gatBun_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_gatBun_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 646);
+            this.btnReset_gatBun_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 635);
             this.btnReset_gatBun_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_gatBun_runtimeGd1mrPage.Name = "btnReset_gatBun_runtimeGd1mrPage";
             this.btnReset_gatBun_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_gatBun_runtimeGd1mrPage.TabIndex = 270;
-            this.btnReset_gatBun_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_gatBun_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_gatBun_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_gatBun_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_gatBun_runtimeGd1mrPage_Click);
             // 
@@ -887,12 +914,12 @@ namespace MP2_V01
             this.btnReset_anoxic8_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_anoxic8_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_anoxic8_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_anoxic8_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 644);
+            this.btnReset_anoxic8_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 633);
             this.btnReset_anoxic8_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_anoxic8_runtimeGd1mrPage.Name = "btnReset_anoxic8_runtimeGd1mrPage";
             this.btnReset_anoxic8_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_anoxic8_runtimeGd1mrPage.TabIndex = 271;
-            this.btnReset_anoxic8_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_anoxic8_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_anoxic8_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_anoxic8_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_anoxic8_runtimeGd1mrPage_Click);
             // 
@@ -902,12 +929,12 @@ namespace MP2_V01
             this.btnReset_tuanHoan3_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_tuanHoan3_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_tuanHoan3_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_tuanHoan3_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 573);
+            this.btnReset_tuanHoan3_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 562);
             this.btnReset_tuanHoan3_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_tuanHoan3_runtimeGd1mrPage.Name = "btnReset_tuanHoan3_runtimeGd1mrPage";
             this.btnReset_tuanHoan3_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_tuanHoan3_runtimeGd1mrPage.TabIndex = 273;
-            this.btnReset_tuanHoan3_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_tuanHoan3_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_tuanHoan3_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_tuanHoan3_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_tuanHoan3_runtimeGd1mrPage_Click);
             // 
@@ -917,12 +944,12 @@ namespace MP2_V01
             this.btnReset_anoxic7_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_anoxic7_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_anoxic7_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_anoxic7_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 571);
+            this.btnReset_anoxic7_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 560);
             this.btnReset_anoxic7_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_anoxic7_runtimeGd1mrPage.Name = "btnReset_anoxic7_runtimeGd1mrPage";
             this.btnReset_anoxic7_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_anoxic7_runtimeGd1mrPage.TabIndex = 274;
-            this.btnReset_anoxic7_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_anoxic7_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_anoxic7_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_anoxic7_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_anoxic7_runtimeGd1mrPage_Click);
             // 
@@ -932,12 +959,12 @@ namespace MP2_V01
             this.btnReset_tuanHoan2_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_tuanHoan2_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_tuanHoan2_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_tuanHoan2_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 500);
+            this.btnReset_tuanHoan2_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 489);
             this.btnReset_tuanHoan2_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_tuanHoan2_runtimeGd1mrPage.Name = "btnReset_tuanHoan2_runtimeGd1mrPage";
             this.btnReset_tuanHoan2_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_tuanHoan2_runtimeGd1mrPage.TabIndex = 276;
-            this.btnReset_tuanHoan2_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_tuanHoan2_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_tuanHoan2_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_tuanHoan2_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_tuanHoan2_runtimeGd1mrPage_Click);
             // 
@@ -947,12 +974,12 @@ namespace MP2_V01
             this.btnReset_anoxic6_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_anoxic6_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_anoxic6_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_anoxic6_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 498);
+            this.btnReset_anoxic6_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 487);
             this.btnReset_anoxic6_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_anoxic6_runtimeGd1mrPage.Name = "btnReset_anoxic6_runtimeGd1mrPage";
             this.btnReset_anoxic6_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_anoxic6_runtimeGd1mrPage.TabIndex = 277;
-            this.btnReset_anoxic6_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_anoxic6_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_anoxic6_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_anoxic6_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_anoxic6_runtimeGd1mrPage_Click);
             // 
@@ -962,12 +989,12 @@ namespace MP2_V01
             this.btnReset_tuanHoan1_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_tuanHoan1_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_tuanHoan1_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_tuanHoan1_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 427);
+            this.btnReset_tuanHoan1_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 416);
             this.btnReset_tuanHoan1_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_tuanHoan1_runtimeGd1mrPage.Name = "btnReset_tuanHoan1_runtimeGd1mrPage";
             this.btnReset_tuanHoan1_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_tuanHoan1_runtimeGd1mrPage.TabIndex = 279;
-            this.btnReset_tuanHoan1_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_tuanHoan1_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_tuanHoan1_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_tuanHoan1_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_tuanHoan1_runtimeGd1mrPage_Click);
             // 
@@ -977,12 +1004,12 @@ namespace MP2_V01
             this.btnReset_anoxic5_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_anoxic5_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_anoxic5_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_anoxic5_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 425);
+            this.btnReset_anoxic5_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 414);
             this.btnReset_anoxic5_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_anoxic5_runtimeGd1mrPage.Name = "btnReset_anoxic5_runtimeGd1mrPage";
             this.btnReset_anoxic5_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_anoxic5_runtimeGd1mrPage.TabIndex = 282;
-            this.btnReset_anoxic5_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_anoxic5_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_anoxic5_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_anoxic5_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_anoxic5_runtimeGd1mrPage_Click);
             // 
@@ -992,12 +1019,12 @@ namespace MP2_V01
             this.btnReset_mtk3_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_mtk3_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_mtk3_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_mtk3_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 354);
+            this.btnReset_mtk3_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 343);
             this.btnReset_mtk3_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_mtk3_runtimeGd1mrPage.Name = "btnReset_mtk3_runtimeGd1mrPage";
             this.btnReset_mtk3_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_mtk3_runtimeGd1mrPage.TabIndex = 294;
-            this.btnReset_mtk3_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_mtk3_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_mtk3_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_mtk3_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_mtk3_runtimeGd1mrPage_Click);
             // 
@@ -1007,12 +1034,12 @@ namespace MP2_V01
             this.btnReset_anoxic4_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_anoxic4_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_anoxic4_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_anoxic4_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 352);
+            this.btnReset_anoxic4_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 341);
             this.btnReset_anoxic4_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_anoxic4_runtimeGd1mrPage.Name = "btnReset_anoxic4_runtimeGd1mrPage";
             this.btnReset_anoxic4_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_anoxic4_runtimeGd1mrPage.TabIndex = 293;
-            this.btnReset_anoxic4_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_anoxic4_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_anoxic4_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_anoxic4_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_anoxic4_runtimeGd1mrPage_Click);
             // 
@@ -1022,12 +1049,12 @@ namespace MP2_V01
             this.btnReset_Al2so4_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_Al2so4_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_Al2so4_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_Al2so4_runtimeGd1mrPage.Location = new System.Drawing.Point(1725, 283);
+            this.btnReset_Al2so4_runtimeGd1mrPage.Location = new System.Drawing.Point(1719, 272);
             this.btnReset_Al2so4_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_Al2so4_runtimeGd1mrPage.Name = "btnReset_Al2so4_runtimeGd1mrPage";
             this.btnReset_Al2so4_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_Al2so4_runtimeGd1mrPage.TabIndex = 291;
-            this.btnReset_Al2so4_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_Al2so4_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_Al2so4_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_Al2so4_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_Al2so4_runtimeGd1mrPage_Click);
             // 
@@ -1037,12 +1064,12 @@ namespace MP2_V01
             this.btnReset_mtk2_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_mtk2_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_mtk2_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_mtk2_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 281);
+            this.btnReset_mtk2_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 270);
             this.btnReset_mtk2_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_mtk2_runtimeGd1mrPage.Name = "btnReset_mtk2_runtimeGd1mrPage";
             this.btnReset_mtk2_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_mtk2_runtimeGd1mrPage.TabIndex = 290;
-            this.btnReset_mtk2_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_mtk2_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_mtk2_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_mtk2_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_mtk2_runtimeGd1mrPage_Click);
             // 
@@ -1052,12 +1079,12 @@ namespace MP2_V01
             this.btnReset_anoxic3_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_anoxic3_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_anoxic3_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_anoxic3_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 279);
+            this.btnReset_anoxic3_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 268);
             this.btnReset_anoxic3_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_anoxic3_runtimeGd1mrPage.Name = "btnReset_anoxic3_runtimeGd1mrPage";
             this.btnReset_anoxic3_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_anoxic3_runtimeGd1mrPage.TabIndex = 289;
-            this.btnReset_anoxic3_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_anoxic3_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_anoxic3_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_anoxic3_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_anoxic3_runtimeGd1mrPage_Click);
             // 
@@ -1067,12 +1094,12 @@ namespace MP2_V01
             this.btnReset_dlNaoh_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_dlNaoh_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_dlNaoh_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_dlNaoh_runtimeGd1mrPage.Location = new System.Drawing.Point(1725, 210);
+            this.btnReset_dlNaoh_runtimeGd1mrPage.Location = new System.Drawing.Point(1719, 199);
             this.btnReset_dlNaoh_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_dlNaoh_runtimeGd1mrPage.Name = "btnReset_dlNaoh_runtimeGd1mrPage";
             this.btnReset_dlNaoh_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_dlNaoh_runtimeGd1mrPage.TabIndex = 287;
-            this.btnReset_dlNaoh_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_dlNaoh_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_dlNaoh_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_dlNaoh_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_dlNaoh_runtimeGd1mrPage_Click);
             // 
@@ -1082,12 +1109,12 @@ namespace MP2_V01
             this.btnReset_mtk1_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_mtk1_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_mtk1_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_mtk1_runtimeGd1mrPage.Location = new System.Drawing.Point(1079, 208);
+            this.btnReset_mtk1_runtimeGd1mrPage.Location = new System.Drawing.Point(1073, 197);
             this.btnReset_mtk1_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_mtk1_runtimeGd1mrPage.Name = "btnReset_mtk1_runtimeGd1mrPage";
             this.btnReset_mtk1_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_mtk1_runtimeGd1mrPage.TabIndex = 286;
-            this.btnReset_mtk1_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_mtk1_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_mtk1_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_mtk1_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_mtk1_runtimeGd1mrPage_Click);
             // 
@@ -1097,12 +1124,12 @@ namespace MP2_V01
             this.btnReset_anoxic2_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_anoxic2_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_anoxic2_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_anoxic2_runtimeGd1mrPage.Location = new System.Drawing.Point(447, 206);
+            this.btnReset_anoxic2_runtimeGd1mrPage.Location = new System.Drawing.Point(441, 195);
             this.btnReset_anoxic2_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_anoxic2_runtimeGd1mrPage.Name = "btnReset_anoxic2_runtimeGd1mrPage";
             this.btnReset_anoxic2_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_anoxic2_runtimeGd1mrPage.TabIndex = 288;
-            this.btnReset_anoxic2_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_anoxic2_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_anoxic2_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_anoxic2_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_anoxic2_runtimeGd1mrPage_Click);
             // 
@@ -1112,12 +1139,12 @@ namespace MP2_V01
             this.btnReset_khuayNaoh_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_khuayNaoh_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_khuayNaoh_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_khuayNaoh_runtimeGd1mrPage.Location = new System.Drawing.Point(1726, 137);
+            this.btnReset_khuayNaoh_runtimeGd1mrPage.Location = new System.Drawing.Point(1720, 126);
             this.btnReset_khuayNaoh_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_khuayNaoh_runtimeGd1mrPage.Name = "btnReset_khuayNaoh_runtimeGd1mrPage";
             this.btnReset_khuayNaoh_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_khuayNaoh_runtimeGd1mrPage.TabIndex = 284;
-            this.btnReset_khuayNaoh_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_khuayNaoh_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_khuayNaoh_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_khuayNaoh_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_khuayNaoh_runtimeGd1mrPage_Click);
             // 
@@ -1127,12 +1154,12 @@ namespace MP2_V01
             this.btnReset_metanol_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_metanol_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_metanol_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_metanol_runtimeGd1mrPage.Location = new System.Drawing.Point(1080, 135);
+            this.btnReset_metanol_runtimeGd1mrPage.Location = new System.Drawing.Point(1074, 124);
             this.btnReset_metanol_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_metanol_runtimeGd1mrPage.Name = "btnReset_metanol_runtimeGd1mrPage";
             this.btnReset_metanol_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_metanol_runtimeGd1mrPage.TabIndex = 283;
-            this.btnReset_metanol_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_metanol_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_metanol_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_metanol_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_metanol_runtimeGd1mrPage_Click);
             // 
@@ -1142,12 +1169,12 @@ namespace MP2_V01
             this.btnReset_anoxic1_runtimeGd1mrPage.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnReset_anoxic1_runtimeGd1mrPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset_anoxic1_runtimeGd1mrPage.ForeColor = System.Drawing.Color.White;
-            this.btnReset_anoxic1_runtimeGd1mrPage.Location = new System.Drawing.Point(448, 133);
+            this.btnReset_anoxic1_runtimeGd1mrPage.Location = new System.Drawing.Point(442, 122);
             this.btnReset_anoxic1_runtimeGd1mrPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset_anoxic1_runtimeGd1mrPage.Name = "btnReset_anoxic1_runtimeGd1mrPage";
             this.btnReset_anoxic1_runtimeGd1mrPage.Size = new System.Drawing.Size(148, 45);
             this.btnReset_anoxic1_runtimeGd1mrPage.TabIndex = 272;
-            this.btnReset_anoxic1_runtimeGd1mrPage.Text = "RESET";
+            this.btnReset_anoxic1_runtimeGd1mrPage.Text = "ĐẶT LẠI";
             this.btnReset_anoxic1_runtimeGd1mrPage.UseVisualStyleBackColor = false;
             this.btnReset_anoxic1_runtimeGd1mrPage.Click += new System.EventHandler(this.btnReset_anoxic1_runtimeGd1mrPage_Click);
             // 
@@ -1155,19 +1182,292 @@ namespace MP2_V01
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(805, 44);
+            this.label1.Location = new System.Drawing.Point(801, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(214, 29);
+            this.label1.Size = new System.Drawing.Size(421, 29);
             this.label1.TabIndex = 365;
-            this.label1.Text = "RUNTIME GD1MR";
+            this.label1.Text = "THỜI GIAN CHẠY THỰC TẾ - GD1MR";
             // 
             // tbRuntime_bomBun2_runtimeGd1mrPage
             // 
-            this.tbRuntime_bomBun2_runtimeGd1mrPage.Location = new System.Drawing.Point(810, 793);
+            this.tbRuntime_bomBun2_runtimeGd1mrPage.Location = new System.Drawing.Point(804, 782);
             this.tbRuntime_bomBun2_runtimeGd1mrPage.Multiline = true;
             this.tbRuntime_bomBun2_runtimeGd1mrPage.Name = "tbRuntime_bomBun2_runtimeGd1mrPage";
             this.tbRuntime_bomBun2_runtimeGd1mrPage.Size = new System.Drawing.Size(162, 37);
             this.tbRuntime_bomBun2_runtimeGd1mrPage.TabIndex = 343;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(156)))), ((int)(((byte)(160)))));
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.label49);
+            this.panel4.Controls.Add(this.label54);
+            this.panel4.Controls.Add(this.label52);
+            this.panel4.Controls.Add(this.label56);
+            this.panel4.Controls.Add(this.label50);
+            this.panel4.Controls.Add(this.label110);
+            this.panel4.Controls.Add(this.label109);
+            this.panel4.Controls.Add(this.label55);
+            this.panel4.Controls.Add(this.label108);
+            this.panel4.Controls.Add(this.label53);
+            this.panel4.Controls.Add(this.label51);
+            this.panel4.Controls.Add(this.label107);
+            this.panel4.Controls.Add(this.panel11);
+            this.panel4.Controls.Add(this.panel9);
+            this.panel4.Controls.Add(this.panel13);
+            this.panel4.Controls.Add(this.panel1);
+            this.panel4.Controls.Add(this.panel10);
+            this.panel4.Controls.Add(this.panel12);
+            this.panel4.Controls.Add(this.panel2);
+            this.panel4.Controls.Add(this.panel8);
+            this.panel4.Controls.Add(this.panel7);
+            this.panel4.Controls.Add(this.panel5);
+            this.panel4.Controls.Add(this.panel6);
+            this.panel4.Controls.Add(this.panel3);
+            this.panel4.Location = new System.Drawing.Point(1309, 355);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(559, 166);
+            this.panel4.TabIndex = 366;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(90, 114);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 15);
+            this.label2.TabIndex = 260;
+            this.label2.Text = "TUẦN HOÀN";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.White;
+            this.label49.Location = new System.Drawing.Point(90, 91);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(93, 15);
+            this.label49.TabIndex = 261;
+            this.label49.Text = "ĐỊNH LƯỢNG";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Location = new System.Drawing.Point(90, 36);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(49, 15);
+            this.label52.TabIndex = 262;
+            this.label52.Text = "MÔ TẢ";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.White;
+            this.label50.Location = new System.Drawing.Point(90, 64);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(98, 15);
+            this.label50.TabIndex = 262;
+            this.label50.Text = "MÁY THỔI KHÍ";
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label110.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label110.Location = new System.Drawing.Point(11, 114);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(25, 15);
+            this.label110.TabIndex = 259;
+            this.label110.Text = "TH";
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label109.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label109.Location = new System.Drawing.Point(11, 91);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(25, 15);
+            this.label109.TabIndex = 259;
+            this.label109.Text = "ĐL";
+            // 
+            // label108
+            // 
+            this.label108.AutoSize = true;
+            this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label108.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label108.Location = new System.Drawing.Point(11, 64);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(36, 15);
+            this.label108.TabIndex = 259;
+            this.label108.Text = "MKT";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label51.Location = new System.Drawing.Point(13, 36);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(61, 15);
+            this.label51.TabIndex = 259;
+            this.label51.Text = "KÝ HIỆU";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label107.ForeColor = System.Drawing.Color.Yellow;
+            this.label107.Location = new System.Drawing.Point(6, 9);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(85, 15);
+            this.label107.TabIndex = 259;
+            this.label107.Text = "CHÚ THÍCH:";
+            // 
+            // panel11
+            // 
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Location = new System.Drawing.Point(8, 109);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(74, 26);
+            this.panel11.TabIndex = 263;
+            // 
+            // panel9
+            // 
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Location = new System.Drawing.Point(8, 85);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(74, 26);
+            this.panel9.TabIndex = 263;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Location = new System.Drawing.Point(8, 60);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(74, 26);
+            this.panel1.TabIndex = 263;
+            // 
+            // panel10
+            // 
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Location = new System.Drawing.Point(82, 109);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(143, 26);
+            this.panel10.TabIndex = 263;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Location = new System.Drawing.Point(82, 60);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(143, 26);
+            this.panel2.TabIndex = 263;
+            // 
+            // panel8
+            // 
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Location = new System.Drawing.Point(82, 85);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(143, 26);
+            this.panel8.TabIndex = 263;
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Location = new System.Drawing.Point(8, 32);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(74, 26);
+            this.panel5.TabIndex = 263;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Location = new System.Drawing.Point(82, 32);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(143, 26);
+            this.panel3.TabIndex = 263;
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel6.Location = new System.Drawing.Point(313, 32);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(174, 26);
+            this.panel6.TabIndex = 263;
+            // 
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Location = new System.Drawing.Point(239, 32);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(74, 26);
+            this.panel7.TabIndex = 263;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label53.Location = new System.Drawing.Point(244, 36);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(61, 15);
+            this.label53.TabIndex = 259;
+            this.label53.Text = "KÝ HIỆU";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.White;
+            this.label54.Location = new System.Drawing.Point(321, 36);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(49, 15);
+            this.label54.TabIndex = 262;
+            this.label54.Text = "MÔ TẢ";
+            // 
+            // panel12
+            // 
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Location = new System.Drawing.Point(313, 60);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(174, 26);
+            this.panel12.TabIndex = 263;
+            // 
+            // panel13
+            // 
+            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel13.Location = new System.Drawing.Point(239, 60);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(74, 26);
+            this.panel13.TabIndex = 263;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label55.Location = new System.Drawing.Point(242, 64);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(57, 15);
+            this.label55.TabIndex = 259;
+            this.label55.Text = "GD1MR";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.White;
+            this.label56.Location = new System.Drawing.Point(321, 64);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(157, 15);
+            this.label56.TabIndex = 262;
+            this.label56.Text = "GIAI ĐOẠN 1 MỞ RỘNG";
             // 
             // RUNTIME_GD1MR
             // 
@@ -1175,6 +1475,7 @@ namespace MP2_V01
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
             this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbRuntime_etanol2_runtimeGd1mrPage);
             this.Controls.Add(this.tbRuntime_bomBun2_runtimeGd1mrPage);
@@ -1278,6 +1579,8 @@ namespace MP2_V01
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.RUNTIME_GD1MR_Load);
             this.Resize += new System.EventHandler(this.RUNTIME_GD1MR_Resize);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1377,5 +1680,31 @@ namespace MP2_V01
         private System.Windows.Forms.Button btnReset_anoxic1_runtimeGd1mrPage;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbRuntime_bomBun2_runtimeGd1mrPage;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label110;
+        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.Label label108;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label107;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel6;
     }
 }

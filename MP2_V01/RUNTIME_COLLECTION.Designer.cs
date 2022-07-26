@@ -43,13 +43,15 @@ namespace MP2_V01
             this.label3 = new System.Windows.Forms.Label();
             this.btnOk_runtimeCollectionPage = new System.Windows.Forms.Button();
             this.btnCancel_runtimeCollectionPage = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pnHeader_runtimeCollectionPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // pnHeader_runtimeCollectionPage
             // 
-            this.pnHeader_runtimeCollectionPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
+            this.pnHeader_runtimeCollectionPage.BackColor = System.Drawing.Color.Silver;
+            this.pnHeader_runtimeCollectionPage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnHeader_runtimeCollectionPage.Controls.Add(this.btnClose_runtimeCollectionPage);
             this.pnHeader_runtimeCollectionPage.Controls.Add(this.label1);
             this.pnHeader_runtimeCollectionPage.Controls.Add(this.btnMaximize_framePage);
@@ -58,10 +60,9 @@ namespace MP2_V01
             this.pnHeader_runtimeCollectionPage.Controls.Add(this.time_stamp);
             this.pnHeader_runtimeCollectionPage.Controls.Add(this.pictureBox13);
             this.pnHeader_runtimeCollectionPage.Controls.Add(this.label2);
-            this.pnHeader_runtimeCollectionPage.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnHeader_runtimeCollectionPage.Location = new System.Drawing.Point(0, 0);
             this.pnHeader_runtimeCollectionPage.Name = "pnHeader_runtimeCollectionPage";
-            this.pnHeader_runtimeCollectionPage.Size = new System.Drawing.Size(464, 40);
+            this.pnHeader_runtimeCollectionPage.Size = new System.Drawing.Size(464, 43);
             this.pnHeader_runtimeCollectionPage.TabIndex = 405;
             this.pnHeader_runtimeCollectionPage.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnHeader_runtimeCollectionPage_MouseDown);
             // 
@@ -70,7 +71,7 @@ namespace MP2_V01
             this.btnClose_runtimeCollectionPage.FlatAppearance.BorderSize = 0;
             this.btnClose_runtimeCollectionPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose_runtimeCollectionPage.Image = ((System.Drawing.Image)(resources.GetObject("btnClose_runtimeCollectionPage.Image")));
-            this.btnClose_runtimeCollectionPage.Location = new System.Drawing.Point(423, 0);
+            this.btnClose_runtimeCollectionPage.Location = new System.Drawing.Point(418, 1);
             this.btnClose_runtimeCollectionPage.Name = "btnClose_runtimeCollectionPage";
             this.btnClose_runtimeCollectionPage.Size = new System.Drawing.Size(39, 40);
             this.btnClose_runtimeCollectionPage.TabIndex = 407;
@@ -84,12 +85,12 @@ namespace MP2_V01
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 17);
+            this.label1.Size = new System.Drawing.Size(128, 17);
             this.label1.TabIndex = 406;
-            this.label1.Text = "GIAI ĐOẠN RUNTIME";
+            this.label1.Text = "CHỌN GIAI ĐOẠN";
             // 
             // btnMaximize_framePage
             // 
@@ -175,13 +176,13 @@ namespace MP2_V01
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(39, 71);
+            this.label3.Location = new System.Drawing.Point(79, 70);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 17);
+            this.label3.Size = new System.Drawing.Size(73, 19);
             this.label3.TabIndex = 406;
-            this.label3.Text = "Chọn giai đoạn";
+            this.label3.Text = "Giai đoạn";
             // 
             // btnOk_runtimeCollectionPage
             // 
@@ -194,7 +195,7 @@ namespace MP2_V01
             this.btnOk_runtimeCollectionPage.Name = "btnOk_runtimeCollectionPage";
             this.btnOk_runtimeCollectionPage.Size = new System.Drawing.Size(106, 39);
             this.btnOk_runtimeCollectionPage.TabIndex = 407;
-            this.btnOk_runtimeCollectionPage.Text = "OK";
+            this.btnOk_runtimeCollectionPage.Text = "Đồng ý";
             this.btnOk_runtimeCollectionPage.UseVisualStyleBackColor = false;
             this.btnOk_runtimeCollectionPage.Click += new System.EventHandler(this.btnOk_runtimeCollectionPage_Click);
             // 
@@ -209,9 +210,17 @@ namespace MP2_V01
             this.btnCancel_runtimeCollectionPage.Name = "btnCancel_runtimeCollectionPage";
             this.btnCancel_runtimeCollectionPage.Size = new System.Drawing.Size(106, 39);
             this.btnCancel_runtimeCollectionPage.TabIndex = 407;
-            this.btnCancel_runtimeCollectionPage.Text = "HỦY";
+            this.btnCancel_runtimeCollectionPage.Text = "Hủy";
             this.btnCancel_runtimeCollectionPage.UseVisualStyleBackColor = false;
             this.btnCancel_runtimeCollectionPage.Click += new System.EventHandler(this.btnCancel_runtimeCollectionPage_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Location = new System.Drawing.Point(0, 42);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(464, 160);
+            this.panel1.TabIndex = 408;
             // 
             // RUNTIME_COLLECTION
             // 
@@ -224,10 +233,11 @@ namespace MP2_V01
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cboRt_runtimeCollectionPage);
             this.Controls.Add(this.pnHeader_runtimeCollectionPage);
+            this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RUNTIME_COLLECTION";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RUNTIME_COLLECTION";
             this.Load += new System.EventHandler(this.RUNTIME_COLLECTION_Load);
             this.pnHeader_runtimeCollectionPage.ResumeLayout(false);
@@ -253,5 +263,6 @@ namespace MP2_V01
         private System.Windows.Forms.Button btnClose_runtimeCollectionPage;
         private System.Windows.Forms.Button btnOk_runtimeCollectionPage;
         private System.Windows.Forms.Button btnCancel_runtimeCollectionPage;
+        private System.Windows.Forms.Panel panel1;
     }
 }

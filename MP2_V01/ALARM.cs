@@ -211,5 +211,10 @@ namespace MP2_V01
         {
             //Program.almCycle.AlarmScan_Load();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
