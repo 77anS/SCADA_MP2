@@ -2783,13 +2783,13 @@ namespace MP2_V01
             this.facePlateToolStripMenuItem,
             this.thoátToolStripMenuItem});
             this.contextFacePlate.Name = "contextFacePlate";
-            this.contextFacePlate.Size = new System.Drawing.Size(125, 48);
+            this.contextFacePlate.Size = new System.Drawing.Size(181, 70);
             // 
             // facePlateToolStripMenuItem
             // 
             this.facePlateToolStripMenuItem.Name = "facePlateToolStripMenuItem";
-            this.facePlateToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.facePlateToolStripMenuItem.Text = "FacePlate";
+            this.facePlateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.facePlateToolStripMenuItem.Text = "Mặt thông số";
             this.facePlateToolStripMenuItem.Click += new System.EventHandler(this.facePlateToolStripMenuItem_Click);
             // 
             // thoátToolStripMenuItem
