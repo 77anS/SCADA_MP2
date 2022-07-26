@@ -494,4 +494,3 @@ D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_Template.csproj.CopyComplete
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_Template.exe
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_Template.pdb
-D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_Template.csproj.AssemblyReference.cache
