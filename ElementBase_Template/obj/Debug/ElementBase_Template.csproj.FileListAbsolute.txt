@@ -486,7 +486,6 @@ D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\bin\Debug\MongoDB.Driv
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\bin\Debug\S7.Net.xml
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\bin\Debug\Snappy.NET.xml
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\bin\Debug\System.Buffers.xml
-D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_Template.csproj.AssemblyReference.cache
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_Template.exe.config
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_Template.FormPlate.Faceplate.Faceplate_Pump.resources
 D:\AndrewSwift\Workspace\NM_XLNT\MP2\ElementBase_Template\obj\Debug\ElementBase_Template.Properties.Resources.resources
