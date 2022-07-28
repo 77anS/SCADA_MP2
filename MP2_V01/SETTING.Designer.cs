@@ -322,7 +322,6 @@ namespace MP2_V01
             this.errProv_ms09_off = new System.Windows.Forms.ErrorProvider(this.components);
             this.errProv_sp07ab_off = new System.Windows.Forms.ErrorProvider(this.components);
             this.errProv_sp07ab_on = new System.Windows.Forms.ErrorProvider(this.components);
-            this.btnClose_settingPage = new System.Windows.Forms.Button();
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.khuayNaohNAOH_bonNaoh_settingPage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pumpSP07B_beBun_settingPage)).BeginInit();
@@ -3708,7 +3707,7 @@ namespace MP2_V01
             this.btnOk_settingPage.Name = "btnOk_settingPage";
             this.btnOk_settingPage.Size = new System.Drawing.Size(148, 45);
             this.btnOk_settingPage.TabIndex = 430;
-            this.btnOk_settingPage.Text = "OK";
+            this.btnOk_settingPage.Text = "Đồng ý";
             this.btnOk_settingPage.UseVisualStyleBackColor = false;
             this.btnOk_settingPage.Click += new System.EventHandler(this.btnOk_settingPage_Click);
             // 
@@ -3911,20 +3910,6 @@ namespace MP2_V01
             // 
             this.errProv_sp07ab_on.ContainerControl = this;
             // 
-            // btnClose_settingPage
-            // 
-            this.btnClose_settingPage.FlatAppearance.BorderSize = 0;
-            this.btnClose_settingPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose_settingPage.Image = global::MP2_V01.Properties.Resources.icons8_close_window_5_321;
-            this.btnClose_settingPage.Location = new System.Drawing.Point(1880, 5);
-            this.btnClose_settingPage.Name = "btnClose_settingPage";
-            this.btnClose_settingPage.Size = new System.Drawing.Size(33, 31);
-            this.btnClose_settingPage.TabIndex = 406;
-            this.btnClose_settingPage.UseVisualStyleBackColor = true;
-            this.btnClose_settingPage.Click += new System.EventHandler(this.btnClose_settingPage_Click_1);
-            this.btnClose_settingPage.MouseLeave += new System.EventHandler(this.btnClose_settingPage_MouseLeave);
-            this.btnClose_settingPage.MouseHover += new System.EventHandler(this.btnClose_settingPage_MouseHover);
-            // 
             // SETTING
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3958,7 +3943,6 @@ namespace MP2_V01
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel9);
-            this.Controls.Add(this.btnClose_settingPage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(1920, 1080);
             this.MinimumSize = new System.Drawing.Size(800, 600);
@@ -4109,7 +4093,6 @@ namespace MP2_V01
         }
 
         #endregion
-        private System.Windows.Forms.Button btnClose_settingPage;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.TextBox tbOff_khuayNaohNAOH_settingPage;
         private System.Windows.Forms.TextBox tbOn_khuayNaohNAOH_settingPage;

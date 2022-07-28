@@ -117,9 +117,9 @@ namespace MP2_V01
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(218, 917);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(133, 18);
+            this.label6.Size = new System.Drawing.Size(181, 18);
             this.label6.TabIndex = 413;
-            this.label6.Text = "COLOR + TEMP";
+            this.label6.Text = "MÀU SẮC + NHIỆT ĐỘ";
             // 
             // label7
             // 
@@ -222,11 +222,11 @@ namespace MP2_V01
             series4.ChartArea = "ChartArea1";
             series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series4.Legend = "Legend1";
-            series4.Name = "Color";
+            series4.Name = "Màu Sắc";
             series5.ChartArea = "ChartArea1";
             series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series5.Legend = "Legend1";
-            series5.Name = "Temperature";
+            series5.Name = "Nhiệt Độ";
             this.chart_colorTemperIndex.Series.Add(series4);
             this.chart_colorTemperIndex.Series.Add(series5);
             this.chart_colorTemperIndex.Size = new System.Drawing.Size(600, 400);
@@ -270,7 +270,7 @@ namespace MP2_V01
             series7.ChartArea = "ChartArea1";
             series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series7.Legend = "Legend1";
-            series7.Name = "FLOW";
+            series7.Name = "Lưu Lượng";
             this.chart_flowIndex.Series.Add(series7);
             this.chart_flowIndex.Size = new System.Drawing.Size(600, 400);
             this.chart_flowIndex.TabIndex = 414;
@@ -323,11 +323,11 @@ namespace MP2_V01
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(1522, 917);
+            this.label2.Location = new System.Drawing.Point(1494, 917);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 18);
+            this.label2.Size = new System.Drawing.Size(105, 18);
             this.label2.TabIndex = 413;
-            this.label2.Text = "FLOW";
+            this.label2.Text = "LƯU LƯỢNG";
             // 
             // TREND
             // 

@@ -82,11 +82,11 @@ namespace MP2_V01
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(91, 28);
+            this.label1.Location = new System.Drawing.Point(73, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(163, 24);
+            this.label1.Size = new System.Drawing.Size(194, 24);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Wait for minutes ...";
+            this.label1.Text = "Vui lòng đợi giây lát ...";
             // 
             // timer1
             // 

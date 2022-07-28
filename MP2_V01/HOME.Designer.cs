@@ -98,6 +98,9 @@ namespace MP2_V01
             this.standardControl63 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl65 = new SymbolFactoryDotNet.StandardControl();
             this.airPump_mtk03_homePage = new SymbolFactoryDotNet.StandardControl();
+            this.contextFacePlate = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.facePlateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.standardControl69 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl84 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl85 = new SymbolFactoryDotNet.StandardControl();
@@ -828,9 +831,6 @@ namespace MP2_V01
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox42 = new System.Windows.Forms.PictureBox();
             this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.contextFacePlate = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.facePlateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pn_ChuThich.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl3)).BeginInit();
@@ -874,6 +874,7 @@ namespace MP2_V01
             ((System.ComponentModel.ISupportInitialize)(this.standardControl63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl65)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.airPump_mtk03_homePage)).BeginInit();
+            this.contextFacePlate.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl69)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl84)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl85)).BeginInit();
@@ -1480,7 +1481,6 @@ namespace MP2_V01
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-            this.contextFacePlate.SuspendLayout();
             this.SuspendLayout();
             // 
             // pn_ChuThich
@@ -1648,17 +1648,17 @@ namespace MP2_V01
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(247, 28);
+            this.label7.Location = new System.Drawing.Point(247, 7);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 15);
+            this.label7.Size = new System.Drawing.Size(134, 15);
             this.label7.TabIndex = 19;
-            this.label7.Text = "FLOW IN TOTAL";
+            this.label7.Text = "KHỐI LƯỢNG TỔNG";
             // 
             // tb_flowInTotal_mainPage
             // 
-            this.tb_flowInTotal_mainPage.Location = new System.Drawing.Point(366, 26);
+            this.tb_flowInTotal_mainPage.Location = new System.Drawing.Point(248, 27);
             this.tb_flowInTotal_mainPage.Name = "tb_flowInTotal_mainPage";
-            this.tb_flowInTotal_mainPage.Size = new System.Drawing.Size(118, 20);
+            this.tb_flowInTotal_mainPage.Size = new System.Drawing.Size(132, 20);
             this.tb_flowInTotal_mainPage.TabIndex = 20;
             // 
             // label8
@@ -1667,7 +1667,7 @@ namespace MP2_V01
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(485, 32);
+            this.label8.Location = new System.Drawing.Point(385, 28);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(27, 15);
             this.label8.TabIndex = 19;
@@ -1679,7 +1679,7 @@ namespace MP2_V01
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(484, 61);
+            this.label9.Location = new System.Drawing.Point(386, 78);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(43, 15);
             this.label9.TabIndex = 19;
@@ -1687,9 +1687,9 @@ namespace MP2_V01
             // 
             // tb_flowInCap_mainPage
             // 
-            this.tb_flowInCap_mainPage.Location = new System.Drawing.Point(366, 59);
+            this.tb_flowInCap_mainPage.Location = new System.Drawing.Point(249, 77);
             this.tb_flowInCap_mainPage.Name = "tb_flowInCap_mainPage";
-            this.tb_flowInCap_mainPage.Size = new System.Drawing.Size(117, 20);
+            this.tb_flowInCap_mainPage.Size = new System.Drawing.Size(131, 20);
             this.tb_flowInCap_mainPage.TabIndex = 20;
             // 
             // panel2
@@ -1946,7 +1946,7 @@ namespace MP2_V01
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label16.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label16.Location = new System.Drawing.Point(103, 283);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(46, 15);
@@ -1959,7 +1959,7 @@ namespace MP2_V01
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label17.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label17.Location = new System.Drawing.Point(19, 200);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(40, 15);
@@ -1995,7 +1995,7 @@ namespace MP2_V01
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label14.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label14.Location = new System.Drawing.Point(102, 239);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(45, 15);
@@ -2776,6 +2776,27 @@ namespace MP2_V01
             this.airPump_mtk03_homePage.TabIndex = 25;
             this.airPump_mtk03_homePage.Tag = "MÁY THỔI KHÍ \"MTK03\"";
             this.airPump_mtk03_homePage.Load += new System.EventHandler(this.standardControl61_Load);
+            // 
+            // contextFacePlate
+            // 
+            this.contextFacePlate.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.facePlateToolStripMenuItem,
+            this.thoátToolStripMenuItem});
+            this.contextFacePlate.Name = "contextFacePlate";
+            this.contextFacePlate.Size = new System.Drawing.Size(181, 70);
+            // 
+            // facePlateToolStripMenuItem
+            // 
+            this.facePlateToolStripMenuItem.Name = "facePlateToolStripMenuItem";
+            this.facePlateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.facePlateToolStripMenuItem.Text = "Mặt thông số";
+            this.facePlateToolStripMenuItem.Click += new System.EventHandler(this.facePlateToolStripMenuItem_Click);
+            // 
+            // thoátToolStripMenuItem
+            // 
+            this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.thoátToolStripMenuItem.Text = "Thoát";
             // 
             // standardControl69
             // 
@@ -4014,7 +4035,7 @@ namespace MP2_V01
             this.mixer_mc03_mainPage.AutoSize = true;
             this.mixer_mc03_mainPage.BackColor = System.Drawing.Color.Transparent;
             this.mixer_mc03_mainPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mixer_mc03_mainPage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.mixer_mc03_mainPage.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.mixer_mc03_mainPage.Location = new System.Drawing.Point(18, 299);
             this.mixer_mc03_mainPage.Name = "mixer_mc03_mainPage";
             this.mixer_mc03_mainPage.Size = new System.Drawing.Size(40, 15);
@@ -4027,7 +4048,7 @@ namespace MP2_V01
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label13.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label13.Location = new System.Drawing.Point(102, 382);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(46, 15);
@@ -4239,7 +4260,7 @@ namespace MP2_V01
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label15.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label15.Location = new System.Drawing.Point(101, 338);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(45, 15);
@@ -4353,7 +4374,7 @@ namespace MP2_V01
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.Color.Transparent;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label29.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label29.Location = new System.Drawing.Point(98, 481);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(46, 15);
@@ -4541,7 +4562,7 @@ namespace MP2_V01
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label30.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label30.Location = new System.Drawing.Point(97, 437);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(45, 15);
@@ -4632,7 +4653,7 @@ namespace MP2_V01
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.Color.Transparent;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label32.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label32.Location = new System.Drawing.Point(98, 577);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(46, 15);
@@ -4820,7 +4841,7 @@ namespace MP2_V01
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.Color.Transparent;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label33.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label33.Location = new System.Drawing.Point(97, 533);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(45, 15);
@@ -4911,7 +4932,7 @@ namespace MP2_V01
             this.label34.AutoSize = true;
             this.label34.BackColor = System.Drawing.Color.Transparent;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label34.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label34.Location = new System.Drawing.Point(12, 824);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(40, 15);
@@ -4924,7 +4945,7 @@ namespace MP2_V01
             this.label35.AutoSize = true;
             this.label35.BackColor = System.Drawing.Color.Transparent;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label35.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label35.Location = new System.Drawing.Point(96, 907);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(46, 15);
@@ -5112,7 +5133,7 @@ namespace MP2_V01
             this.label36.AutoSize = true;
             this.label36.BackColor = System.Drawing.Color.Transparent;
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label36.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label36.Location = new System.Drawing.Point(95, 863);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(45, 15);
@@ -5330,7 +5351,7 @@ namespace MP2_V01
             this.label28.AutoSize = true;
             this.label28.BackColor = System.Drawing.Color.Transparent;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label28.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label28.Location = new System.Drawing.Point(280, 348);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(35, 15);
@@ -5343,7 +5364,7 @@ namespace MP2_V01
             this.abc.AutoSize = true;
             this.abc.BackColor = System.Drawing.Color.Transparent;
             this.abc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.abc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.abc.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.abc.Location = new System.Drawing.Point(399, 348);
             this.abc.Name = "abc";
             this.abc.Size = new System.Drawing.Size(42, 15);
@@ -5356,7 +5377,7 @@ namespace MP2_V01
             this.label37.AutoSize = true;
             this.label37.BackColor = System.Drawing.Color.Transparent;
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label37.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label37.Location = new System.Drawing.Point(472, 348);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(43, 15);
@@ -5393,7 +5414,7 @@ namespace MP2_V01
             this.LB_MS05.AutoSize = true;
             this.LB_MS05.BackColor = System.Drawing.Color.Transparent;
             this.LB_MS05.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LB_MS05.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.LB_MS05.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.LB_MS05.Location = new System.Drawing.Point(563, 372);
             this.LB_MS05.Name = "LB_MS05";
             this.LB_MS05.Size = new System.Drawing.Size(40, 15);
@@ -5406,7 +5427,7 @@ namespace MP2_V01
             this.label39.AutoSize = true;
             this.label39.BackColor = System.Drawing.Color.Transparent;
             this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label39.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label39.Location = new System.Drawing.Point(1401, 13);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(43, 15);
@@ -5683,7 +5704,7 @@ namespace MP2_V01
             this.label40.AutoSize = true;
             this.label40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(253)))), ((int)(((byte)(251)))));
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label40.ForeColor = System.Drawing.Color.DarkRed;
             this.label40.Location = new System.Drawing.Point(839, 157);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(40, 15);
@@ -5696,7 +5717,7 @@ namespace MP2_V01
             this.label41.AutoSize = true;
             this.label41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(253)))), ((int)(((byte)(251)))));
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label41.ForeColor = System.Drawing.Color.DarkRed;
             this.label41.Location = new System.Drawing.Point(885, 157);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(40, 15);
@@ -5709,7 +5730,7 @@ namespace MP2_V01
             this.label42.AutoSize = true;
             this.label42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(253)))), ((int)(((byte)(251)))));
             this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label42.ForeColor = System.Drawing.Color.DarkRed;
             this.label42.Location = new System.Drawing.Point(935, 157);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(40, 15);
@@ -5722,7 +5743,7 @@ namespace MP2_V01
             this.label43.AutoSize = true;
             this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(253)))), ((int)(((byte)(251)))));
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label43.ForeColor = System.Drawing.Color.DarkRed;
             this.label43.Location = new System.Drawing.Point(981, 157);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(40, 15);
@@ -5735,7 +5756,7 @@ namespace MP2_V01
             this.label44.AutoSize = true;
             this.label44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(223)))), ((int)(((byte)(228)))));
             this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label44.ForeColor = System.Drawing.Color.DarkRed;
             this.label44.Location = new System.Drawing.Point(837, 217);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(40, 15);
@@ -5748,7 +5769,7 @@ namespace MP2_V01
             this.label45.AutoSize = true;
             this.label45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(223)))), ((int)(((byte)(228)))));
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label45.ForeColor = System.Drawing.Color.DarkRed;
             this.label45.Location = new System.Drawing.Point(883, 217);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(40, 15);
@@ -5761,7 +5782,7 @@ namespace MP2_V01
             this.label46.AutoSize = true;
             this.label46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(223)))), ((int)(((byte)(228)))));
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label46.ForeColor = System.Drawing.Color.DarkRed;
             this.label46.Location = new System.Drawing.Point(933, 217);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(40, 15);
@@ -5774,7 +5795,7 @@ namespace MP2_V01
             this.label47.AutoSize = true;
             this.label47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(223)))), ((int)(((byte)(228)))));
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label47.ForeColor = System.Drawing.Color.DarkRed;
             this.label47.Location = new System.Drawing.Point(979, 217);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(40, 15);
@@ -6129,7 +6150,7 @@ namespace MP2_V01
             this.label48.AutoSize = true;
             this.label48.BackColor = System.Drawing.Color.Transparent;
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label48.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label48.Location = new System.Drawing.Point(1063, 9);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(43, 15);
@@ -7354,7 +7375,7 @@ namespace MP2_V01
             this.label53.AutoSize = true;
             this.label53.BackColor = System.Drawing.Color.Transparent;
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label53.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label53.Location = new System.Drawing.Point(1626, 5);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(43, 15);
@@ -7493,7 +7514,7 @@ namespace MP2_V01
             this.label54.AutoSize = true;
             this.label54.BackColor = System.Drawing.Color.Transparent;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label54.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label54.Location = new System.Drawing.Point(829, 4);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(53, 15);
@@ -7944,7 +7965,7 @@ namespace MP2_V01
             this.label56.AutoSize = true;
             this.label56.BackColor = System.Drawing.Color.Transparent;
             this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label56.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label56.Location = new System.Drawing.Point(1826, 365);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(43, 15);
@@ -7981,7 +8002,7 @@ namespace MP2_V01
             this.label57.AutoSize = true;
             this.label57.BackColor = System.Drawing.Color.Transparent;
             this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label57.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label57.Location = new System.Drawing.Point(1701, 365);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(50, 15);
@@ -8018,7 +8039,7 @@ namespace MP2_V01
             this.label58.AutoSize = true;
             this.label58.BackColor = System.Drawing.Color.Transparent;
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label58.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label58.Location = new System.Drawing.Point(1611, 365);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(51, 15);
@@ -8260,7 +8281,7 @@ namespace MP2_V01
             this.label59.AutoSize = true;
             this.label59.BackColor = System.Drawing.Color.Transparent;
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label59.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label59.Location = new System.Drawing.Point(1419, 402);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(43, 15);
@@ -8546,7 +8567,7 @@ namespace MP2_V01
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label60.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label60.Location = new System.Drawing.Point(1561, 153);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(31, 15);
@@ -9029,7 +9050,7 @@ namespace MP2_V01
             this.label61.AutoSize = true;
             this.label61.BackColor = System.Drawing.Color.Transparent;
             this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label61.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label61.Location = new System.Drawing.Point(1115, 376);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(40, 15);
@@ -10386,7 +10407,7 @@ namespace MP2_V01
             this.label62.AutoSize = true;
             this.label62.BackColor = System.Drawing.Color.Transparent;
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label62.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label62.Location = new System.Drawing.Point(219, 693);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(45, 15);
@@ -10399,7 +10420,7 @@ namespace MP2_V01
             this.label63.AutoSize = true;
             this.label63.BackColor = System.Drawing.Color.Transparent;
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label63.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label63.Location = new System.Drawing.Point(217, 762);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(45, 15);
@@ -11930,7 +11951,7 @@ namespace MP2_V01
             this.label65.AutoSize = true;
             this.label65.BackColor = System.Drawing.Color.Transparent;
             this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label65.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label65.Location = new System.Drawing.Point(878, 88);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(48, 15);
@@ -11943,7 +11964,7 @@ namespace MP2_V01
             this.label66.AutoSize = true;
             this.label66.BackColor = System.Drawing.Color.Transparent;
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label66.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label66.Location = new System.Drawing.Point(1023, 103);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(42, 15);
@@ -12004,7 +12025,7 @@ namespace MP2_V01
             this.label67.AutoSize = true;
             this.label67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(194)))), ((int)(((byte)(200)))));
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label67.ForeColor = System.Drawing.Color.DarkRed;
             this.label67.Location = new System.Drawing.Point(342, 261);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(26, 9);
@@ -12017,7 +12038,7 @@ namespace MP2_V01
             this.label68.AutoSize = true;
             this.label68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(194)))), ((int)(((byte)(200)))));
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label68.ForeColor = System.Drawing.Color.DarkRed;
             this.label68.Location = new System.Drawing.Point(374, 261);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(26, 9);
@@ -12030,7 +12051,7 @@ namespace MP2_V01
             this.label69.AutoSize = true;
             this.label69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(194)))), ((int)(((byte)(200)))));
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label69.ForeColor = System.Drawing.Color.DarkRed;
             this.label69.Location = new System.Drawing.Point(406, 261);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(26, 9);
@@ -12043,7 +12064,7 @@ namespace MP2_V01
             this.label70.AutoSize = true;
             this.label70.BackColor = System.Drawing.Color.Transparent;
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label70.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label70.Location = new System.Drawing.Point(481, 98);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(44, 15);
@@ -12056,7 +12077,7 @@ namespace MP2_V01
             this.label71.AutoSize = true;
             this.label71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label71.ForeColor = System.Drawing.Color.DarkRed;
             this.label71.Location = new System.Drawing.Point(584, 247);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(26, 9);
@@ -12069,7 +12090,7 @@ namespace MP2_V01
             this.label72.AutoSize = true;
             this.label72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label72.ForeColor = System.Drawing.Color.DarkRed;
             this.label72.Location = new System.Drawing.Point(621, 247);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(26, 9);
@@ -12082,7 +12103,7 @@ namespace MP2_V01
             this.label73.AutoSize = true;
             this.label73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label73.ForeColor = System.Drawing.Color.DarkRed;
             this.label73.Location = new System.Drawing.Point(653, 247);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(31, 9);
@@ -12095,7 +12116,7 @@ namespace MP2_V01
             this.label74.AutoSize = true;
             this.label74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label74.ForeColor = System.Drawing.Color.DarkRed;
             this.label74.Location = new System.Drawing.Point(687, 247);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(31, 9);
@@ -12108,7 +12129,7 @@ namespace MP2_V01
             this.label75.AutoSize = true;
             this.label75.BackColor = System.Drawing.Color.Transparent;
             this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label75.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label75.Location = new System.Drawing.Point(613, 65);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(47, 15);
@@ -12121,7 +12142,7 @@ namespace MP2_V01
             this.label76.AutoSize = true;
             this.label76.BackColor = System.Drawing.Color.Transparent;
             this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label76.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label76.Location = new System.Drawing.Point(694, 65);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(47, 15);
@@ -12134,7 +12155,7 @@ namespace MP2_V01
             this.airPump_mtk03_mainPage.AutoSize = true;
             this.airPump_mtk03_mainPage.BackColor = System.Drawing.Color.Transparent;
             this.airPump_mtk03_mainPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.airPump_mtk03_mainPage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.airPump_mtk03_mainPage.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.airPump_mtk03_mainPage.Location = new System.Drawing.Point(772, 65);
             this.airPump_mtk03_mainPage.Name = "airPump_mtk03_mainPage";
             this.airPump_mtk03_mainPage.Size = new System.Drawing.Size(47, 15);
@@ -12344,7 +12365,7 @@ namespace MP2_V01
             this.label78.AutoSize = true;
             this.label78.BackColor = System.Drawing.Color.Transparent;
             this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label78.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label78.Location = new System.Drawing.Point(1183, 62);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(40, 15);
@@ -12357,7 +12378,7 @@ namespace MP2_V01
             this.label79.AutoSize = true;
             this.label79.BackColor = System.Drawing.Color.Transparent;
             this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label79.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label79.Location = new System.Drawing.Point(1264, 62);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(40, 15);
@@ -12370,7 +12391,7 @@ namespace MP2_V01
             this.label80.AutoSize = true;
             this.label80.BackColor = System.Drawing.Color.Transparent;
             this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label80.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label80.Location = new System.Drawing.Point(1342, 62);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(40, 15);
@@ -12381,7 +12402,9 @@ namespace MP2_V01
             // label81
             // 
             this.label81.AutoSize = true;
+            this.label81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.ForeColor = System.Drawing.Color.DarkRed;
             this.label81.Location = new System.Drawing.Point(1312, 231);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(20, 9);
@@ -12392,7 +12415,9 @@ namespace MP2_V01
             // label82
             // 
             this.label82.AutoSize = true;
+            this.label82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.ForeColor = System.Drawing.Color.DarkRed;
             this.label82.Location = new System.Drawing.Point(1341, 231);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(20, 9);
@@ -12403,7 +12428,9 @@ namespace MP2_V01
             // label83
             // 
             this.label83.AutoSize = true;
+            this.label83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.ForeColor = System.Drawing.Color.DarkRed;
             this.label83.Location = new System.Drawing.Point(1368, 231);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(20, 9);
@@ -12711,7 +12738,7 @@ namespace MP2_V01
             this.label84.AutoSize = true;
             this.label84.BackColor = System.Drawing.Color.Transparent;
             this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label84.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label84.Location = new System.Drawing.Point(1446, 103);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(42, 15);
@@ -12724,7 +12751,7 @@ namespace MP2_V01
             this.label85.AutoSize = true;
             this.label85.BackColor = System.Drawing.Color.Transparent;
             this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label85.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label85.Location = new System.Drawing.Point(1585, 98);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(42, 15);
@@ -12747,8 +12774,9 @@ namespace MP2_V01
             // label87
             // 
             this.label87.AutoSize = true;
+            this.label87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(191)))), ((int)(((byte)(196)))));
             this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label87.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label87.ForeColor = System.Drawing.Color.DarkRed;
             this.label87.Location = new System.Drawing.Point(1807, 105);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(19, 9);
@@ -12759,8 +12787,9 @@ namespace MP2_V01
             // label88
             // 
             this.label88.AutoSize = true;
+            this.label88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(191)))), ((int)(((byte)(196)))));
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label88.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label88.ForeColor = System.Drawing.Color.DarkRed;
             this.label88.Location = new System.Drawing.Point(1836, 105);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(19, 9);
@@ -13139,7 +13168,7 @@ namespace MP2_V01
             this.label89.AutoSize = true;
             this.label89.BackColor = System.Drawing.Color.Transparent;
             this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label89.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label89.Location = new System.Drawing.Point(1546, 643);
             this.label89.Name = "label89";
             this.label89.Size = new System.Drawing.Size(36, 15);
@@ -13188,7 +13217,7 @@ namespace MP2_V01
             this.label91.AutoSize = true;
             this.label91.BackColor = System.Drawing.Color.Transparent;
             this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label91.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label91.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label91.Location = new System.Drawing.Point(1449, 373);
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(42, 15);
@@ -13201,7 +13230,7 @@ namespace MP2_V01
             this.label93.AutoSize = true;
             this.label93.BackColor = System.Drawing.Color.Transparent;
             this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label93.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label93.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label93.Location = new System.Drawing.Point(1454, 501);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(42, 15);
@@ -13919,7 +13948,7 @@ namespace MP2_V01
             this.label95.AutoSize = true;
             this.label95.BackColor = System.Drawing.Color.Transparent;
             this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label95.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label95.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label95.Location = new System.Drawing.Point(801, 340);
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(43, 15);
@@ -13932,7 +13961,7 @@ namespace MP2_V01
             this.label96.AutoSize = true;
             this.label96.BackColor = System.Drawing.Color.Transparent;
             this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label96.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label96.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label96.Location = new System.Drawing.Point(882, 340);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(44, 15);
@@ -13945,7 +13974,7 @@ namespace MP2_V01
             this.label97.AutoSize = true;
             this.label97.BackColor = System.Drawing.Color.Transparent;
             this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label97.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label97.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label97.Location = new System.Drawing.Point(960, 340);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(44, 15);
@@ -14403,8 +14432,9 @@ namespace MP2_V01
             // label98
             // 
             this.label98.AutoSize = true;
+            this.label98.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(193)))), ((int)(((byte)(198)))));
             this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label98.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label98.ForeColor = System.Drawing.Color.DarkRed;
             this.label98.Location = new System.Drawing.Point(715, 749);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(28, 9);
@@ -14415,8 +14445,9 @@ namespace MP2_V01
             // label99
             // 
             this.label99.AutoSize = true;
+            this.label99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(193)))), ((int)(((byte)(198)))));
             this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label99.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label99.ForeColor = System.Drawing.Color.DarkRed;
             this.label99.Location = new System.Drawing.Point(681, 749);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(28, 9);
@@ -14427,8 +14458,9 @@ namespace MP2_V01
             // label100
             // 
             this.label100.AutoSize = true;
+            this.label100.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(193)))), ((int)(((byte)(198)))));
             this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label100.ForeColor = System.Drawing.Color.DarkRed;
             this.label100.Location = new System.Drawing.Point(616, 749);
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(28, 9);
@@ -14439,8 +14471,9 @@ namespace MP2_V01
             // label101
             // 
             this.label101.AutoSize = true;
+            this.label101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(193)))), ((int)(((byte)(198)))));
             this.label101.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label101.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label101.ForeColor = System.Drawing.Color.DarkRed;
             this.label101.Location = new System.Drawing.Point(584, 749);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(28, 9);
@@ -14780,7 +14813,7 @@ namespace MP2_V01
             this.label102.AutoSize = true;
             this.label102.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(194)))), ((int)(((byte)(200)))));
             this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label102.ForeColor = System.Drawing.Color.DarkRed;
             this.label102.Location = new System.Drawing.Point(128, 766);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(23, 9);
@@ -14815,7 +14848,7 @@ namespace MP2_V01
             this.label103.AutoSize = true;
             this.label103.BackColor = System.Drawing.Color.Transparent;
             this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label103.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label103.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label103.Location = new System.Drawing.Point(356, 610);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(40, 15);
@@ -14838,8 +14871,8 @@ namespace MP2_V01
             this.label104.AutoSize = true;
             this.label104.BackColor = System.Drawing.Color.Transparent;
             this.label104.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label104.ForeColor = System.Drawing.Color.Red;
-            this.label104.Location = new System.Drawing.Point(16, 6);
+            this.label104.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(255)))));
+            this.label104.Location = new System.Drawing.Point(16, 10);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(135, 20);
             this.label104.TabIndex = 19;
@@ -14972,11 +15005,12 @@ namespace MP2_V01
             // 
             this.label119.AutoSize = true;
             this.label119.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label119.ForeColor = System.Drawing.Color.White;
             this.label119.Location = new System.Drawing.Point(225, 104);
             this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(77, 15);
+            this.label119.Size = new System.Drawing.Size(69, 15);
             this.label119.TabIndex = 259;
-            this.label119.Text = "FLOW OUT";
+            this.label119.Text = "DÒNG RA";
             this.label119.Click += new System.EventHandler(this.label14_Click);
             // 
             // tb_flowInCap_mainPage_table
@@ -14992,18 +15026,20 @@ namespace MP2_V01
             // 
             this.label118.AutoSize = true;
             this.label118.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label118.ForeColor = System.Drawing.Color.White;
             this.label118.Location = new System.Drawing.Point(224, 73);
             this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(45, 15);
+            this.label118.Size = new System.Drawing.Size(72, 15);
             this.label118.TabIndex = 259;
-            this.label118.Text = "TEMP";
+            this.label118.Text = "NHIỆT ĐỘ";
             this.label118.Click += new System.EventHandler(this.label14_Click);
             // 
             // label110
             // 
             this.label110.AutoSize = true;
             this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label110.Location = new System.Drawing.Point(20, 101);
+            this.label110.ForeColor = System.Drawing.Color.White;
+            this.label110.Location = new System.Drawing.Point(2, 101);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(36, 15);
             this.label110.TabIndex = 259;
@@ -15014,18 +15050,20 @@ namespace MP2_V01
             // 
             this.label117.AutoSize = true;
             this.label117.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label117.ForeColor = System.Drawing.Color.White;
             this.label117.Location = new System.Drawing.Point(225, 44);
             this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(54, 15);
+            this.label117.Size = new System.Drawing.Size(67, 15);
             this.label117.TabIndex = 259;
-            this.label117.Text = "COLOR";
+            this.label117.Text = "MÀU SẮC";
             this.label117.Click += new System.EventHandler(this.label14_Click);
             // 
             // label109
             // 
             this.label109.AutoSize = true;
             this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label109.Location = new System.Drawing.Point(19, 74);
+            this.label109.ForeColor = System.Drawing.Color.White;
+            this.label109.Location = new System.Drawing.Point(2, 74);
             this.label109.Name = "label109";
             this.label109.Size = new System.Drawing.Size(26, 15);
             this.label109.TabIndex = 259;
@@ -15036,7 +15074,8 @@ namespace MP2_V01
             // 
             this.label108.AutoSize = true;
             this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label108.Location = new System.Drawing.Point(18, 45);
+            this.label108.ForeColor = System.Drawing.Color.White;
+            this.label108.Location = new System.Drawing.Point(2, 45);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(35, 15);
             this.label108.TabIndex = 259;
@@ -15047,6 +15086,7 @@ namespace MP2_V01
             // 
             this.label121.AutoSize = true;
             this.label121.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label121.ForeColor = System.Drawing.Color.White;
             this.label121.Location = new System.Drawing.Point(407, 102);
             this.label121.Name = "label121";
             this.label121.Size = new System.Drawing.Size(35, 15);
@@ -15058,6 +15098,7 @@ namespace MP2_V01
             // 
             this.label120.AutoSize = true;
             this.label120.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label120.ForeColor = System.Drawing.Color.White;
             this.label120.Location = new System.Drawing.Point(407, 74);
             this.label120.Name = "label120";
             this.label120.Size = new System.Drawing.Size(32, 15);
@@ -15069,6 +15110,7 @@ namespace MP2_V01
             // 
             this.label116.AutoSize = true;
             this.label116.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label116.ForeColor = System.Drawing.Color.White;
             this.label116.Location = new System.Drawing.Point(406, 42);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(31, 15);
@@ -15080,6 +15122,7 @@ namespace MP2_V01
             // 
             this.label113.AutoSize = true;
             this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label113.ForeColor = System.Drawing.Color.White;
             this.label113.Location = new System.Drawing.Point(186, 103);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(31, 15);
@@ -15091,6 +15134,7 @@ namespace MP2_V01
             // 
             this.label115.AutoSize = true;
             this.label115.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label115.ForeColor = System.Drawing.Color.White;
             this.label115.Location = new System.Drawing.Point(406, 10);
             this.label115.Name = "label115";
             this.label115.Size = new System.Drawing.Size(31, 15);
@@ -15102,6 +15146,7 @@ namespace MP2_V01
             // 
             this.label112.AutoSize = true;
             this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label112.ForeColor = System.Drawing.Color.White;
             this.label112.Location = new System.Drawing.Point(184, 44);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(31, 15);
@@ -15113,6 +15158,7 @@ namespace MP2_V01
             // 
             this.label114.AutoSize = true;
             this.label114.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label114.ForeColor = System.Drawing.Color.White;
             this.label114.Location = new System.Drawing.Point(224, 12);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(33, 15);
@@ -15124,6 +15170,7 @@ namespace MP2_V01
             // 
             this.label111.AutoSize = true;
             this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label111.ForeColor = System.Drawing.Color.White;
             this.label111.Location = new System.Drawing.Point(184, 12);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(35, 15);
@@ -15135,11 +15182,12 @@ namespace MP2_V01
             // 
             this.label107.AutoSize = true;
             this.label107.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label107.Location = new System.Drawing.Point(16, 13);
+            this.label107.ForeColor = System.Drawing.Color.White;
+            this.label107.Location = new System.Drawing.Point(2, 13);
             this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(63, 15);
+            this.label107.Size = new System.Drawing.Size(77, 15);
             this.label107.TabIndex = 259;
-            this.label107.Text = "FLOW IN";
+            this.label107.Text = "DÒNG VÀO";
             this.label107.Click += new System.EventHandler(this.label14_Click);
             // 
             // standardControl410
@@ -16174,7 +16222,7 @@ namespace MP2_V01
             this.label31.AutoSize = true;
             this.label31.BackColor = System.Drawing.Color.Transparent;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label31.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label31.Location = new System.Drawing.Point(1406, 284);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(43, 15);
@@ -16187,7 +16235,7 @@ namespace MP2_V01
             this.label126.AutoSize = true;
             this.label126.BackColor = System.Drawing.Color.Transparent;
             this.label126.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label126.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label126.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label126.Location = new System.Drawing.Point(1034, 617);
             this.label126.Name = "label126";
             this.label126.Size = new System.Drawing.Size(46, 15);
@@ -16200,7 +16248,7 @@ namespace MP2_V01
             this.label127.AutoSize = true;
             this.label127.BackColor = System.Drawing.Color.Transparent;
             this.label127.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label127.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label127.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label127.Location = new System.Drawing.Point(979, 616);
             this.label127.Name = "label127";
             this.label127.Size = new System.Drawing.Size(45, 15);
@@ -16828,7 +16876,7 @@ namespace MP2_V01
             this.label77.AutoSize = true;
             this.label77.BackColor = System.Drawing.Color.Transparent;
             this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label77.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label77.Location = new System.Drawing.Point(1159, 867);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(42, 15);
@@ -17228,7 +17276,7 @@ namespace MP2_V01
             this.label106.AutoSize = true;
             this.label106.BackColor = System.Drawing.Color.Transparent;
             this.label106.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label106.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label106.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label106.Location = new System.Drawing.Point(1354, 861);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(43, 15);
@@ -17240,7 +17288,7 @@ namespace MP2_V01
             this.label105.AutoSize = true;
             this.label105.BackColor = System.Drawing.Color.Transparent;
             this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label105.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label105.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label105.Location = new System.Drawing.Point(1306, 900);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(42, 15);
@@ -17873,8 +17921,9 @@ namespace MP2_V01
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(191)))), ((int)(((byte)(196)))));
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label12.ForeColor = System.Drawing.Color.DarkRed;
             this.label12.Location = new System.Drawing.Point(1174, 767);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(23, 9);
@@ -18128,11 +18177,11 @@ namespace MP2_V01
             this.label125.BackColor = System.Drawing.Color.Transparent;
             this.label125.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label125.ForeColor = System.Drawing.Color.White;
-            this.label125.Location = new System.Drawing.Point(247, 62);
+            this.label125.Location = new System.Drawing.Point(247, 54);
             this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(119, 13);
+            this.label125.Size = new System.Drawing.Size(148, 13);
             this.label125.TabIndex = 19;
-            this.label125.Text = "INFLOW CAPACITY";
+            this.label125.Text = "LƯU LƯỢNG DÒNG VÀO";
             // 
             // errorProvider_P1O1
             // 
@@ -18342,7 +18391,7 @@ namespace MP2_V01
             this.label38.AutoSize = true;
             this.label38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(252)))), ((int)(((byte)(251)))));
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label38.ForeColor = System.Drawing.Color.DarkRed;
             this.label38.Location = new System.Drawing.Point(215, 197);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(27, 9);
@@ -18353,9 +18402,9 @@ namespace MP2_V01
             // label92
             // 
             this.label92.AutoSize = true;
-            this.label92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(194)))), ((int)(((byte)(200)))));
+            this.label92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(227)))), ((int)(((byte)(231)))));
             this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label92.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label92.ForeColor = System.Drawing.Color.DarkRed;
             this.label92.Location = new System.Drawing.Point(215, 226);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(28, 9);
@@ -18368,7 +18417,7 @@ namespace MP2_V01
             this.label94.AutoSize = true;
             this.label94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(194)))), ((int)(((byte)(200)))));
             this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label94.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label94.ForeColor = System.Drawing.Color.DarkRed;
             this.label94.Location = new System.Drawing.Point(215, 254);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(25, 9);
@@ -18381,7 +18430,7 @@ namespace MP2_V01
             this.label128.AutoSize = true;
             this.label128.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(252)))), ((int)(((byte)(251)))));
             this.label128.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label128.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label128.ForeColor = System.Drawing.Color.DarkRed;
             this.label128.Location = new System.Drawing.Point(503, 193);
             this.label128.Name = "label128";
             this.label128.Size = new System.Drawing.Size(27, 9);
@@ -18394,7 +18443,7 @@ namespace MP2_V01
             this.label129.AutoSize = true;
             this.label129.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.label129.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label129.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label129.ForeColor = System.Drawing.Color.DarkRed;
             this.label129.Location = new System.Drawing.Point(504, 245);
             this.label129.Name = "label129";
             this.label129.Size = new System.Drawing.Size(25, 9);
@@ -18407,7 +18456,7 @@ namespace MP2_V01
             this.label130.AutoSize = true;
             this.label130.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
             this.label130.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label130.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label130.ForeColor = System.Drawing.Color.DarkRed;
             this.label130.Location = new System.Drawing.Point(136, 699);
             this.label130.Name = "label130";
             this.label130.Size = new System.Drawing.Size(23, 9);
@@ -18418,8 +18467,9 @@ namespace MP2_V01
             // label131
             // 
             this.label131.AutoSize = true;
+            this.label131.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(249)))), ((int)(((byte)(251)))));
             this.label131.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label131.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label131.ForeColor = System.Drawing.Color.DarkRed;
             this.label131.Location = new System.Drawing.Point(623, 696);
             this.label131.Name = "label131";
             this.label131.Size = new System.Drawing.Size(23, 9);
@@ -18430,8 +18480,9 @@ namespace MP2_V01
             // label132
             // 
             this.label132.AutoSize = true;
+            this.label132.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(249)))), ((int)(((byte)(251)))));
             this.label132.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label132.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label132.ForeColor = System.Drawing.Color.DarkRed;
             this.label132.Location = new System.Drawing.Point(712, 696);
             this.label132.Name = "label132";
             this.label132.Size = new System.Drawing.Size(23, 9);
@@ -18774,27 +18825,6 @@ namespace MP2_V01
             this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox43.TabIndex = 469;
             this.pictureBox43.TabStop = false;
-            // 
-            // contextFacePlate
-            // 
-            this.contextFacePlate.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.facePlateToolStripMenuItem,
-            this.thoátToolStripMenuItem});
-            this.contextFacePlate.Name = "contextFacePlate";
-            this.contextFacePlate.Size = new System.Drawing.Size(125, 48);
-            // 
-            // facePlateToolStripMenuItem
-            // 
-            this.facePlateToolStripMenuItem.Name = "facePlateToolStripMenuItem";
-            this.facePlateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.facePlateToolStripMenuItem.Text = "FacePlate";
-            this.facePlateToolStripMenuItem.Click += new System.EventHandler(this.facePlateToolStripMenuItem_Click);
-            // 
-            // thoátToolStripMenuItem
-            // 
-            this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.thoátToolStripMenuItem.Text = "Thoát";
             // 
             // HOME
             // 
@@ -19618,6 +19648,7 @@ namespace MP2_V01
             ((System.ComponentModel.ISupportInitialize)(this.standardControl63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl65)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.airPump_mtk03_homePage)).EndInit();
+            this.contextFacePlate.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.standardControl69)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl84)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl85)).EndInit();
@@ -20226,7 +20257,6 @@ namespace MP2_V01
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-            this.contextFacePlate.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

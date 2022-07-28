@@ -44,7 +44,10 @@ namespace MP2_V01
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnClose_exportPage = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnExport_exportPage = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.COD = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,9 +57,7 @@ namespace MP2_V01
             this.TEMPERATURE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AMONI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FLOW = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnExport_exportPage = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnClose_exportPage = new System.Windows.Forms.Button();
+            this.FLOWOUT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
@@ -183,6 +184,20 @@ namespace MP2_V01
             this.panel1.TabIndex = 412;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
+            // btnClose_exportPage
+            // 
+            this.btnClose_exportPage.FlatAppearance.BorderSize = 0;
+            this.btnClose_exportPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose_exportPage.Image = ((System.Drawing.Image)(resources.GetObject("btnClose_exportPage.Image")));
+            this.btnClose_exportPage.Location = new System.Drawing.Point(1862, 3);
+            this.btnClose_exportPage.Name = "btnClose_exportPage";
+            this.btnClose_exportPage.Size = new System.Drawing.Size(54, 57);
+            this.btnClose_exportPage.TabIndex = 413;
+            this.btnClose_exportPage.UseVisualStyleBackColor = true;
+            this.btnClose_exportPage.Click += new System.EventHandler(this.btnClose_exportPage_Click_1);
+            this.btnClose_exportPage.MouseLeave += new System.EventHandler(this.btnClose_exportPage_MouseLeave_1);
+            this.btnClose_exportPage.MouseHover += new System.EventHandler(this.btnClose_exportPage_MouseHover);
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -195,56 +210,12 @@ namespace MP2_V01
             this.COLOR,
             this.TEMPERATURE,
             this.AMONI,
-            this.FLOW});
+            this.FLOW,
+            this.FLOWOUT});
             this.dataGridView1.Location = new System.Drawing.Point(65, 283);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1829, 729);
             this.dataGridView1.TabIndex = 413;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            // 
-            // Date
-            // 
-            this.Date.HeaderText = "Date";
-            this.Date.Name = "Date";
-            // 
-            // COD
-            // 
-            this.COD.HeaderText = "COD";
-            this.COD.Name = "COD";
-            // 
-            // TSS
-            // 
-            this.TSS.HeaderText = "TSS";
-            this.TSS.Name = "TSS";
-            // 
-            // PH
-            // 
-            this.PH.HeaderText = "PH";
-            this.PH.Name = "PH";
-            // 
-            // COLOR
-            // 
-            this.COLOR.HeaderText = "COLOR";
-            this.COLOR.Name = "COLOR";
-            // 
-            // TEMPERATURE
-            // 
-            this.TEMPERATURE.HeaderText = "TEMPERATURE";
-            this.TEMPERATURE.Name = "TEMPERATURE";
-            // 
-            // AMONI
-            // 
-            this.AMONI.HeaderText = "AMONI";
-            this.AMONI.Name = "AMONI";
-            // 
-            // FLOW
-            // 
-            this.FLOW.HeaderText = "FLOW";
-            this.FLOW.Name = "FLOW";
             // 
             // btnExport_exportPage
             // 
@@ -268,19 +239,59 @@ namespace MP2_V01
             this.pictureBox1.TabIndex = 414;
             this.pictureBox1.TabStop = false;
             // 
-            // btnClose_exportPage
+            // ID
             // 
-            this.btnClose_exportPage.FlatAppearance.BorderSize = 0;
-            this.btnClose_exportPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose_exportPage.Image = ((System.Drawing.Image)(resources.GetObject("btnClose_exportPage.Image")));
-            this.btnClose_exportPage.Location = new System.Drawing.Point(1862, 3);
-            this.btnClose_exportPage.Name = "btnClose_exportPage";
-            this.btnClose_exportPage.Size = new System.Drawing.Size(54, 57);
-            this.btnClose_exportPage.TabIndex = 413;
-            this.btnClose_exportPage.UseVisualStyleBackColor = true;
-            this.btnClose_exportPage.Click += new System.EventHandler(this.btnClose_exportPage_Click_1);
-            this.btnClose_exportPage.MouseLeave += new System.EventHandler(this.btnClose_exportPage_MouseLeave_1);
-            this.btnClose_exportPage.MouseHover += new System.EventHandler(this.btnClose_exportPage_MouseHover);
+            this.ID.HeaderText = "MÃ NHẬN DẠNG";
+            this.ID.Name = "ID";
+            this.ID.Width = 150;
+            // 
+            // Date
+            // 
+            this.Date.HeaderText = "NGÀY";
+            this.Date.Name = "Date";
+            this.Date.Width = 150;
+            // 
+            // COD
+            // 
+            this.COD.HeaderText = "COD";
+            this.COD.Name = "COD";
+            // 
+            // TSS
+            // 
+            this.TSS.HeaderText = "TSS";
+            this.TSS.Name = "TSS";
+            // 
+            // PH
+            // 
+            this.PH.HeaderText = "PH";
+            this.PH.Name = "PH";
+            // 
+            // COLOR
+            // 
+            this.COLOR.HeaderText = "MÀU SẮC";
+            this.COLOR.Name = "COLOR";
+            // 
+            // TEMPERATURE
+            // 
+            this.TEMPERATURE.HeaderText = "NHIỆT ĐỘ";
+            this.TEMPERATURE.Name = "TEMPERATURE";
+            // 
+            // AMONI
+            // 
+            this.AMONI.HeaderText = "AMONI";
+            this.AMONI.Name = "AMONI";
+            // 
+            // FLOW
+            // 
+            this.FLOW.HeaderText = "LƯU LƯỢNG VÀO";
+            this.FLOW.Name = "FLOW";
+            this.FLOW.Width = 150;
+            // 
+            // FLOWOUT
+            // 
+            this.FLOWOUT.HeaderText = "LƯU LƯỢNG RA";
+            this.FLOWOUT.Name = "FLOWOUT";
+            this.FLOWOUT.Width = 150;
             // 
             // DATA_EXPORT
             // 
@@ -333,6 +344,7 @@ namespace MP2_V01
         private System.Windows.Forms.Button btnClose_exportPage;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Date;
         private System.Windows.Forms.DataGridViewTextBoxColumn COD;
@@ -342,6 +354,6 @@ namespace MP2_V01
         private System.Windows.Forms.DataGridViewTextBoxColumn TEMPERATURE;
         private System.Windows.Forms.DataGridViewTextBoxColumn AMONI;
         private System.Windows.Forms.DataGridViewTextBoxColumn FLOW;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FLOWOUT;
     }
 }
