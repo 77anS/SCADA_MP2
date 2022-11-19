@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System.Linq;
-using System.Collections.Generic;
 using ElementBase_Template.PLC.PLC1;
 
 namespace ElementBase_Template.ALARM

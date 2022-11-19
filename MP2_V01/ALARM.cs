@@ -9,8 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
-using System.Drawing;
-
 namespace MP2_V01
 {
     public partial class ALARM : Form
