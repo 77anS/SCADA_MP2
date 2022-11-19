@@ -14,17 +14,18 @@ using ElementBase_Template.PLC.PLC1; //Namespace for DB Mapping at PLC1
 using ElementBase_Template.PLC.PLC2; //Namespace for DB Mapping at PLC2
 using ElementBase_Template.PLC.PLC3; //Namespace for DB Mapping at PLC3
 
+using B_SCADA = B_SCADA_Library_dotNetFramework.Resources.Library.Frame.style_1_bcm;
 using ElementBase_Template;
 using ElementBase_Template.ALARM;
 using System.Runtime.CompilerServices;
-
 using MongoDB.Driver;
 using MongoDB.Bson;
-
 namespace MP2_V01
 {
     public static class Program
     {
+        public static B_SCADA.Frame amazingABC;
+
         #region OLD VERSION
         ////EngineCycle: Read
         //public static EngineCycle.PLC_GD1 PLC_GD1 = new EngineCycle.PLC_GD1();
@@ -197,6 +198,8 @@ namespace MP2_V01
                 testingEnvironmentPage = new TESTING_ENVIRONMENT();
                 adminPage = new ADMIN_PAGE();
                 sim_on_off = new SIM_ON_OFF();
+
+                amazingABC = new B_SCADA.Frame();
 
                 // Event LoadForm
                 loadF_homePage = false;
@@ -651,7 +654,7 @@ namespace MP2_V01
 
             catch (Exception err)
             {
-
+                //Console.WriteLine(err);
             }
 
             Application.Run(loginPage);

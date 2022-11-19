@@ -36,6 +36,9 @@
     <StartupObject>MP2_V01.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="B_SCADA_Library_dotNetFramework">
+      <HintPath>..\..\..\..\..\..\1003 Library\B-SCADALibrary\B_SCADA_Library_dotNetFramework.dll</HintPath>
+    </Reference>
     <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
       <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
     </Reference>
