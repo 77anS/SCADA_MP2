@@ -293,7 +293,6 @@ namespace MP2_V01
 
                 await task1;
                 plc.Close();
-
             }
 
         }

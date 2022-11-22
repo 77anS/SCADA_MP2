@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementBase_Template", "Ele
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup\Setup.vdproj", "{3BE4938D-E50A-405D-84A1-3E7649BDD0B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCADA_MP2", "SCADA-MP2\SCADA_MP2.csproj", "{58BA16E8-AF4C-43C1-A79C-8B6BE7B19628}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{3BE4938D-E50A-405D-84A1-3E7649BDD0B7}.Debug|Any CPU.ActiveCfg = Debug
 		{3BE4938D-E50A-405D-84A1-3E7649BDD0B7}.Release|Any CPU.ActiveCfg = Release
 		{3BE4938D-E50A-405D-84A1-3E7649BDD0B7}.Release|Any CPU.Build.0 = Release
+		{58BA16E8-AF4C-43C1-A79C-8B6BE7B19628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BA16E8-AF4C-43C1-A79C-8B6BE7B19628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BA16E8-AF4C-43C1-A79C-8B6BE7B19628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BA16E8-AF4C-43C1-A79C-8B6BE7B19628}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
