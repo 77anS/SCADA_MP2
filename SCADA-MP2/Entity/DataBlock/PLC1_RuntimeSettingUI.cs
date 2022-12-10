@@ -9,13 +9,13 @@ namespace SCADA_MP2.Entity.DataBlock
     class PLC1_RuntimeSettingUI
     {
         // SETTIME UI
-        public short beGom1_setTime_ui { get; set; }
-        public short beGom2_setTime_ui { get; set; }
-        public short beGom3_setTime_ui { get; set; }
-        public short dieuHoa1_setTime_ui { get; set; }
-        public short dieuHoa2_setTime_ui { get; set; }
-        public short mtk01_setTime_ui { get; set; }
-        public short mtk02_setTime_ui { get; set; }
-        public short mtk03_setTime_ui { get; set; }
+        public short P101_bomBeGom1_setTime_ui { get; set; }
+        public short P102_bomBeGom2_setTime_ui { get; set; }
+        public short P103_bomBeGom3__setTime_ui { get; set; }
+        public short P0201_bomDieuHoa1_setTime_ui { get; set; }
+        public short P0202_bomDieuHoa2_setTime_ui { get; set; }
+        public short MTK01_mayTKbeDieuHoa_setTime_ui { get; set; }
+        public short MTK02_mayTKbeDieuHoa_setTime_ui { get; set; }
+        public short MTK03_mayTKbeDieuHoa_setTime_ui { get; set; }
     }
 }

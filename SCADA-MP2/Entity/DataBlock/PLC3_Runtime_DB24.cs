@@ -8,34 +8,34 @@ namespace SCADA_MP2.Entity.DataBlock
 {
     class PLC3_Runtime_DB24
     {
-        public int mayTachRac_runtime { get; set; } // Thời gian "RUNTIME" máy tách rác
-        public int bomNt_02A_runtime { get; set; } // Thời gian "RUNTIME" bơm nước thải 02A
-        public int bomNt_02B_runtime { get; set; } // Thời gian "RUNTIME" bơm nước thải 02B
-        public int mtk_AB06A_runtime { get; set; } // Thời gian "RUNTIME" máy thổi khí AB06A
-        public int mtk_AB06B_runtime { get; set; } // Thời gian "RUNTIME" máy thổi khí AB06B
-        public int mtk_AB06C_runtime { get; set; } // Thời gian "RUNTIME" máy thổi khí AB06C
-        public int khuayKeoTu_GD2_runtime { get; set; } // Thời gian "RUNTIME" khuấy keo tụ GD2
-        public int khuayTaoBong_A_runtime { get; set; } // Thời gian "RUNTIME" khuấy tạo bông A
-        public int khuayTaoBong_B_runtime { get; set; }  // Thời gian "RUNTIME" khuấy tạo bông B
-        public int gbbl05_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất GBBL 05
-        public int gbbl07_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất GBBL 07
-        public int gbbl09_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất GBBL 09
-        public int khuayPac_GD2_runtime { get; set; } // Thời gian "RUNTIME" khuấy PAC GD2
-        public int khuayPoly_GD2_runtime { get; set; } // Thời gian "RUNTIME" khuấy Polyme GD2
-        public int bomBun_05A_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn 05A
-        public int bomBun_05B_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn 05B
-        public int bomBun_07A_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn 07A
-        public int bomBun_07B_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn 07B
-        public int bomBun_SP10_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn SP10
-        public int dlPhen_03A_runtime { get; set; } // Thời gian "RUNTIME" bơm định lượng phèn 03A
-        public int dlPhen_03B_runtime { get; set; } // Thời gian "RUNTIME" bơm định lượng phèn 03B
-        public int dlPoly_04A_runtime { get; set; } // Thời gian "RUNTIME" bơm định lượng Polyme 04A
-        public int dlPoly_04B_runtime { get; set; } // Thời gian "RUNTIME" bơm định lượng Polyme 04B
-        public int dlXut_05A_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất Xút 05A
-        public int dlXut_05B_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất Xút 05B
-        public int dlDd_06A_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất Dd 06A
-        public int dlDd_06B_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất Dd 06B
-        public int dlKhuTrung_07A_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất khử trùng 07A
-        public int dlKhuTrung_07B_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất khử trùng 07B
+        public int BS02A_mayTachRac_runtime { get; set; } // Thời gian "RUNTIME" máy tách rác
+        public int WP02A_bomNt02A_runtime { get; set; } // Thời gian "RUNTIME" bơm nước thải 02A
+        public int WP02B_bomN_02B_runtime { get; set; } // Thời gian "RUNTIME" bơm nước thải 02B
+        public int AB06A_mayTKBiofor1_runtime { get; set; } // Thời gian "RUNTIME" máy thổi khí AB06A
+        public int AB06B_mayTKBiofor2_runtime { get; set; } // Thời gian "RUNTIME" máy thổi khí AB06B
+        public int AB06C_mayTKBiofor3_runtime { get; set; } // Thời gian "RUNTIME" máy thổi khí AB06C
+        public int MI03_khuayKeoTuGD2_runtime { get; set; } // Thời gian "RUNTIME" khuấy keo tụ GD2
+        public int MI04A_khuayTaoBongA_runtime { get; set; } // Thời gian "RUNTIME" khuấy tạo bông A
+        public int MI04B_khuayTaoBongB_runtime { get; set; }  // Thời gian "RUNTIME" khuấy tạo bông B
+        public int GBBL05_gatBunBeLang05_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất GBBL 05
+        public int GBBL07_gatBunBeLang07_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất GBBL 07
+        public int GBBL09_gatBunBeLang09_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất GBBL 09
+        public int MC03_khuayPacGD2_runtime { get; set; } // Thời gian "RUNTIME" khuấy PAC GD2
+        public int MC04_khuayPolyGD2_runtime { get; set; } // Thời gian "RUNTIME" khuấy Polyme GD2
+        public int SP05A_bomBun05A_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn 05A
+        public int SP05B_bomBun05B_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn 05B
+        public int SP07A_bomBun07A_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn 07A
+        public int SP07B_bomBun07B_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn 07B
+        public int SP10_bomBunSP10_runtime { get; set; } // Thời gian "RUNTIME" bơm bùn SP10
+        public int MI03A_dlPhen03A_runtime { get; set; } // Thời gian "RUNTIME" bơm định lượng phèn 03A
+        public int DP03B_dlPhen03B_runtime { get; set; } // Thời gian "RUNTIME" bơm định lượng phèn 03B
+        public int DP04A_dlPoly04A_runtime { get; set; } // Thời gian "RUNTIME" bơm định lượng Polyme 04A
+        public int DP04B_dlPoly04B_runtime { get; set; } // Thời gian "RUNTIME" bơm định lượng Polyme 04B
+        public int DP05A_dlXut05A_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất Xút 05A
+        public int DP05B_dlXut05B_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất Xút 05B
+        public int DP06A_dlDD06A_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất Dd 06A
+        public int DP06B_dlDD06B_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất Dd 06B
+        public int DP07A_dlKhuTrung07A_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất khử trùng 07A
+        public int DP07B_dlKhuTrung07B_runtime { get; set; } // Thời gian "RUNTIME" bơm hóa chất khử trùng 07B
     }
 }

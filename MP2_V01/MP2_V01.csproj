@@ -333,12 +333,6 @@
     <None Include="Resources\Icon\User Interface\icons8_maximize_button_32.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ElementBase_Template\ElementBase_Template.csproj">
-      <Project>{9be6681e-b84c-4f1c-82a4-7338df231bee}</Project>
-      <Name>ElementBase_Template</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
       <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
       <VersionMajor>2</VersionMajor>

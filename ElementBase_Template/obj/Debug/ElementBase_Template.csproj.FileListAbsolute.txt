@@ -530,3 +530,4 @@ D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAME
 D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAMEX\Modules\my-phuoc-2\ElementBase_Template\obj\Debug\ElementBase_Template.csproj.CopyComplete
 D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAMEX\Modules\my-phuoc-2\ElementBase_Template\obj\Debug\ElementBase_Template.exe
 D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAMEX\Modules\my-phuoc-2\ElementBase_Template\obj\Debug\ElementBase_Template.pdb
+D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAMEX\Modules\my-phuoc-2\ElementBase_Template\obj\Debug\ElementBase_Template.csproj.AssemblyReference.cache

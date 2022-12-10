@@ -6,16 +6,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using SCADA_footer = B_SCADA_Library_dotNetFramework.Resources.Library.Footer.style_1_bcmStyle.Footer;
-//using SCADA_body = SCADA_MP2.Presentation.Home;
+using BSCADA_Footer = B_SCADA_Library_dotNetFramework.Resources.Library.Footer.style_1_bcmStyle.Footer;
 namespace SCADA_MP2.Presentation
 {
-    class Footer : SCADA_footer
+    class Footer : BSCADA_Footer
     {
 
         public override void picBox_home_Click(Color backgroundColor, Form _parent, Form _body)
         {
             base.picBox_home_Click(backgroundColor, _parent, Program.homePage);
+        }
+
+        public override void picBox_trend_Click(Color backgroundColor, Form _parent, Form _body)
+        {
+            base.picBox_trend_Click(backgroundColor, _parent, _body);
         }
 
         private void InitializeComponent()
@@ -29,6 +33,23 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.picBox_alarm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_home)).BeginInit();
             this.SuspendLayout();
+            // 
+            // defaultParent
+            // 
+            this.defaultParent.Location = new System.Drawing.Point(130, 130);
+            // 
+            // _parent
+            // 
+            this._parent.Location = new System.Drawing.Point(156, 156);
+            // 
+            // defaultBody
+            // 
+            this.defaultBody.Location = new System.Drawing.Point(182, 182);
+            this.defaultBody.Load += new System.EventHandler(this.defaultBody_Load);
+            // 
+            // _body
+            // 
+            this._body.Location = new System.Drawing.Point(208, 208);
             // 
             // Footer
             // 
@@ -45,6 +66,11 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.picBox_alarm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_home)).EndInit();
             this.ResumeLayout(false);
+
+        }
+
+        private void defaultBody_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -8,21 +8,21 @@ namespace SCADA_MP2.Entity.DataBlock
 {
     class PLC3_RuntimeSetting_DB19
     {
-        public short bomNt_02A_setTime { get; set; } // Thời gian cài đặt "RUNTIME" bơm nước thải 02A
-        public short bomNt_02B_setTime { get; set; } // Thời gian cài đặt "RUNTIME" bơm nước thải 02B
-        public short mtk_AB06A_setTime { get; set; } // Thời gian cài đặt "RUNTIME" máy thổi khí AB06A
-        public short mtk_AB06B_setTime { get; set; } // Thời gian cài đặt "RUNTIME" máy thổi khí AB06B
-        public short mtk_AB06C_setTime { get; set; } // Thời gian cài đặt "RUNTIME" máy thổi khí AB06C
-        public short gbbl05_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 05 "ON"
-        public short gbbl05_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 05 "OFF"
-        public short gbbl07_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 07 "ON"
-        public short gbbl07_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 07 "OFF"
-        public short gbbl09_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 09 'ON'
-        public short gbbl09_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 09 'OFF'
-        public short bomBun_05AB_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm bùn 05A và 05B "ON"
-        public short bomBun_05AB_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm bùn 05A và 05B "OFF"
-        public short bomBun_07AB_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm bùn 07A và 07B "ON"
-        public short bomBun_07AB_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm bùn 07A và 07B "OFF"
+        public short WP02A_bomNt02A_setTime { get; set; } // Thời gian cài đặt "RUNTIME" bơm nước thải 02A
+        public short WP02B_bomNt02B_setTime { get; set; } // Thời gian cài đặt "RUNTIME" bơm nước thải 02B
+        public short AB06A_mtkAB06A_setTime { get; set; } // Thời gian cài đặt "RUNTIME" máy thổi khí AB06A
+        public short AB06B_mtkAB06B_setTime { get; set; } // Thời gian cài đặt "RUNTIME" máy thổi khí AB06B
+        public short AB06C_mtkAB06C_setTime { get; set; } // Thời gian cài đặt "RUNTIME" máy thổi khí AB06C
+        public short MS05_gbbl05_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 05 "ON"
+        public short MS05_gbbl05_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 05 "OFF"
+        public short MS07_gbbl07_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 07 "ON"
+        public short MS07_gbbl07_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 07 "OFF"
+        public short MS09_gbbl09_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 09 'ON'
+        public short MS09_gbbl09_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm hóa chất GBBL 09 'OFF'
+        public short SP05AB_bomBun05AB_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm bùn 05A và 05B "ON"
+        public short SP05AB_bomBun05AB_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm bùn 05A và 05B "OFF"
+        public short SP07AB_bomBun07AB_setTime_on { get; set; } // Thời gian cài đặt "RUNTIME" bơm bùn 07A và 07B "ON"
+        public short SP07ABbomBun07AB_setTime_off { get; set; } // Thời gian cài đặt "RUNTIME" bơm bùn 07A và 07B "OFF"
         //-----------------------------------------------------------------------------------------------------
         //public short mayTachRac_setTime { get; set; } // Thời gian cài đặt "RUNTIME" máy tách rác
         //public short khuayKeoTu_GD2_setTime { get; set; } // Thời gian cài đặt "RUNTIME" khuấy keo tụ GD2
