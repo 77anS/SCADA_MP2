@@ -143,7 +143,11 @@ namespace SCADA_MP2.Presentation
             this.standardControl464 = new SymbolFactoryDotNet.StandardControl();
             this.motor_mtk03 = new SymbolFactoryDotNet.StandardControl();
             this.contextFacePlate = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.facePlateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thêmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sửaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.standardControl456 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl493 = new SymbolFactoryDotNet.StandardControl();
@@ -3979,21 +3983,55 @@ namespace SCADA_MP2.Presentation
             // contextFacePlate
             // 
             this.contextFacePlate.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
             this.facePlateToolStripMenuItem,
+            this.thêmToolStripMenuItem,
+            this.xóaToolStripMenuItem,
+            this.sửaToolStripMenuItem,
             this.thoátToolStripMenuItem});
             this.contextFacePlate.Name = "contextFacePlate";
-            this.contextFacePlate.Size = new System.Drawing.Size(146, 48);
+            this.contextFacePlate.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.contextFacePlate.Size = new System.Drawing.Size(181, 158);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Text = "Thông tin";
             // 
             // facePlateToolStripMenuItem
             // 
             this.facePlateToolStripMenuItem.Name = "facePlateToolStripMenuItem";
-            this.facePlateToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.facePlateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.facePlateToolStripMenuItem.Text = "Mặt thông số";
+            this.facePlateToolStripMenuItem.Click += new System.EventHandler(this.facePlateToolStripMenuItem_Click);
+            // 
+            // thêmToolStripMenuItem
+            // 
+            this.thêmToolStripMenuItem.Enabled = false;
+            this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thêmToolStripMenuItem.Text = "Thêm";
+            // 
+            // xóaToolStripMenuItem
+            // 
+            this.xóaToolStripMenuItem.Enabled = false;
+            this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.xóaToolStripMenuItem.Text = "Xóa";
+            // 
+            // sửaToolStripMenuItem
+            // 
+            this.sửaToolStripMenuItem.Enabled = false;
+            this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
+            this.sửaToolStripMenuItem.ShowShortcutKeys = false;
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sửaToolStripMenuItem.Text = "Sửa";
             // 
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.thoátToolStripMenuItem.Text = "Thoát";
             // 
             // standardControl456
@@ -20214,7 +20252,6 @@ namespace SCADA_MP2.Presentation
         private SymbolFactoryDotNet.StandardControl motor_mtk03;
         private System.Windows.Forms.ContextMenuStrip contextFacePlate;
         private System.Windows.Forms.ToolStripMenuItem facePlateToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem;
         private SymbolFactoryDotNet.StandardControl standardControl456;
         private SymbolFactoryDotNet.StandardControl standardControl493;
         private SymbolFactoryDotNet.StandardControl standardControl362;
@@ -20901,5 +20938,10 @@ namespace SCADA_MP2.Presentation
         private System.Windows.Forms.Label label114;
         private System.Windows.Forms.Label label111;
         private System.Windows.Forms.Label label107;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem thêmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xóaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sửaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem;
     }
 }

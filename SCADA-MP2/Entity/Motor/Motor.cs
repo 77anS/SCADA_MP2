@@ -19,7 +19,11 @@ namespace SCADA_MP2.Entity.Motor
         {
 
         }
-        public Motor(object _parent): base(_parent)
+        public Motor(string Name): base(Name)
+        {
+
+        }
+        public Motor(string Name, object _parent): base(Name,_parent)
         {
 
         }

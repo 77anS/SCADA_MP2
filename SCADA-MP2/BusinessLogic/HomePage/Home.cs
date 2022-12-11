@@ -820,30 +820,31 @@ namespace SCADA_MP2.Presentation
             #endregion
             #endregion
 
-            /*
+            
             #region PHAO BỂ GOM
             FFloatControl.showStatus_Float3Level(Convert.ToBoolean(Program.HomePageData.ll101.Value), 
-             Convert.ToBoolean(Program.HomePageData.ml101), Convert.ToBoolean(Program.HomePageData.hl101),
+             Convert.ToBoolean(Program.HomePageData.ml101.Value), Convert.ToBoolean(Program.HomePageData.hl101.Value),
              ll101_phaoBeGom_low,ml101_phaoBeGom_medium,hl101_phaoBeGom_high);
             #endregion
 
             #region PHAO BỂ ĐIỀU HÒA
-            FFloatControl.showStatus_Float2Level(Convert.ToBoolean(Program.HomePageData.ll201), Convert.ToBoolean(Program.HomePageData.hl201),
+            FFloatControl.showStatus_Float2Level(Convert.ToBoolean(Program.HomePageData.ll201.Value), Convert.ToBoolean(Program.HomePageData.hl201.Value),
                 ll201_phaoBeDieuHoa_low, hl201_phaoBeDieuHoa_high);
+
             #endregion
 
             #region HL10: PHAO BỂ BÙN
-            FFloatControl.showStatus_Float1Level(Convert.ToBoolean(Program.HomePageData.hl10), hl10_phaoBeBun_high);
+            FFloatControl.showStatus_Float1Level(Convert.ToBoolean(Program.HomePageData.hl10.Value), hl10_phaoBeBun_high);
             #endregion
 
             #region HL05: PHAO BỂ BÙN
-            FFloatControl.showStatus_Float1Level(Convert.ToBoolean(Program.HomePageData.hl05),hl05_phaoBeBun_high);
+            FFloatControl.showStatus_Float1Level(Convert.ToBoolean(Program.HomePageData.hl05.Value),hl05_phaoBeBun_high);
             #endregion
 
             #region HL07: PHAO BỂ BÙN
-            FFloatControl.showStatus_Float1Level(Convert.ToBoolean(Program.HomePageData.hl07), hl07_phaoBeBun_high);
+            FFloatControl.showStatus_Float1Level(Convert.ToBoolean(Program.HomePageData.hl07.Value), hl07_phaoBeBun_high);
             #endregion
-            */
+            
         }
         /// <summary>
         /// Phương thức: Thực hiện lặp lại BackWorker

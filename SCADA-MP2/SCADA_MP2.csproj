@@ -62,6 +62,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogic\Faceplate\Motor\Faceplate_Motor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BusinessLogic\HomePage\BackWorker_Home.cs" />
     <Compile Include="BusinessLogic\HomePage\Home.cs">
       <SubType>Form</SubType>
@@ -98,6 +101,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentation\Faceplate_Motor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentation\Footer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentation\Faceplate_Motor.resx">
+      <DependentUpon>Faceplate_Motor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentation\Footer.resx">
       <DependentUpon>Footer.cs</DependentUpon>
     </EmbeddedResource>
