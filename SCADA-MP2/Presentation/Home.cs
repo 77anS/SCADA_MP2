@@ -72,8 +72,8 @@ namespace SCADA_MP2.Presentation
                 entity = contextFacePlate.SourceControl as StandardControl;
                 string entityName = entity.Name.ToString();
                 Faceplate_Motor fp_device = new Faceplate_Motor(entityName);
-                fp_device.TopMost = true;
-                fp_device.TopLevel = true;
+                //fp_device.TopMost = true;
+                //fp_device.TopLevel = true;
                 fp_device.Text = entityName;
                 //Control[] temp1 = fp_device.Controls.Find("lb_MotorName", true);
                 //Control facePlateTitle = temp1[0];

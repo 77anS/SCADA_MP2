@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using BSCADA_Entity = SCADA_MP2.Entity.Motor;
 using BSCADA_Base = B_SCADA_Library_dotNetFramework.BaseClass.Faceplate.Motor;
 using B_SCADA_Library_dotNetFramework.BaseClass.Driver.PLC.SIMATIC_S7;
+using System.Windows.Forms;
 namespace SCADA_MP2.Presentation
 {
     public partial class Faceplate_Motor
@@ -17,6 +18,7 @@ namespace SCADA_MP2.Presentation
         public BSCADA_Entity.Motor UserState = new BSCADA_Entity.Motor(); // CLASS FOR COMPARE
         public BSCADA_Base.Faceplate_Motor faceplate_Motor = new BSCADA_Base.Faceplate_Motor();
         public Request requestPLC = new Request();
+        
         #endregion
 
         #region CONSTRUCTOR
@@ -39,7 +41,12 @@ namespace SCADA_MP2.Presentation
         public override void Motor_Load(object sender, EventArgs e)
         {
             RunBackWorker(); // Run BackWorker
-
+            btnModeAuto.Enabled = false;
+            btnModeMan.Enabled = false;
+            btnModeOff.Enabled = false;
+            btnOn.Enabled = false;
+            btnOff.Enabled = false;
+            btnStoptimeSetting_setCmd.Enabled = false;
         }
 
         #region BACKWORKER 1: UPDATE UI
@@ -95,9 +102,9 @@ namespace SCADA_MP2.Presentation
         #endregion
 
         #region BACKWORKER 2: CMD
-        public override void RunBackWorker_CMD(string entityName, byte plcNumber)
+        public override void RunBackWorker_CMD(string entityName, byte plcNumber, byte writeIndexOfFaceplate)
         {
-            base.RunBackWorker_CMD(entityName, plcNumber);
+            base.RunBackWorker_CMD(entityName, plcNumber, writeIndexOfFaceplate);
         }
         public override void StopBackWorker_CMD()
         {
@@ -141,6 +148,36 @@ namespace SCADA_MP2.Presentation
                             break;
                         case 6: // SET [RUNTIME SETTING] SET
                             requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 16,5, Convert.ToInt16(this.tbRuntimeSetting_setVallue.Text));
+                            MessageBox.Show("SET SUCCESS!");
+                            break;
+                        case 7: // SET [STOPTIME SETTING] SET
+                            //requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 100,2, true);
+                            break;
+                        case 8: // SET [RESET RUNTIME TOTAL] CMD
+                            //requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 100,2, true);
+                            break;
+                    }
+                    break;
+                case "motor_mtk02":
+                    switch (this.writeIndexOfFacePlate)
+                    {
+                        case 1: // SET [AUTO] MODE
+                            //requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 100,2, true);
+                            break;
+                        case 2: // SET [MAN] MODE
+                            //requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 100,2, true);
+                            break;
+                        case 3: // SET [OFF] MODE
+                            //requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 100,2, true);
+                            break;
+                        case 4: // SET [START] CMD
+                            //requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 100,2, true);
+                            break;
+                        case 5: // SET [STOP] CMD
+                            //requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 100,2, true);
+                            break;
+                        case 6: // SET [RUNTIME SETTING] SET
+                            requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 16, 5, Convert.ToInt16(this.tbRuntimeSetting_setVallue.Text));
                             break;
                         case 7: // SET [STOPTIME SETTING] SET
                             //requestPLC.writePLC_DataBlock(Program.BSCADA.FindPLC("PLC1").plc, 100,2, true);
@@ -166,9 +203,75 @@ namespace SCADA_MP2.Presentation
             switch (this.entityName)
             {
                 case "motor_mtk01":
-                    RunBackWorker_CMD(this.entityName, 1);
+                    RunBackWorker_CMD(this.entityName,1,1);
+                    break;
+                case "motor_mtk02":
+                    RunBackWorker_CMD(this.entityName, 1, 1);
+                    break;
+                case "motor_mtk03":
+                    RunBackWorker_CMD(this.entityName, 1, 1);
                     break;
             }
+        }
+
+        public override void btnModeMan_Click(object sender, EventArgs e)
+        {
+            base.btnModeMan_Click(sender, e);
+        }
+
+        public override void btnModeOff_Click(object sender, EventArgs e)
+        {
+            base.btnModeOff_Click(sender, e);
+        }
+
+        public override void btnOn_Click(object sender, EventArgs e)
+        {
+            base.btnOn_Click(sender, e);
+        }
+
+        public override void btnOff_Click(object sender, EventArgs e)
+        {
+            base.btnOff_Click(sender, e);
+        }
+
+        public override void btnRuntimeSetting_SetCmd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(!backWorker_FaceplateMotor_CMD.IsBusy)
+                {
+                    switch (this.entityName)
+                    {
+                        case "motor_mtk01":
+                            RunBackWorker_CMD(this.entityName, 1, 6);
+                            break;
+                        case "motor_mtk02":
+                            RunBackWorker_CMD(this.entityName, 1, 6);
+                            break;
+                        case "motor_mtk03":
+                            RunBackWorker_CMD(this.entityName, 1, 6);
+                            break;
+                    }
+                }    
+                else
+                {
+                    MessageBox.Show("Không thể chạy BackWorker 2 lần!");
+                }    
+
+            }
+            catch(Exception ex)
+            {
+                var a = MessageBox.Show(ex.Message);
+            }
+        }
+        public override void btnStoptimeSetting_setCmd_Click(object sender, EventArgs e)
+        {
+            base.btnStoptimeSetting_setCmd_Click(sender, e);
+        }
+
+        public override void btnConfirm_Click(object sender, EventArgs e)
+        {
+            base.btnConfirm_Click(sender, e);
         }
         #endregion
     }

@@ -69,7 +69,7 @@ namespace SCADA_MP2.Presentation
             try
             {
                 // CODE CHẠY TÁC VỤ Ở BACKGROUND TẠI LUỒNG RIÊNG:
-                System.Threading.Thread.Sleep(250);
+                System.Threading.Thread.Sleep(1000);
                 Program.HomePageData.FlowInCap = fakeData.random_float(70.5f, 75.55f);
                 Program.HomePageData.FlowInTotal = fakeData.random_float(146586.57f, 146789.56f);
                 Program.HomePageData.FlowOutCap = fakeData.random_float(14.5f, 15);

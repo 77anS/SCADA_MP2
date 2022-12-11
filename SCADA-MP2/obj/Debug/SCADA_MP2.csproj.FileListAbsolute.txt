@@ -31,3 +31,4 @@ D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAME
 D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAMEX\Modules\my-phuoc-2\SCADA-MP2\obj\Debug\SCADA-MP2.pdb
 D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAMEX\Modules\my-phuoc-2\SCADA-MP2\obj\Debug\SCADA_MP2.Presentation.InfoDeviceList.resources
 D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAMEX\Modules\my-phuoc-2\SCADA-MP2\obj\Debug\SCADA_MP2.Presentation.Faceplate_Motor.resources
+D:\AndrewSwift\3002_Workspace\2001_Developing\1001_SCADA_PROJECTS_NM_XLNT_BECAMEX\Modules\my-phuoc-2\SCADA-MP2\obj\Debug\SCADA_MP2.csproj.AssemblyReference.cache
