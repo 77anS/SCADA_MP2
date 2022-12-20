@@ -37,6 +37,13 @@ namespace SCADA_MP2.Presentation
             this.label129 = new System.Windows.Forms.Label();
             this.standardControl71 = new SymbolFactoryDotNet.StandardControl();
             this.motor_mkt03 = new SymbolFactoryDotNet.StandardControl();
+            this.contextFacePlate = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.facePlateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thêmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sửaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label132 = new System.Windows.Forms.Label();
             this.label131 = new System.Windows.Forms.Label();
             this.standardControl283 = new SymbolFactoryDotNet.StandardControl();
@@ -142,13 +149,6 @@ namespace SCADA_MP2.Presentation
             this.standardControl465 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl464 = new SymbolFactoryDotNet.StandardControl();
             this.motor_mtk03 = new SymbolFactoryDotNet.StandardControl();
-            this.contextFacePlate = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.facePlateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thêmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sửaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.standardControl456 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl493 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl362 = new SymbolFactoryDotNet.StandardControl();
@@ -291,7 +291,7 @@ namespace SCADA_MP2.Presentation
             this.standardControl247 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl15 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl12 = new SymbolFactoryDotNet.StandardControl();
-            this.motor_mt09 = new SymbolFactoryDotNet.StandardControl();
+            this.motor_mc09 = new SymbolFactoryDotNet.StandardControl();
             this.motor_mc03 = new SymbolFactoryDotNet.StandardControl();
             this.motor_mt03 = new SymbolFactoryDotNet.StandardControl();
             this.motor_mtetn = new SymbolFactoryDotNet.StandardControl();
@@ -586,7 +586,7 @@ namespace SCADA_MP2.Presentation
             this.motor_th3 = new SymbolFactoryDotNet.StandardControl();
             this.motor_sp10 = new SymbolFactoryDotNet.StandardControl();
             this.motor_dp04a_1p2 = new SymbolFactoryDotNet.StandardControl();
-            this.motor_dp04b_2p2 = new SymbolFactoryDotNet.StandardControl();
+            this.motor_dp04a_2p2 = new SymbolFactoryDotNet.StandardControl();
             this.motor_p0201 = new SymbolFactoryDotNet.StandardControl();
             this.motor_p0202 = new SymbolFactoryDotNet.StandardControl();
             this.motor_th2 = new SymbolFactoryDotNet.StandardControl();
@@ -839,6 +839,7 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mkt03)).BeginInit();
+            this.contextFacePlate.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl283)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl231)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl569)).BeginInit();
@@ -935,7 +936,6 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.standardControl465)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl464)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mtk03)).BeginInit();
-            this.contextFacePlate.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl456)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl493)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl362)).BeginInit();
@@ -1078,7 +1078,7 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.standardControl247)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.motor_mt09)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.motor_mc09)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mc03)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mt03)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mtetn)).BeginInit();
@@ -1344,7 +1344,7 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.motor_th3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_sp10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_dp04a_1p2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.motor_dp04b_2p2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.motor_dp04a_2p2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_p0201)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_p0202)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_th2)).BeginInit();
@@ -1557,6 +1557,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mkt03.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mkt03.BlinkColor = System.Drawing.Color.Red;
             this.motor_mkt03.Category = "1PMP.cat2";
+            this.motor_mkt03.ContextMenuStrip = this.contextFacePlate;
             this.motor_mkt03.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mkt03.DebugData"));
             this.motor_mkt03.FillColor = System.Drawing.Color.Silver;
             this.motor_mkt03.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -1566,6 +1567,61 @@ namespace SCADA_MP2.Presentation
             this.motor_mkt03.Size = new System.Drawing.Size(58, 63);
             this.motor_mkt03.SymbolHandle = ((long)(1852304797));
             this.motor_mkt03.TabIndex = 1206;
+            // 
+            // contextFacePlate
+            // 
+            this.contextFacePlate.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.facePlateToolStripMenuItem,
+            this.thêmToolStripMenuItem,
+            this.xóaToolStripMenuItem,
+            this.sửaToolStripMenuItem,
+            this.thoátToolStripMenuItem});
+            this.contextFacePlate.Name = "contextFacePlate";
+            this.contextFacePlate.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.contextFacePlate.Size = new System.Drawing.Size(146, 136);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Enabled = false;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(145, 22);
+            this.toolStripMenuItem1.Text = "Thông tin";
+            // 
+            // facePlateToolStripMenuItem
+            // 
+            this.facePlateToolStripMenuItem.Name = "facePlateToolStripMenuItem";
+            this.facePlateToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.facePlateToolStripMenuItem.Text = "Mặt thông số";
+            this.facePlateToolStripMenuItem.Click += new System.EventHandler(this.facePlateToolStripMenuItem_Click);
+            // 
+            // thêmToolStripMenuItem
+            // 
+            this.thêmToolStripMenuItem.Enabled = false;
+            this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.thêmToolStripMenuItem.Text = "Thêm";
+            // 
+            // xóaToolStripMenuItem
+            // 
+            this.xóaToolStripMenuItem.Enabled = false;
+            this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.xóaToolStripMenuItem.Text = "Xóa";
+            // 
+            // sửaToolStripMenuItem
+            // 
+            this.sửaToolStripMenuItem.Enabled = false;
+            this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
+            this.sửaToolStripMenuItem.ShowShortcutKeys = false;
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.sửaToolStripMenuItem.Text = "Sửa";
+            // 
+            // thoátToolStripMenuItem
+            // 
+            this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.thoátToolStripMenuItem.Text = "Thoát";
             // 
             // label132
             // 
@@ -2227,6 +2283,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt06_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mt06_2p2.BlinkColor = System.Drawing.Color.Red;
             this.motor_mt06_2p2.Category = "1MXR.cat2";
+            this.motor_mt06_2p2.ContextMenuStrip = this.contextFacePlate;
             this.motor_mt06_2p2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt06_2p2.DebugData"));
             this.motor_mt06_2p2.FillColor = System.Drawing.Color.Silver;
             this.motor_mt06_2p2.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2236,6 +2293,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt06_2p2.Size = new System.Drawing.Size(49, 53);
             this.motor_mt06_2p2.SymbolHandle = ((long)(1466377765));
             this.motor_mt06_2p2.TabIndex = 1177;
+            this.motor_mt06_2p2.Load += new System.EventHandler(this.motor_mt06_2p2_Load);
             // 
             // standardControl406
             // 
@@ -2375,6 +2433,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp06_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp06_2p2.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp06_2p2.Category = "1PMP.cat2";
+            this.motor_dp06_2p2.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp06_2p2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp06_2p2.DebugData"));
             this.motor_dp06_2p2.FillColor = System.Drawing.Color.Silver;
             this.motor_dp06_2p2.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2384,6 +2443,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp06_2p2.Size = new System.Drawing.Size(34, 42);
             this.motor_dp06_2p2.SymbolHandle = ((long)(1304010978));
             this.motor_dp06_2p2.TabIndex = 1178;
+            this.motor_dp06_2p2.Load += new System.EventHandler(this.motor_dp06_2p2_Load);
             // 
             // label106
             // 
@@ -2713,6 +2773,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp01.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp01.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp01.Category = "1PMP.cat2";
+            this.motor_dp01.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp01.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp01.DebugData"));
             this.motor_dp01.FillColor = System.Drawing.Color.Silver;
             this.motor_dp01.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2723,6 +2784,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp01.Size = new System.Drawing.Size(34, 42);
             this.motor_dp01.SymbolHandle = ((long)(1304010978));
             this.motor_dp01.TabIndex = 1159;
+            this.motor_dp01.Load += new System.EventHandler(this.motor_dp01_Load);
             // 
             // label77
             // 
@@ -2749,6 +2811,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp11.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sp11.BlinkColor = System.Drawing.Color.Red;
             this.motor_sp11.Category = "1PMP.cat2";
+            this.motor_sp11.ContextMenuStrip = this.contextFacePlate;
             this.motor_sp11.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sp11.DebugData"));
             this.motor_sp11.FillColor = System.Drawing.Color.Silver;
             this.motor_sp11.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2759,6 +2822,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp11.Size = new System.Drawing.Size(24, 54);
             this.motor_sp11.SymbolHandle = ((long)(308175090));
             this.motor_sp11.TabIndex = 1158;
+            this.motor_sp11.Load += new System.EventHandler(this.motor_sp11_Load);
             // 
             // label52
             // 
@@ -2785,6 +2849,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ms05.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_ms05.BlinkColor = System.Drawing.Color.Red;
             this.motor_ms05.Category = "1MTR.cat2";
+            this.motor_ms05.ContextMenuStrip = this.contextFacePlate;
             this.motor_ms05.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_ms05.DebugData"));
             this.motor_ms05.FillColor = System.Drawing.Color.Silver;
             this.motor_ms05.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2808,6 +2873,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp09b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp09b.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp09b.Category = "1PMP.cat2";
+            this.motor_dp09b.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp09b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp09b.DebugData"));
             this.motor_dp09b.FillColor = System.Drawing.Color.Silver;
             this.motor_dp09b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2817,6 +2883,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp09b.Size = new System.Drawing.Size(23, 41);
             this.motor_dp09b.SymbolHandle = ((long)(639444630));
             this.motor_dp09b.TabIndex = 769;
+            this.motor_dp09b.Load += new System.EventHandler(this.motor_dp09b_Load);
             // 
             // motor_dp06b
             // 
@@ -2831,6 +2898,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp06b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp06b.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp06b.Category = "1PMP.cat2";
+            this.motor_dp06b.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp06b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp06b.DebugData"));
             this.motor_dp06b.FillColor = System.Drawing.Color.Silver;
             this.motor_dp06b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2854,6 +2922,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp05b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp05b.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp05b.Category = "1PMP.cat2";
+            this.motor_dp05b.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp05b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp05b.DebugData"));
             this.motor_dp05b.FillColor = System.Drawing.Color.Silver;
             this.motor_dp05b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2877,6 +2946,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp09a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp09a.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp09a.Category = "1PMP.cat2";
+            this.motor_dp09a.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp09a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp09a.DebugData"));
             this.motor_dp09a.FillColor = System.Drawing.Color.Silver;
             this.motor_dp09a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2885,6 +2955,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp09a.Size = new System.Drawing.Size(23, 41);
             this.motor_dp09a.SymbolHandle = ((long)(639444630));
             this.motor_dp09a.TabIndex = 764;
+            this.motor_dp09a.Load += new System.EventHandler(this.motor_dp09a_Load);
             // 
             // motor_dp06a
             // 
@@ -2899,6 +2970,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp06a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp06a.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp06a.Category = "1PMP.cat2";
+            this.motor_dp06a.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp06a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp06a.DebugData"));
             this.motor_dp06a.FillColor = System.Drawing.Color.Silver;
             this.motor_dp06a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2921,6 +2993,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp07b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp07b.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp07b.Category = "1PMP.cat2";
+            this.motor_dp07b.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp07b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp07b.DebugData"));
             this.motor_dp07b.FillColor = System.Drawing.Color.Silver;
             this.motor_dp07b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2929,6 +3002,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp07b.Size = new System.Drawing.Size(23, 41);
             this.motor_dp07b.SymbolHandle = ((long)(639444630));
             this.motor_dp07b.TabIndex = 762;
+            this.motor_dp07b.Load += new System.EventHandler(this.motor_dp07b_Load);
             // 
             // motor_dp07a
             // 
@@ -2943,6 +3017,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp07a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp07a.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp07a.Category = "1PMP.cat2";
+            this.motor_dp07a.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp07a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp07a.DebugData"));
             this.motor_dp07a.FillColor = System.Drawing.Color.Silver;
             this.motor_dp07a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2951,6 +3026,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp07a.Size = new System.Drawing.Size(23, 41);
             this.motor_dp07a.SymbolHandle = ((long)(639444630));
             this.motor_dp07a.TabIndex = 773;
+            this.motor_dp07a.Load += new System.EventHandler(this.motor_dp07a_Load);
             // 
             // motor_dp05a
             // 
@@ -2965,6 +3041,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp05a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp05a.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp05a.Category = "1PMP.cat2";
+            this.motor_dp05a.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp05a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp05a.DebugData"));
             this.motor_dp05a.FillColor = System.Drawing.Color.Silver;
             this.motor_dp05a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -2987,6 +3064,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp03b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp03b.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp03b.Category = "1PMP.cat2";
+            this.motor_dp03b.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp03b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp03b.DebugData"));
             this.motor_dp03b.FillColor = System.Drawing.Color.Silver;
             this.motor_dp03b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -3010,6 +3088,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp03a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp03a.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp03a.Category = "1PMP.cat2";
+            this.motor_dp03a.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp03a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp03a.DebugData"));
             this.motor_dp03a.FillColor = System.Drawing.Color.Silver;
             this.motor_dp03a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -3032,6 +3111,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp04b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp04b.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp04b.Category = "1PMP.cat2";
+            this.motor_dp04b.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp04b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp04b.DebugData"));
             this.motor_dp04b.FillColor = System.Drawing.Color.Silver;
             this.motor_dp04b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -3055,6 +3135,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp04a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp04a.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp04a.Category = "1PMP.cat2";
+            this.motor_dp04a.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp04a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp04a.DebugData"));
             this.motor_dp04a.FillColor = System.Drawing.Color.Silver;
             this.motor_dp04a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -3176,6 +3257,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ms09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_ms09.BlinkColor = System.Drawing.Color.Red;
             this.motor_ms09.Category = "1PMP.cat2";
+            this.motor_ms09.ContextMenuStrip = this.contextFacePlate;
             this.motor_ms09.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_ms09.DebugData"));
             this.motor_ms09.FillColor = System.Drawing.Color.Silver;
             this.motor_ms09.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -3184,6 +3266,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ms09.Size = new System.Drawing.Size(33, 50);
             this.motor_ms09.SymbolHandle = ((long)(387528528));
             this.motor_ms09.TabIndex = 1150;
+            this.motor_ms09.Load += new System.EventHandler(this.motor_ms09_Load);
             // 
             // standardControl529
             // 
@@ -3847,6 +3930,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ggb.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_ggb.BlinkColor = System.Drawing.Color.Red;
             this.motor_ggb.Category = "1MTR.cat2";
+            this.motor_ggb.ContextMenuStrip = this.contextFacePlate;
             this.motor_ggb.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_ggb.DebugData"));
             this.motor_ggb.FillColor = System.Drawing.Color.Silver;
             this.motor_ggb.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -3856,6 +3940,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ggb.Size = new System.Drawing.Size(42, 41);
             this.motor_ggb.SymbolHandle = ((long)(1516606798));
             this.motor_ggb.TabIndex = 1136;
+            this.motor_ggb.Load += new System.EventHandler(this.motor_ggb_Load);
             // 
             // motor_gb1
             // 
@@ -3870,6 +3955,7 @@ namespace SCADA_MP2.Presentation
             this.motor_gb1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_gb1.BlinkColor = System.Drawing.Color.Red;
             this.motor_gb1.Category = "1MTR.cat2";
+            this.motor_gb1.ContextMenuStrip = this.contextFacePlate;
             this.motor_gb1.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_gb1.DebugData"));
             this.motor_gb1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_gb1.Location = new System.Drawing.Point(1570, 166);
@@ -3979,60 +4065,6 @@ namespace SCADA_MP2.Presentation
             this.motor_mtk03.SymbolHandle = ((long)(1852304797));
             this.motor_mtk03.TabIndex = 717;
             this.motor_mtk03.Tag = "MÁY THỔI KHÍ \"MTK03\"";
-            // 
-            // contextFacePlate
-            // 
-            this.contextFacePlate.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.facePlateToolStripMenuItem,
-            this.thêmToolStripMenuItem,
-            this.xóaToolStripMenuItem,
-            this.sửaToolStripMenuItem,
-            this.thoátToolStripMenuItem});
-            this.contextFacePlate.Name = "contextFacePlate";
-            this.contextFacePlate.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.contextFacePlate.Size = new System.Drawing.Size(181, 158);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem1.Text = "Thông tin";
-            // 
-            // facePlateToolStripMenuItem
-            // 
-            this.facePlateToolStripMenuItem.Name = "facePlateToolStripMenuItem";
-            this.facePlateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.facePlateToolStripMenuItem.Text = "Mặt thông số";
-            this.facePlateToolStripMenuItem.Click += new System.EventHandler(this.facePlateToolStripMenuItem_Click);
-            // 
-            // thêmToolStripMenuItem
-            // 
-            this.thêmToolStripMenuItem.Enabled = false;
-            this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
-            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.thêmToolStripMenuItem.Text = "Thêm";
-            // 
-            // xóaToolStripMenuItem
-            // 
-            this.xóaToolStripMenuItem.Enabled = false;
-            this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.xóaToolStripMenuItem.Text = "Xóa";
-            // 
-            // sửaToolStripMenuItem
-            // 
-            this.sửaToolStripMenuItem.Enabled = false;
-            this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
-            this.sửaToolStripMenuItem.ShowShortcutKeys = false;
-            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sửaToolStripMenuItem.Text = "Sửa";
-            // 
-            // thoátToolStripMenuItem
-            // 
-            this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.thoátToolStripMenuItem.Text = "Thoát";
             // 
             // standardControl456
             // 
@@ -4306,6 +4338,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ms07.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_ms07.BlinkColor = System.Drawing.Color.Red;
             this.motor_ms07.Category = "1MTR.cat2";
+            this.motor_ms07.ContextMenuStrip = this.contextFacePlate;
             this.motor_ms07.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_ms07.DebugData"));
             this.motor_ms07.FillColor = System.Drawing.Color.Silver;
             this.motor_ms07.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -4985,6 +5018,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sm05.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sm05.BlinkColor = System.Drawing.Color.Red;
             this.motor_sm05.Category = "1MXR.cat2";
+            this.motor_sm05.ContextMenuStrip = this.contextFacePlate;
             this.motor_sm05.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sm05.DebugData"));
             this.motor_sm05.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_sm05.Flip = SymbolFactoryNetEngine.FlipOptions.Horizontal;
@@ -5008,6 +5042,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sm01.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sm01.BlinkColor = System.Drawing.Color.Red;
             this.motor_sm01.Category = "1MXR.cat2";
+            this.motor_sm01.ContextMenuStrip = this.contextFacePlate;
             this.motor_sm01.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sm01.DebugData"));
             this.motor_sm01.FillColor = System.Drawing.Color.Silver;
             this.motor_sm01.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -5032,6 +5067,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sm08.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sm08.BlinkColor = System.Drawing.Color.Red;
             this.motor_sm08.Category = "1MXR.cat2";
+            this.motor_sm08.ContextMenuStrip = this.contextFacePlate;
             this.motor_sm08.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sm08.DebugData"));
             this.motor_sm08.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_sm08.Location = new System.Drawing.Point(982, 249);
@@ -5054,6 +5090,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sm04.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sm04.BlinkColor = System.Drawing.Color.Red;
             this.motor_sm04.Category = "1MXR.cat2";
+            this.motor_sm04.ContextMenuStrip = this.contextFacePlate;
             this.motor_sm04.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sm04.DebugData"));
             this.motor_sm04.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_sm04.Location = new System.Drawing.Point(984, 181);
@@ -5076,6 +5113,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sm06.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sm06.BlinkColor = System.Drawing.Color.Red;
             this.motor_sm06.Category = "1MXR.cat2";
+            this.motor_sm06.ContextMenuStrip = this.contextFacePlate;
             this.motor_sm06.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sm06.DebugData"));
             this.motor_sm06.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_sm06.Location = new System.Drawing.Point(938, 249);
@@ -5098,6 +5136,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sm07.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sm07.BlinkColor = System.Drawing.Color.Red;
             this.motor_sm07.Category = "1MXR.cat2";
+            this.motor_sm07.ContextMenuStrip = this.contextFacePlate;
             this.motor_sm07.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sm07.DebugData"));
             this.motor_sm07.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_sm07.Flip = SymbolFactoryNetEngine.FlipOptions.Horizontal;
@@ -5121,6 +5160,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sm02.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sm02.BlinkColor = System.Drawing.Color.Red;
             this.motor_sm02.Category = "1MXR.cat2";
+            this.motor_sm02.ContextMenuStrip = this.contextFacePlate;
             this.motor_sm02.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sm02.DebugData"));
             this.motor_sm02.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_sm02.Location = new System.Drawing.Point(940, 181);
@@ -5143,6 +5183,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sm03.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sm03.BlinkColor = System.Drawing.Color.Red;
             this.motor_sm03.Category = "1MXR.cat2";
+            this.motor_sm03.ContextMenuStrip = this.contextFacePlate;
             this.motor_sm03.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sm03.DebugData"));
             this.motor_sm03.FillColor = System.Drawing.Color.Lime;
             this.motor_sm03.Flip = SymbolFactoryNetEngine.FlipOptions.Horizontal;
@@ -5319,6 +5360,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt02b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mt02b.BlinkColor = System.Drawing.Color.Red;
             this.motor_mt02b.Category = "1MXR.cat2";
+            this.motor_mt02b.ContextMenuStrip = this.contextFacePlate;
             this.motor_mt02b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt02b.DebugData"));
             this.motor_mt02b.FillColor = System.Drawing.Color.Silver;
             this.motor_mt02b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -5342,6 +5384,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt02a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mt02a.BlinkColor = System.Drawing.Color.Red;
             this.motor_mt02a.Category = "1MXR.cat2";
+            this.motor_mt02a.ContextMenuStrip = this.contextFacePlate;
             this.motor_mt02a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt02a.DebugData"));
             this.motor_mt02a.FillColor = System.Drawing.Color.Silver;
             this.motor_mt02a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -5365,6 +5408,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt01.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mt01.BlinkColor = System.Drawing.Color.Red;
             this.motor_mt01.Category = "1MXR.cat2";
+            this.motor_mt01.ContextMenuStrip = this.contextFacePlate;
             this.motor_mt01.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt01.DebugData"));
             this.motor_mt01.FillColor = System.Drawing.Color.Silver;
             this.motor_mt01.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -5388,6 +5432,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mi04b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mi04b.BlinkColor = System.Drawing.Color.Red;
             this.motor_mi04b.Category = "1MXR.cat2";
+            this.motor_mi04b.ContextMenuStrip = this.contextFacePlate;
             this.motor_mi04b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mi04b.DebugData"));
             this.motor_mi04b.FillColor = System.Drawing.Color.Silver;
             this.motor_mi04b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -5411,6 +5456,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mi04a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mi04a.BlinkColor = System.Drawing.Color.Red;
             this.motor_mi04a.Category = "1MXR.cat2";
+            this.motor_mi04a.ContextMenuStrip = this.contextFacePlate;
             this.motor_mi04a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mi04a.DebugData"));
             this.motor_mi04a.FillColor = System.Drawing.Color.Silver;
             this.motor_mi04a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -5434,6 +5480,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mi03.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mi03.BlinkColor = System.Drawing.Color.Red;
             this.motor_mi03.Category = "1MXR.cat2";
+            this.motor_mi03.ContextMenuStrip = this.contextFacePlate;
             this.motor_mi03.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mi03.DebugData"));
             this.motor_mi03.FillColor = System.Drawing.Color.Silver;
             this.motor_mi03.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -6281,6 +6328,7 @@ namespace SCADA_MP2.Presentation
             this.mayTachRac_bs02a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.mayTachRac_bs02a.BlinkColor = System.Drawing.Color.Red;
             this.mayTachRac_bs02a.Category = "1Mach.cat2";
+            this.mayTachRac_bs02a.ContextMenuStrip = this.contextFacePlate;
             this.mayTachRac_bs02a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("mayTachRac_bs02a.DebugData"));
             this.mayTachRac_bs02a.FillColor = System.Drawing.Color.Silver;
             this.mayTachRac_bs02a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -6304,6 +6352,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ab06c.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_ab06c.BlinkColor = System.Drawing.Color.Red;
             this.motor_ab06c.Category = "1PMP.cat2";
+            this.motor_ab06c.ContextMenuStrip = this.contextFacePlate;
             this.motor_ab06c.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_ab06c.DebugData"));
             this.motor_ab06c.FillColor = System.Drawing.Color.Gray;
             this.motor_ab06c.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -6328,6 +6377,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mkt02.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mkt02.BlinkColor = System.Drawing.Color.Red;
             this.motor_mkt02.Category = "1PMP.cat2";
+            this.motor_mkt02.ContextMenuStrip = this.contextFacePlate;
             this.motor_mkt02.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mkt02.DebugData"));
             this.motor_mkt02.FillColor = System.Drawing.Color.Gray;
             this.motor_mkt02.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -6352,6 +6402,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ab06b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_ab06b.BlinkColor = System.Drawing.Color.Red;
             this.motor_ab06b.Category = "1PMP.cat2";
+            this.motor_ab06b.ContextMenuStrip = this.contextFacePlate;
             this.motor_ab06b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_ab06b.DebugData"));
             this.motor_ab06b.FillColor = System.Drawing.Color.Gray;
             this.motor_ab06b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -6403,6 +6454,7 @@ namespace SCADA_MP2.Presentation
             this.motor_ab06a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_ab06a.BlinkColor = System.Drawing.Color.Red;
             this.motor_ab06a.Category = "1PMP.cat2";
+            this.motor_ab06a.ContextMenuStrip = this.contextFacePlate;
             this.motor_ab06a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_ab06a.DebugData"));
             this.motor_ab06a.FillColor = System.Drawing.Color.Gray;
             this.motor_ab06a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -6453,6 +6505,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mkt01.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mkt01.BlinkColor = System.Drawing.Color.Red;
             this.motor_mkt01.Category = "1PMP.cat2";
+            this.motor_mkt01.ContextMenuStrip = this.contextFacePlate;
             this.motor_mkt01.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mkt01.DebugData"));
             this.motor_mkt01.FillColor = System.Drawing.Color.Gray;
             this.motor_mkt01.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -7396,28 +7449,29 @@ namespace SCADA_MP2.Presentation
             this.standardControl12.SymbolHandle = ((long)(1063372356));
             this.standardControl12.TabIndex = 686;
             // 
-            // motor_mt09
+            // motor_mc09
             // 
-            this.motor_mt09.AnalogIntValue1 = ((short)(0));
-            this.motor_mt09.AnalogValue1 = 0D;
-            this.motor_mt09.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
-            this.motor_mt09.BackColor = System.Drawing.Color.Transparent;
-            this.motor_mt09.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.motor_mt09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Silver, "Band1"));
-            this.motor_mt09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Lime, "Band2"));
-            this.motor_mt09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band3"));
-            this.motor_mt09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
-            this.motor_mt09.BlinkColor = System.Drawing.Color.Red;
-            this.motor_mt09.Category = "1MXR.cat2";
-            this.motor_mt09.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt09.DebugData"));
-            this.motor_mt09.FillColor = System.Drawing.Color.Silver;
-            this.motor_mt09.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.motor_mt09.Location = new System.Drawing.Point(5, 851);
-            this.motor_mt09.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.motor_mt09.Name = "motor_mt09";
-            this.motor_mt09.Size = new System.Drawing.Size(49, 53);
-            this.motor_mt09.SymbolHandle = ((long)(1466377765));
-            this.motor_mt09.TabIndex = 757;
+            this.motor_mc09.AnalogIntValue1 = ((short)(0));
+            this.motor_mc09.AnalogValue1 = 0D;
+            this.motor_mc09.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
+            this.motor_mc09.BackColor = System.Drawing.Color.Transparent;
+            this.motor_mc09.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.motor_mc09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Silver, "Band1"));
+            this.motor_mc09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Lime, "Band2"));
+            this.motor_mc09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band3"));
+            this.motor_mc09.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
+            this.motor_mc09.BlinkColor = System.Drawing.Color.Red;
+            this.motor_mc09.Category = "1MXR.cat2";
+            this.motor_mc09.ContextMenuStrip = this.contextFacePlate;
+            this.motor_mc09.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mc09.DebugData"));
+            this.motor_mc09.FillColor = System.Drawing.Color.Silver;
+            this.motor_mc09.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
+            this.motor_mc09.Location = new System.Drawing.Point(5, 851);
+            this.motor_mc09.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.motor_mc09.Name = "motor_mc09";
+            this.motor_mc09.Size = new System.Drawing.Size(49, 53);
+            this.motor_mc09.SymbolHandle = ((long)(1466377765));
+            this.motor_mc09.TabIndex = 757;
             // 
             // motor_mc03
             // 
@@ -7432,6 +7486,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mc03.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mc03.BlinkColor = System.Drawing.Color.Red;
             this.motor_mc03.Category = "1MXR.cat2";
+            this.motor_mc03.ContextMenuStrip = this.contextFacePlate;
             this.motor_mc03.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mc03.DebugData"));
             this.motor_mc03.FillColor = System.Drawing.Color.Silver;
             this.motor_mc03.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -7455,6 +7510,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt03.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mt03.BlinkColor = System.Drawing.Color.Red;
             this.motor_mt03.Category = "1MXR.cat2";
+            this.motor_mt03.ContextMenuStrip = this.contextFacePlate;
             this.motor_mt03.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt03.DebugData"));
             this.motor_mt03.FillColor = System.Drawing.Color.Silver;
             this.motor_mt03.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -7478,6 +7534,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mtetn.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mtetn.BlinkColor = System.Drawing.Color.Red;
             this.motor_mtetn.Category = "1MXR.cat2";
+            this.motor_mtetn.ContextMenuStrip = this.contextFacePlate;
             this.motor_mtetn.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mtetn.DebugData"));
             this.motor_mtetn.FillColor = System.Drawing.Color.Silver;
             this.motor_mtetn.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -7501,6 +7558,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt06_01p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mt06_01p2.BlinkColor = System.Drawing.Color.Red;
             this.motor_mt06_01p2.Category = "1MXR.cat2";
+            this.motor_mt06_01p2.ContextMenuStrip = this.contextFacePlate;
             this.motor_mt06_01p2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt06_01p2.DebugData"));
             this.motor_mt06_01p2.FillColor = System.Drawing.Color.Silver;
             this.motor_mt06_01p2.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -7524,6 +7582,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt04.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mt04.BlinkColor = System.Drawing.Color.Red;
             this.motor_mt04.Category = "1MXR.cat2";
+            this.motor_mt04.ContextMenuStrip = this.contextFacePlate;
             this.motor_mt04.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt04.DebugData"));
             this.motor_mt04.FillColor = System.Drawing.Color.Silver;
             this.motor_mt04.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -7547,6 +7606,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mt05.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mt05.BlinkColor = System.Drawing.Color.Red;
             this.motor_mt05.Category = "1MXR.cat2";
+            this.motor_mt05.ContextMenuStrip = this.contextFacePlate;
             this.motor_mt05.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mt05.DebugData"));
             this.motor_mt05.FillColor = System.Drawing.Color.Silver;
             this.motor_mt05.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -7570,6 +7630,7 @@ namespace SCADA_MP2.Presentation
             this.motor_mc04.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_mc04.BlinkColor = System.Drawing.Color.Red;
             this.motor_mc04.Category = "1MXR.cat2";
+            this.motor_mc04.ContextMenuStrip = this.contextFacePlate;
             this.motor_mc04.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_mc04.DebugData"));
             this.motor_mc04.FillColor = System.Drawing.Color.Silver;
             this.motor_mc04.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -13927,6 +13988,7 @@ namespace SCADA_MP2.Presentation
             this.standardControl161.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
             this.standardControl161.BlinkColor = System.Drawing.Color.Red;
             this.standardControl161.Category = "1TANK.cat2";
+            this.standardControl161.ContextMenuStrip = this.contextFacePlate;
             this.standardControl161.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl161.DebugData"));
             this.standardControl161.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.standardControl161.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -13936,6 +13998,7 @@ namespace SCADA_MP2.Presentation
             this.standardControl161.Size = new System.Drawing.Size(38, 99);
             this.standardControl161.SymbolHandle = ((long)(1454384099));
             this.standardControl161.TabIndex = 748;
+            this.standardControl161.Load += new System.EventHandler(this.standardControl161_Load);
             // 
             // standardControl147
             // 
@@ -14260,6 +14323,7 @@ namespace SCADA_MP2.Presentation
             this.motor_bb2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_bb2.BlinkColor = System.Drawing.Color.Red;
             this.motor_bb2.Category = "1PMP.cat2";
+            this.motor_bb2.ContextMenuStrip = this.contextFacePlate;
             this.motor_bb2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_bb2.DebugData"));
             this.motor_bb2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_bb2.Location = new System.Drawing.Point(1833, 66);
@@ -14282,6 +14346,7 @@ namespace SCADA_MP2.Presentation
             this.motor_wp02b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_wp02b.BlinkColor = System.Drawing.Color.Red;
             this.motor_wp02b.Category = "1PMP.cat2";
+            this.motor_wp02b.ContextMenuStrip = this.contextFacePlate;
             this.motor_wp02b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_wp02b.DebugData"));
             this.motor_wp02b.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_wp02b.Location = new System.Drawing.Point(686, 208);
@@ -14316,6 +14381,7 @@ namespace SCADA_MP2.Presentation
             this.motor_bb1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_bb1.BlinkColor = System.Drawing.Color.Red;
             this.motor_bb1.Category = "1PMP.cat2";
+            this.motor_bb1.ContextMenuStrip = this.contextFacePlate;
             this.motor_bb1.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_bb1.DebugData"));
             this.motor_bb1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_bb1.Location = new System.Drawing.Point(1801, 66);
@@ -14338,6 +14404,7 @@ namespace SCADA_MP2.Presentation
             this.motor_wp02a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_wp02a.BlinkColor = System.Drawing.Color.Red;
             this.motor_wp02a.Category = "1PMP.cat2";
+            this.motor_wp02a.ContextMenuStrip = this.contextFacePlate;
             this.motor_wp02a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_wp02a.DebugData"));
             this.motor_wp02a.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_wp02a.Location = new System.Drawing.Point(654, 208);
@@ -14360,6 +14427,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp05a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sp05a.BlinkColor = System.Drawing.Color.Red;
             this.motor_sp05a.Category = "1PMP.cat2";
+            this.motor_sp05a.ContextMenuStrip = this.contextFacePlate;
             this.motor_sp05a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sp05a.DebugData"));
             this.motor_sp05a.FillColor = System.Drawing.Color.Silver;
             this.motor_sp05a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -14369,6 +14437,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp05a.Size = new System.Drawing.Size(24, 54);
             this.motor_sp05a.SymbolHandle = ((long)(308175090));
             this.motor_sp05a.TabIndex = 693;
+            this.motor_sp05a.Load += new System.EventHandler(this.motor_sp05a_Load);
             // 
             // motor_sp05b
             // 
@@ -14383,6 +14452,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp05b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sp05b.BlinkColor = System.Drawing.Color.Red;
             this.motor_sp05b.Category = "1PMP.cat2";
+            this.motor_sp05b.ContextMenuStrip = this.contextFacePlate;
             this.motor_sp05b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sp05b.DebugData"));
             this.motor_sp05b.FillColor = System.Drawing.Color.Silver;
             this.motor_sp05b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -14392,6 +14462,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp05b.Size = new System.Drawing.Size(24, 54);
             this.motor_sp05b.SymbolHandle = ((long)(308175090));
             this.motor_sp05b.TabIndex = 692;
+            this.motor_sp05b.Load += new System.EventHandler(this.motor_sp05b_Load);
             // 
             // motor_sp07a
             // 
@@ -14406,6 +14477,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp07a.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sp07a.BlinkColor = System.Drawing.Color.Red;
             this.motor_sp07a.Category = "1PMP.cat2";
+            this.motor_sp07a.ContextMenuStrip = this.contextFacePlate;
             this.motor_sp07a.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sp07a.DebugData"));
             this.motor_sp07a.FillColor = System.Drawing.Color.Silver;
             this.motor_sp07a.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -14415,6 +14487,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp07a.Size = new System.Drawing.Size(24, 54);
             this.motor_sp07a.SymbolHandle = ((long)(308175090));
             this.motor_sp07a.TabIndex = 691;
+            this.motor_sp07a.Load += new System.EventHandler(this.motor_sp07a_Load);
             // 
             // motor_sp07b
             // 
@@ -14429,6 +14502,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp07b.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sp07b.BlinkColor = System.Drawing.Color.Red;
             this.motor_sp07b.Category = "1PMP.cat2";
+            this.motor_sp07b.ContextMenuStrip = this.contextFacePlate;
             this.motor_sp07b.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sp07b.DebugData"));
             this.motor_sp07b.FillColor = System.Drawing.Color.Silver;
             this.motor_sp07b.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -14438,6 +14512,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp07b.Size = new System.Drawing.Size(24, 54);
             this.motor_sp07b.SymbolHandle = ((long)(308175090));
             this.motor_sp07b.TabIndex = 690;
+            this.motor_sp07b.Load += new System.EventHandler(this.motor_sp07b_Load);
             // 
             // motor_th3
             // 
@@ -14452,6 +14527,7 @@ namespace SCADA_MP2.Presentation
             this.motor_th3.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_th3.BlinkColor = System.Drawing.Color.Red;
             this.motor_th3.Category = "1PMP.cat2";
+            this.motor_th3.ContextMenuStrip = this.contextFacePlate;
             this.motor_th3.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_th3.DebugData"));
             this.motor_th3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_th3.Location = new System.Drawing.Point(1364, 192);
@@ -14474,6 +14550,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp10.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_sp10.BlinkColor = System.Drawing.Color.Red;
             this.motor_sp10.Category = "1PMP.cat2";
+            this.motor_sp10.ContextMenuStrip = this.contextFacePlate;
             this.motor_sp10.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_sp10.DebugData"));
             this.motor_sp10.FillColor = System.Drawing.Color.Silver;
             this.motor_sp10.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -14483,6 +14560,7 @@ namespace SCADA_MP2.Presentation
             this.motor_sp10.Size = new System.Drawing.Size(24, 54);
             this.motor_sp10.SymbolHandle = ((long)(308175090));
             this.motor_sp10.TabIndex = 689;
+            this.motor_sp10.Load += new System.EventHandler(this.motor_sp10_Load);
             // 
             // motor_dp04a_1p2
             // 
@@ -14497,6 +14575,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp04a_1p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp04a_1p2.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp04a_1p2.Category = "1PMP.cat2";
+            this.motor_dp04a_1p2.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp04a_1p2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp04a_1p2.DebugData"));
             this.motor_dp04a_1p2.FillColor = System.Drawing.Color.Silver;
             this.motor_dp04a_1p2.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -14506,29 +14585,32 @@ namespace SCADA_MP2.Presentation
             this.motor_dp04a_1p2.Size = new System.Drawing.Size(45, 67);
             this.motor_dp04a_1p2.SymbolHandle = ((long)(433977558));
             this.motor_dp04a_1p2.TabIndex = 779;
+            this.motor_dp04a_1p2.Load += new System.EventHandler(this.motor_dp04a_1p2_Load);
             // 
-            // motor_dp04b_2p2
+            // motor_dp04a_2p2
             // 
-            this.motor_dp04b_2p2.AnalogIntValue1 = ((short)(0));
-            this.motor_dp04b_2p2.AnalogValue1 = 0D;
-            this.motor_dp04b_2p2.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
-            this.motor_dp04b_2p2.BackColor = System.Drawing.Color.Transparent;
-            this.motor_dp04b_2p2.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.motor_dp04b_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Silver, "Band1"));
-            this.motor_dp04b_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Lime, "Band2"));
-            this.motor_dp04b_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band3"));
-            this.motor_dp04b_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
-            this.motor_dp04b_2p2.BlinkColor = System.Drawing.Color.Red;
-            this.motor_dp04b_2p2.Category = "1PMP.cat2";
-            this.motor_dp04b_2p2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp04b_2p2.DebugData"));
-            this.motor_dp04b_2p2.FillColor = System.Drawing.Color.Silver;
-            this.motor_dp04b_2p2.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.motor_dp04b_2p2.Location = new System.Drawing.Point(219, 720);
-            this.motor_dp04b_2p2.Name = "motor_dp04b_2p2";
-            this.motor_dp04b_2p2.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
-            this.motor_dp04b_2p2.Size = new System.Drawing.Size(45, 67);
-            this.motor_dp04b_2p2.SymbolHandle = ((long)(433977558));
-            this.motor_dp04b_2p2.TabIndex = 780;
+            this.motor_dp04a_2p2.AnalogIntValue1 = ((short)(0));
+            this.motor_dp04a_2p2.AnalogValue1 = 0D;
+            this.motor_dp04a_2p2.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
+            this.motor_dp04a_2p2.BackColor = System.Drawing.Color.Transparent;
+            this.motor_dp04a_2p2.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.motor_dp04a_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Silver, "Band1"));
+            this.motor_dp04a_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Lime, "Band2"));
+            this.motor_dp04a_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band3"));
+            this.motor_dp04a_2p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
+            this.motor_dp04a_2p2.BlinkColor = System.Drawing.Color.Red;
+            this.motor_dp04a_2p2.Category = "1PMP.cat2";
+            this.motor_dp04a_2p2.ContextMenuStrip = this.contextFacePlate;
+            this.motor_dp04a_2p2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp04a_2p2.DebugData"));
+            this.motor_dp04a_2p2.FillColor = System.Drawing.Color.Silver;
+            this.motor_dp04a_2p2.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
+            this.motor_dp04a_2p2.Location = new System.Drawing.Point(219, 720);
+            this.motor_dp04a_2p2.Name = "motor_dp04a_2p2";
+            this.motor_dp04a_2p2.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
+            this.motor_dp04a_2p2.Size = new System.Drawing.Size(45, 67);
+            this.motor_dp04a_2p2.SymbolHandle = ((long)(433977558));
+            this.motor_dp04a_2p2.TabIndex = 780;
+            this.motor_dp04a_2p2.Load += new System.EventHandler(this.motor_dp04b_2p2_Load);
             // 
             // motor_p0201
             // 
@@ -14543,6 +14625,7 @@ namespace SCADA_MP2.Presentation
             this.motor_p0201.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_p0201.BlinkColor = System.Drawing.Color.Red;
             this.motor_p0201.Category = "1PMP.cat2";
+            this.motor_p0201.ContextMenuStrip = this.contextFacePlate;
             this.motor_p0201.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_p0201.DebugData"));
             this.motor_p0201.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_p0201.Location = new System.Drawing.Point(586, 208);
@@ -14565,6 +14648,7 @@ namespace SCADA_MP2.Presentation
             this.motor_p0202.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_p0202.BlinkColor = System.Drawing.Color.Red;
             this.motor_p0202.Category = "1PMP.cat2";
+            this.motor_p0202.ContextMenuStrip = this.contextFacePlate;
             this.motor_p0202.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_p0202.DebugData"));
             this.motor_p0202.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_p0202.Location = new System.Drawing.Point(622, 209);
@@ -14587,6 +14671,7 @@ namespace SCADA_MP2.Presentation
             this.motor_th2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_th2.BlinkColor = System.Drawing.Color.Red;
             this.motor_th2.Category = "1PMP.cat2";
+            this.motor_th2.ContextMenuStrip = this.contextFacePlate;
             this.motor_th2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_th2.DebugData"));
             this.motor_th2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_th2.Location = new System.Drawing.Point(1339, 192);
@@ -14609,6 +14694,7 @@ namespace SCADA_MP2.Presentation
             this.motor_p0103.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_p0103.BlinkColor = System.Drawing.Color.Red;
             this.motor_p0103.Category = "1PMP.cat2";
+            this.motor_p0103.ContextMenuStrip = this.contextFacePlate;
             this.motor_p0103.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_p0103.DebugData"));
             this.motor_p0103.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_p0103.Location = new System.Drawing.Point(409, 221);
@@ -14631,6 +14717,7 @@ namespace SCADA_MP2.Presentation
             this.motor_p0102.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_p0102.BlinkColor = System.Drawing.Color.Red;
             this.motor_p0102.Category = "1PMP.cat2";
+            this.motor_p0102.ContextMenuStrip = this.contextFacePlate;
             this.motor_p0102.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_p0102.DebugData"));
             this.motor_p0102.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_p0102.Location = new System.Drawing.Point(377, 221);
@@ -14653,6 +14740,7 @@ namespace SCADA_MP2.Presentation
             this.motor_th1.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_th1.BlinkColor = System.Drawing.Color.Red;
             this.motor_th1.Category = "1PMP.cat2";
+            this.motor_th1.ContextMenuStrip = this.contextFacePlate;
             this.motor_th1.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_th1.DebugData"));
             this.motor_th1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_th1.Location = new System.Drawing.Point(1310, 192);
@@ -14676,6 +14764,7 @@ namespace SCADA_MP2.Presentation
             this.motor_p0101.BlinkColor = System.Drawing.Color.Red;
             this.motor_p0101.BlinkSpeed = SymbolFactoryNetEngine.BlinkSpeedOptions.Slow_1200;
             this.motor_p0101.Category = "1PMP.cat2";
+            this.motor_p0101.ContextMenuStrip = this.contextFacePlate;
             this.motor_p0101.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_p0101.DebugData"));
             this.motor_p0101.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_p0101.Location = new System.Drawing.Point(345, 221);
@@ -14710,6 +14799,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp02.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp02.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp02.Category = "1PMP.cat2";
+            this.motor_dp02.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp02.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp02.DebugData"));
             this.motor_dp02.FillColor = System.Drawing.Color.Silver;
             this.motor_dp02.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
@@ -14733,6 +14823,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dpetn.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dpetn.BlinkColor = System.Drawing.Color.Red;
             this.motor_dpetn.Category = "1PMP.cat2";
+            this.motor_dpetn.ContextMenuStrip = this.contextFacePlate;
             this.motor_dpetn.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dpetn.DebugData"));
             this.motor_dpetn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_dpetn.Location = new System.Drawing.Point(883, 61);
@@ -14755,6 +14846,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp03.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp03.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp03.Category = "1PMP.cat2";
+            this.motor_dp03.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp03.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp03.DebugData"));
             this.motor_dp03.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_dp03.Flip = SymbolFactoryNetEngine.FlipOptions.Vertical;
@@ -14778,6 +14870,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp06_01p2.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp06_01p2.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp06_01p2.Category = "1PMP.cat2";
+            this.motor_dp06_01p2.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp06_01p2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp06_01p2.DebugData"));
             this.motor_dp06_01p2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_dp06_01p2.Flip = SymbolFactoryNetEngine.FlipOptions.Horizontal;
@@ -14800,6 +14893,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp04.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp04.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp04.Category = "1PMP.cat2";
+            this.motor_dp04.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp04.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp04.DebugData"));
             this.motor_dp04.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_dp04.Location = new System.Drawing.Point(1462, 469);
@@ -14868,6 +14962,7 @@ namespace SCADA_MP2.Presentation
             this.motor_dp05.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Red, "Band4"));
             this.motor_dp05.BlinkColor = System.Drawing.Color.Red;
             this.motor_dp05.Category = "1PMP.cat2";
+            this.motor_dp05.ContextMenuStrip = this.contextFacePlate;
             this.motor_dp05.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("motor_dp05.DebugData"));
             this.motor_dp05.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.motor_dp05.Location = new System.Drawing.Point(1451, 76);
@@ -18710,6 +18805,7 @@ namespace SCADA_MP2.Presentation
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(42)))), ((int)(((byte)(91)))));
             this.ClientSize = new System.Drawing.Size(1920, 960);
+            this.ContextMenuStrip = this.contextFacePlate;
             this.Controls.Add(this.standardControl33);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
@@ -18967,7 +19063,7 @@ namespace SCADA_MP2.Presentation
             this.Controls.Add(this.standardControl247);
             this.Controls.Add(this.standardControl15);
             this.Controls.Add(this.standardControl12);
-            this.Controls.Add(this.motor_mt09);
+            this.Controls.Add(this.motor_mc09);
             this.Controls.Add(this.motor_mc03);
             this.Controls.Add(this.motor_mt03);
             this.Controls.Add(this.motor_mtetn);
@@ -19262,7 +19358,7 @@ namespace SCADA_MP2.Presentation
             this.Controls.Add(this.motor_th3);
             this.Controls.Add(this.motor_sp10);
             this.Controls.Add(this.motor_dp04a_1p2);
-            this.Controls.Add(this.motor_dp04b_2p2);
+            this.Controls.Add(this.motor_dp04a_2p2);
             this.Controls.Add(this.motor_p0201);
             this.Controls.Add(this.motor_p0202);
             this.Controls.Add(this.motor_th2);
@@ -19484,6 +19580,7 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl71)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mkt03)).EndInit();
+            this.contextFacePlate.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.standardControl283)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl231)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl569)).EndInit();
@@ -19580,7 +19677,6 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.standardControl465)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl464)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mtk03)).EndInit();
-            this.contextFacePlate.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.standardControl456)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl493)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl362)).EndInit();
@@ -19723,7 +19819,7 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.standardControl247)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.motor_mt09)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.motor_mc09)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mc03)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mt03)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_mtetn)).EndInit();
@@ -19989,7 +20085,7 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.motor_th3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_sp10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_dp04a_1p2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.motor_dp04b_2p2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.motor_dp04a_2p2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_p0201)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_p0202)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motor_th2)).EndInit();
@@ -20394,7 +20490,7 @@ namespace SCADA_MP2.Presentation
         private SymbolFactoryDotNet.StandardControl standardControl247;
         private SymbolFactoryDotNet.StandardControl standardControl15;
         private SymbolFactoryDotNet.StandardControl standardControl12;
-        private SymbolFactoryDotNet.StandardControl motor_mt09;
+        private SymbolFactoryDotNet.StandardControl motor_mc09;
         private SymbolFactoryDotNet.StandardControl motor_mc03;
         private SymbolFactoryDotNet.StandardControl motor_mt03;
         private SymbolFactoryDotNet.StandardControl motor_mtetn;
@@ -20689,7 +20785,7 @@ namespace SCADA_MP2.Presentation
         private SymbolFactoryDotNet.StandardControl motor_th3;
         private SymbolFactoryDotNet.StandardControl motor_sp10;
         private SymbolFactoryDotNet.StandardControl motor_dp04a_1p2;
-        private SymbolFactoryDotNet.StandardControl motor_dp04b_2p2;
+        private SymbolFactoryDotNet.StandardControl motor_dp04a_2p2;
         private SymbolFactoryDotNet.StandardControl motor_p0201;
         private SymbolFactoryDotNet.StandardControl motor_p0202;
         private SymbolFactoryDotNet.StandardControl motor_th2;

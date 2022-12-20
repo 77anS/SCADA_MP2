@@ -91,7 +91,7 @@ namespace SCADA_MP2
         public static void AddEntityToBSCADA()
         {
             // Add PLC:
-            BSCADA.AddPLC("PLC1", new BSCADA_PLC("PLC1", S7.Net.CpuType.S71200, "192.168.1.100", 0, 1, 250, BSCADA));
+            BSCADA.AddPLC("PLC1", new BSCADA_PLC("PLC1", S7.Net.CpuType.S71200, "192.168.0.3", 0, 1, 250, BSCADA));
             BSCADA.AddPLC("PLC2", new BSCADA_PLC("PLC2", S7.Net.CpuType.S71200, "192.168.1.101", 0, 1, 250, BSCADA));
             BSCADA.AddPLC("PLC3", new BSCADA_PLC("PLC3", S7.Net.CpuType.S71200, "192.168.1.102", 0, 1, 250, BSCADA));
             //Add UI

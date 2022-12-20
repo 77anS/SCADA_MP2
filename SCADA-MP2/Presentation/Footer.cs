@@ -34,23 +34,6 @@ namespace SCADA_MP2.Presentation
             ((System.ComponentModel.ISupportInitialize)(this.picBox_home)).BeginInit();
             this.SuspendLayout();
             // 
-            // defaultParent
-            // 
-            this.defaultParent.Location = new System.Drawing.Point(130, 130);
-            // 
-            // _parent
-            // 
-            this._parent.Location = new System.Drawing.Point(156, 156);
-            // 
-            // defaultBody
-            // 
-            this.defaultBody.Location = new System.Drawing.Point(182, 182);
-            this.defaultBody.Load += new System.EventHandler(this.defaultBody_Load);
-            // 
-            // _body
-            // 
-            this._body.Location = new System.Drawing.Point(208, 208);
-            // 
             // Footer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

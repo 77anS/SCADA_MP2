@@ -65,11 +65,9 @@
     <Compile Include="BusinessLogic\Faceplate\Motor\Faceplate_Motor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BusinessLogic\HomePage\BackWorker_Home.cs" />
     <Compile Include="BusinessLogic\HomePage\Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BusinessLogic\HomePage\Read.cs" />
     <Compile Include="DataAccess\PLC\RequestPLC1.cs" />
     <Compile Include="DataAccess\PLC\RequestPLC2.cs" />
     <Compile Include="DataAccess\PLC\RequestPLC3.cs" />

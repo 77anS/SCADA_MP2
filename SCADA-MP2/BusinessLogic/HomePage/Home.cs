@@ -81,7 +81,7 @@ namespace SCADA_MP2.Presentation
                 Program.HomePageData.TemperatureIndex = fakeData.random_float(25.25f, 25.89f);
                 Program.HomePageData.ColorIndex = fakeData.random_float(5.5267f, 5.7556f);
 
-                //Program.HomePageData.FlowInCap = Program.PLC1_DB44.FlowInCap;
+                //Program.HomePageData.FlowInCap = Program.PLC1_DB44_QuanTracIndex.FlowInCap;
                 //Program.HomePageData.FlowInTotal = Program.PLC1_DB44.FlowInTotal;
                 //Program.HomePageData.FlowOutCap = Program.PLC1_DB44.FlowOutCap;
                 //Program.HomePageData.FlowOutTotal = Program.PLC1_DB44.FlowOutTotal;
@@ -545,282 +545,281 @@ namespace SCADA_MP2.Presentation
             #region RUN/ TRIP: UPDATE UI
             #region P0101: BƠM BỂ GOM
             FMotorControl.ShowStatus(Program.HomePageData.p0101.RunStatus, Program.HomePageData.p0101.TripStatus, motor_p0101);
-                #endregion
+            #endregion
 
-                #region P0102: BƠM BỂ GOM
-                FMotorControl.ShowStatus(Program.HomePageData.p0102.RunStatus, Program.HomePageData.p0102.TripStatus, motor_p0102);
-                #endregion
+            #region P0102: BƠM BỂ GOM
+            FMotorControl.ShowStatus(Program.HomePageData.p0102.RunStatus, Program.HomePageData.p0102.TripStatus, motor_p0102);
+            #endregion
 
-                #region P0103: BƠM BỂ GOM
-                FMotorControl.ShowStatus(Program.HomePageData.p0103.RunStatus, Program.HomePageData.p0103.TripStatus, motor_p0103);
-                #endregion
+            #region P0103: BƠM BỂ GOM
+            FMotorControl.ShowStatus(Program.HomePageData.p0103.RunStatus, Program.HomePageData.p0103.TripStatus, motor_p0103);
+            #endregion
 
-                #region P0201: BƠM ĐIỀU HÒA
-                FMotorControl.ShowStatus(Program.HomePageData.p0201.RunStatus, Program.HomePageData.p0201.TripStatus, motor_p0201);
-                #endregion
+            #region P0201: BƠM ĐIỀU HÒA
+            FMotorControl.ShowStatus(Program.HomePageData.p0201.RunStatus, Program.HomePageData.p0201.TripStatus, motor_p0201);
+            #endregion
 
-                #region P0202: BƠM ĐIỀU HÒA
-                FMotorControl.ShowStatus(Program.HomePageData.p0202.RunStatus, Program.HomePageData.p0202.TripStatus, motor_p0202);
-                #endregion
+            #region P0202: BƠM ĐIỀU HÒA
+            FMotorControl.ShowStatus(Program.HomePageData.p0202.RunStatus, Program.HomePageData.p0202.TripStatus, motor_p0202);
+            #endregion
 
-                #region BS02A: MÁY TÁCH RÁC
-                FMotorControl.ShowStatus(Program.HomePageData.bs02a.RunStatus, Program.HomePageData.bs02a.TripStatus, mayTachRac_bs02a);
-                #endregion
+            #region BS02A: MÁY TÁCH RÁC
+            FMotorControl.ShowStatus(Program.HomePageData.bs02a.RunStatus, Program.HomePageData.bs02a.TripStatus, mayTachRac_bs02a);
+            #endregion
 
-                #region WP02A: BƠM NƯỚC THẢI
-                FMotorControl.ShowStatus(Program.HomePageData.wp02a.RunStatus, Program.HomePageData.wp02a.TripStatus, motor_wp02a);
-                #endregion
+            #region WP02A: BƠM NƯỚC THẢI
+            FMotorControl.ShowStatus(Program.HomePageData.wp02a.RunStatus, Program.HomePageData.wp02a.TripStatus, motor_wp02a);
+            #endregion
 
-                #region WP02B: BƠM NƯỚC THẢI
-                FMotorControl.ShowStatus(Program.HomePageData.wp02b.RunStatus, Program.HomePageData.wp02b.TripStatus, motor_wp02b);
-                #endregion
+            #region WP02B: BƠM NƯỚC THẢI
+            FMotorControl.ShowStatus(Program.HomePageData.wp02b.RunStatus, Program.HomePageData.wp02b.TripStatus, motor_wp02b);
+            #endregion
 
-                #region SM01: KHUÂY ANOXIC 1
-                FMotorControl.ShowStatus(Program.HomePageData.sm01.RunStatus, Program.HomePageData.sm01.TripStatus, motor_sm01);
-                #endregion
+            #region SM01: KHUÂY ANOXIC 1
+            FMotorControl.ShowStatus(Program.HomePageData.sm01.RunStatus, Program.HomePageData.sm01.TripStatus, motor_sm01);
+            #endregion
 
-                #region SM02: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm02.TripStatus, motor_sm02);
-                #endregion
+            #region SM02: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm02.TripStatus, motor_sm02);
+            #endregion
 
-                #region SM03: KHUÂY ANOXIC 3
-                FMotorControl.ShowStatus(Program.HomePageData.sm03.RunStatus, Program.HomePageData.sm03.TripStatus, motor_sm03);
-                #endregion
+            #region SM03: KHUÂY ANOXIC 3
+            FMotorControl.ShowStatus(Program.HomePageData.sm03.RunStatus, Program.HomePageData.sm03.TripStatus, motor_sm03);
+            #endregion
 
-                #region SM04: KHUÂY ANOXIC 4
-                FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm04.TripStatus, motor_sm04);
-                #endregion
+            #region SM04: KHUÂY ANOXIC 4
+            FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm04.TripStatus, motor_sm04);
+            #endregion
 
-                #region SM05: KHUÂY ANOXIC 5
-                FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm05.TripStatus, motor_sm05);
-                #endregion
+            #region SM05: KHUÂY ANOXIC 5
+            FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm05.TripStatus, motor_sm05);
+            #endregion
 
-                #region SM06: KHUÂY ANOXIC 6
-                FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm06.TripStatus, motor_sm06);
-                #endregion
+            #region SM06: KHUÂY ANOXIC 6
+            FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm06.TripStatus, motor_sm06);
+            #endregion
 
-                #region SM07: KHUÂY ANOXIC 7
-                FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm07.TripStatus, motor_sm07);
-                #endregion
+            #region SM07: KHUÂY ANOXIC 7
+            FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm07.TripStatus, motor_sm07);
+            #endregion
 
-                #region SM08: KHUÂY ANOXIC 8
-                FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm08.TripStatus, motor_sm08);
-                #endregion
+            #region SM08: KHUÂY ANOXIC 8
+            FMotorControl.ShowStatus(Program.HomePageData.sm02.RunStatus, Program.HomePageData.sm08.TripStatus, motor_sm08);
+            #endregion
 
-                #region TH1: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.th1.RunStatus, Program.HomePageData.th1.TripStatus, motor_th1);
-                #endregion
+            #region TH1: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.th1.RunStatus, Program.HomePageData.th1.TripStatus, motor_th1);
+            #endregion
 
-                #region TH2: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.th2.RunStatus, Program.HomePageData.th2.TripStatus, motor_th2);
-                #endregion
+            #region TH2: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.th2.RunStatus, Program.HomePageData.th2.TripStatus, motor_th2);
+            #endregion
 
-                #region TH3: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.th3.RunStatus, Program.HomePageData.th3.TripStatus, motor_th3);
-                #endregion
+            #region TH3: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.th3.RunStatus, Program.HomePageData.th3.TripStatus, motor_th3);
+            #endregion
 
-                #region MS05: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.ms05.RunStatus, Program.HomePageData.ms05.TripStatus, motor_ms05);
-                #endregion
+            #region MS05: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.ms05.RunStatus, Program.HomePageData.ms05.TripStatus, motor_ms05);
+            #endregion
 
-                #region MS07: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.ms07.RunStatus, Program.HomePageData.ms07.TripStatus, motor_ms07);
+            #region MS07: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.ms07.RunStatus, Program.HomePageData.ms07.TripStatus, motor_ms07);
 
-                #region MS09: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.ms09.RunStatus, Program.HomePageData.ms09.TripStatus, motor_ms09);
-                #endregion
+            #region MS09: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.ms09.RunStatus, Program.HomePageData.ms09.TripStatus, motor_ms09);
+            #endregion
 
-                #region GGB: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.ggb.RunStatus, Program.HomePageData.ggb.TripStatus, motor_ggb);
-                #endregion
+            #region GGB: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.ggb.RunStatus, Program.HomePageData.ggb.TripStatus, motor_ggb);
+            #endregion
 
-                #region BB1: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.bb1.RunStatus, Program.HomePageData.bb1.TripStatus, motor_bb1);
-                #endregion
+            #region BB1: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.bb1.RunStatus, Program.HomePageData.bb1.TripStatus, motor_bb1);
+            #endregion
 
-                #region BB2: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.bb2.RunStatus, Program.HomePageData.bb2.TripStatus, motor_bb2);
-                #endregion
+            #region BB2: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.bb2.RunStatus, Program.HomePageData.bb2.TripStatus, motor_bb2);
+            #endregion
 
-                #region SP10: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.sp10.RunStatus, Program.HomePageData.sp10.TripStatus, motor_sp10);
-                #endregion
+            #region SP10: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.sp10.RunStatus, Program.HomePageData.sp10.TripStatus, motor_sp10);
+            #endregion
 
-                #region SP05A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.sp05a.RunStatus, Program.HomePageData.sp05a.TripStatus, motor_sp05a);
-                #endregion
+            #region SP05A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.sp05a.RunStatus, Program.HomePageData.sp05a.TripStatus, motor_sp05a);
+            #endregion
 
-                #region SP05B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.sp05b.RunStatus, Program.HomePageData.sp05b.TripStatus, motor_sp05b);
-                #endregion
+            #region SP05B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.sp05b.RunStatus, Program.HomePageData.sp05b.TripStatus, motor_sp05b);
+            #endregion
 
-                #region SP07A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.sp07a.RunStatus, Program.HomePageData.sp07a.TripStatus, motor_sp07a);
-                #endregion
+            #region SP07A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.sp07a.RunStatus, Program.HomePageData.sp07a.TripStatus, motor_sp07a);
+            #endregion
 
-                #region SP07B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.sp07b.RunStatus, Program.HomePageData.sp07b.TripStatus, motor_sp07b);
-                #endregion
+            #region SP07B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.sp07b.RunStatus, Program.HomePageData.sp07b.TripStatus, motor_sp07b);
+            #endregion
 
-                #region MTK01: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mtk01.RunStatus, Program.HomePageData.mtk01.TripStatus, motor_mtk01);
-                #endregion
+            #region MTK01: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mtk01.RunStatus, Program.HomePageData.mtk01.TripStatus, motor_mtk01);
+            #endregion
 
-                #region MTK02: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mtk02.RunStatus, Program.HomePageData.mtk02.TripStatus, motor_mtk02);
-                #endregion
+            #region MTK02: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mtk02.RunStatus, Program.HomePageData.mtk02.TripStatus, motor_mtk02);
+            #endregion
 
-                #region MTK03: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mtk03.RunStatus, Program.HomePageData.mtk03.TripStatus, motor_mtk03);
-                #endregion
+            #region MTK03: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mtk03.RunStatus, Program.HomePageData.mtk03.TripStatus, motor_mtk03);
+            #endregion
 
-                #region AB06A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.ab06a.RunStatus, Program.HomePageData.ab06a.TripStatus, motor_ab06a);
-                #endregion
+            #region AB06A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.ab06a.RunStatus, Program.HomePageData.ab06a.TripStatus, motor_ab06a);
+            #endregion
 
-                #region AB06B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.ab06b.RunStatus, Program.HomePageData.ab06b.TripStatus, motor_ab06b);
-                #endregion
+            #region AB06B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.ab06b.RunStatus, Program.HomePageData.ab06b.TripStatus, motor_ab06b);
+            #endregion
 
-                #region AB06C: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.ab06c.RunStatus, Program.HomePageData.ab06c.TripStatus, motor_ab06c);
-                #endregion
+            #region AB06C: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.ab06c.RunStatus, Program.HomePageData.ab06c.TripStatus, motor_ab06c);
+            #endregion
 
-                #region MT-ETN: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mtetn.RunStatus, Program.HomePageData.mtetn.TripStatus, motor_mtetn);
-                #endregion
+            #region MT-ETN: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mtetn.RunStatus, Program.HomePageData.mtetn.TripStatus, motor_mtetn);
+            #endregion
 
-                #region MT-03: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mt03.RunStatus, Program.HomePageData.mt03.TripStatus, motor_mt03);
-                #endregion
+            #region MT-03: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mt03.RunStatus, Program.HomePageData.mt03.TripStatus, motor_mt03);
+            #endregion
 
-                #region MT-05: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mt05.RunStatus, Program.HomePageData.mt05.TripStatus, motor_mt05);
-                #endregion
+            #region MT-05: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mt05.RunStatus, Program.HomePageData.mt05.TripStatus, motor_mt05);
+            #endregion
 
-                #region MT-06_1: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mt06_1.RunStatus, Program.HomePageData.mt06_1.TripStatus, motor_mt06_01p2);
-                #endregion
+            #region MT-06_1: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mt06_1.RunStatus, Program.HomePageData.mt06_1.TripStatus, motor_mt06_01p2);
+            #endregion
 
-                #region MT-06_2: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mt06_2.RunStatus, Program.HomePageData.mt06_2.TripStatus, motor_mt06_2p2);
-                #endregion
+            #region MT-06_2: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mt06_2.RunStatus, Program.HomePageData.mt06_2.TripStatus, motor_mt06_2p2);
+            #endregion
 
-                #region MT-04: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mt04.RunStatus, Program.HomePageData.mt04.TripStatus, motor_mt04);
-                #endregion
+            #region MT-04: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mt04.RunStatus, Program.HomePageData.mt04.TripStatus, motor_mt04);
+            #endregion
 
-                #region MC04: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mc04.RunStatus, Program.HomePageData.mc04.TripStatus, motor_mc04);
-                #endregion
+            #region MC04: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mc04.RunStatus, Program.HomePageData.mc04.TripStatus, motor_mc04);
+            #endregion
 
-                #region MC04: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mc04.RunStatus, Program.HomePageData.mc04.TripStatus, motor_mc04);
-                #endregion
-
-                #region MC03: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mc03.RunStatus, Program.HomePageData.mc03.TripStatus, motor_mc03);
-                #endregion
-
-                #region MI03: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mi03.RunStatus, Program.HomePageData.mi03.TripStatus, motor_mi03);
-                #endregion
-
-                #region MI04A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mi04a.RunStatus, Program.HomePageData.mi04a.TripStatus, motor_mi04a);
-                #endregion
-                #region MI04B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mi04b.RunStatus, Program.HomePageData.mi04b.TripStatus, motor_mi04b);
-                #endregion
-
-                #region MT-01: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mt01.RunStatus, Program.HomePageData.mt01.TripStatus, motor_mt01);
-                #endregion
-
-                #region MT-02A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mt02a.RunStatus, Program.HomePageData.mt02a.TripStatus, motor_mt02a);
-                #endregion
-
-                #region MT02B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.mt02b.RunStatus, Program.HomePageData.mt02b.TripStatus, motor_mt02b);
-                #endregion
-
-                #region DPETN: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dpetn.RunStatus, Program.HomePageData.dpetn.TripStatus, motor_dpetn);
-                #endregion
-
-                #region DP-03: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp03.RunStatus, Program.HomePageData.dp03.TripStatus, motor_dp03);
-                #endregion
-
-                #region DP-05: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp05.RunStatus, Program.HomePageData.dp05.TripStatus, motor_dp05);
-                #endregion
-
-                #region DP06_1: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp06_1.RunStatus, Program.HomePageData.dp06_1.TripStatus, motor_dp06_01p2);
-                #endregion
-
-                #region DP06_2: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp06_2.RunStatus, Program.HomePageData.dp06_2.TripStatus, motor_dp06_2p2);
-                #endregion
-
-                #region DP04A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp04a.RunStatus, Program.HomePageData.dp04a.TripStatus, motor_dp04a);
-                #endregion
-
-                #region DP04B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp04b.RunStatus, Program.HomePageData.dp04b.TripStatus, motor_dp04b);
-                #endregion
-
-                #region DP03A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp03a.RunStatus, Program.HomePageData.dp03a.TripStatus, motor_dp03a);
-                #endregion
-
-                #region DP03B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp03b.RunStatus, Program.HomePageData.dp03b.TripStatus, motor_dp03b);
-                #endregion
-
-                #region DP05A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp05a.RunStatus, Program.HomePageData.dp05a.TripStatus, motor_dp05a);
-                #endregion
-
-                #region DP05B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp05b.RunStatus, Program.HomePageData.dp05b.TripStatus, motor_dp05b);
-                #endregion
-
-                #region DP06A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp06a.RunStatus, Program.HomePageData.dp06a.TripStatus, motor_dp06a);
-                #endregion
-
-                #region DP06B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp06b.RunStatus, Program.HomePageData.dp06b.TripStatus, motor_dp06b);
-                #endregion
-
-                #region DP09A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp09a.RunStatus, Program.HomePageData.dp09a.TripStatus, motor_dp09a);
-                #endregion
-
-                #region DP-02: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp02.RunStatus, Program.HomePageData.dp02.TripStatus, motor_dp02);
-                #endregion
-
-                #region DP04: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp04.RunStatus, Program.HomePageData.dp04.TripStatus, motor_dp04);
-                #endregion
-
-                #region DP07A: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp07a.RunStatus, Program.HomePageData.dp07a.TripStatus, motor_dp07a);
-                #endregion
-
-                #region DP07B: KHUÂY ANOXIC 2
-                FMotorControl.ShowStatus(Program.HomePageData.dp07b.RunStatus, Program.HomePageData.dp07b.TripStatus, motor_dp07b);
+            #region MC04: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mc04.RunStatus, Program.HomePageData.mc04.TripStatus, motor_mc04);
+            #endregion
+
+            #region MC03: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mc03.RunStatus, Program.HomePageData.mc03.TripStatus, motor_mc03);
+            #endregion
+
+            #region MI03: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mi03.RunStatus, Program.HomePageData.mi03.TripStatus, motor_mi03);
+            #endregion
+
+            #region MI04A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mi04a.RunStatus, Program.HomePageData.mi04a.TripStatus, motor_mi04a);
+            #endregion
+            #region MI04B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mi04b.RunStatus, Program.HomePageData.mi04b.TripStatus, motor_mi04b);
+            #endregion
+
+            #region MT-01: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mt01.RunStatus, Program.HomePageData.mt01.TripStatus, motor_mt01);
+            #endregion
+
+            #region MT-02A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mt02a.RunStatus, Program.HomePageData.mt02a.TripStatus, motor_mt02a);
+            #endregion
+
+            #region MT02B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.mt02b.RunStatus, Program.HomePageData.mt02b.TripStatus, motor_mt02b);
+            #endregion
+
+            #region DPETN: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dpetn.RunStatus, Program.HomePageData.dpetn.TripStatus, motor_dpetn);
+            #endregion
+
+            #region DP-03: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp03.RunStatus, Program.HomePageData.dp03.TripStatus, motor_dp03);
+            #endregion
+
+            #region DP-05: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp05.RunStatus, Program.HomePageData.dp05.TripStatus, motor_dp05);
+            #endregion
+
+            #region DP06_1: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp06_1.RunStatus, Program.HomePageData.dp06_1.TripStatus, motor_dp06_01p2);
+            #endregion
+
+            #region DP06_2: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp06_2.RunStatus, Program.HomePageData.dp06_2.TripStatus, motor_dp06_2p2);
+            #endregion
+
+            #region DP04A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp04a.RunStatus, Program.HomePageData.dp04a.TripStatus, motor_dp04a);
+            #endregion
+
+            #region DP04B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp04b.RunStatus, Program.HomePageData.dp04b.TripStatus, motor_dp04b);
+            #endregion
+
+            #region DP03A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp03a.RunStatus, Program.HomePageData.dp03a.TripStatus, motor_dp03a);
+            #endregion
+
+            #region DP03B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp03b.RunStatus, Program.HomePageData.dp03b.TripStatus, motor_dp03b);
+            #endregion
+
+            #region DP05A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp05a.RunStatus, Program.HomePageData.dp05a.TripStatus, motor_dp05a);
+            #endregion
+
+            #region DP05B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp05b.RunStatus, Program.HomePageData.dp05b.TripStatus, motor_dp05b);
+            #endregion
+
+            #region DP06A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp06a.RunStatus, Program.HomePageData.dp06a.TripStatus, motor_dp06a);
+            #endregion
+
+            #region DP06B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp06b.RunStatus, Program.HomePageData.dp06b.TripStatus, motor_dp06b);
+            #endregion
+
+            #region DP09A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp09a.RunStatus, Program.HomePageData.dp09a.TripStatus, motor_dp09a);
+            #endregion
+
+            #region DP-02: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp02.RunStatus, Program.HomePageData.dp02.TripStatus, motor_dp02);
+            #endregion
+
+            #region DP04: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp04.RunStatus, Program.HomePageData.dp04.TripStatus, motor_dp04);
+            #endregion
+
+            #region DP07A: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp07a.RunStatus, Program.HomePageData.dp07a.TripStatus, motor_dp07a);
+            #endregion
+
+            #region DP07B: KHUÂY ANOXIC 2
+            FMotorControl.ShowStatus(Program.HomePageData.dp07b.RunStatus, Program.HomePageData.dp07b.TripStatus, motor_dp07b);
             #endregion
 
             #endregion
             #endregion
 
-            
             #region PHAO BỂ GOM
             FFloatControl.showStatus_Float3Level(Convert.ToBoolean(Program.HomePageData.ll101.Value), 
              Convert.ToBoolean(Program.HomePageData.ml101.Value), Convert.ToBoolean(Program.HomePageData.hl101.Value),
@@ -857,6 +856,7 @@ namespace SCADA_MP2.Presentation
         }
 
         #endregion
+        
         /*
         private void InitializeComponent()
         {

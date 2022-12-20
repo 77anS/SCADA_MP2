@@ -20,5 +20,19 @@ namespace SCADA_MP2.Entity.DataBlock
         public bool Reset_flowOut_total { get; set; }
         public float FlowInTotal { get; set; }
         public bool Reset_flowIn_total { get; set; }
+
+        /*
+        public float this[int index]
+        {
+            get
+            {
+                return this.Quan_trac[index];
+            }
+            set
+            {
+                this.Quan_trac[index] = value;
+            }
+        }
+        */
     }
 }
