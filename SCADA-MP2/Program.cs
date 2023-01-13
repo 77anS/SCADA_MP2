@@ -20,6 +20,9 @@ namespace SCADA_MP2
         // UI:
         public static BSCADA_Page.Frame App; // Frame
         public static BSCADA_Page.Home homePage; // Home page
+        public static BSCADA_Page.LineChart monitoringIndexPage;
+        public static BSCADA_Page.Report reportPage;
+        public static BSCADA_Page.InfoDeviceList infoPage;
         // DataBlock:
         public static BSCADA_DataBlock.PLC1_InputStatus_DB43 PLC1_DB43_InputStatus;
         public static BSCADA_DataBlock.PLC1_QuanTracIndex_DB44 PLC1_DB44_QuanTracIndex;
@@ -67,6 +70,10 @@ namespace SCADA_MP2
             // UI:
             App = new BSCADA_Page.Frame();
             homePage = new BSCADA_Page.Home();
+            monitoringIndexPage = new BSCADA_Page.LineChart();
+            reportPage = new BSCADA_Page.Report();
+            infoPage = new BSCADA_Page.InfoDeviceList();
+            // ROOT:
             BSCADA = new BSCADA();
             // Data Block:
             PLC1_DB43_InputStatus = new BSCADA_DataBlock.PLC1_InputStatus_DB43();

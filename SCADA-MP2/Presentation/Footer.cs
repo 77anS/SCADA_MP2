@@ -19,7 +19,17 @@ namespace SCADA_MP2.Presentation
 
         public override void picBox_trend_Click(Color backgroundColor, Form _parent, Form _body)
         {
-            base.picBox_trend_Click(backgroundColor, _parent, _body);
+            base.picBox_trend_Click(backgroundColor, _parent, Program.monitoringIndexPage);
+        }
+
+        public override void picBox_report_Click(Color backgroundColor, Form _parent, Form _body)
+        {
+            base.picBox_report_Click(backgroundColor, _parent, Program.reportPage);
+        }
+
+        public override void picBox_info_Click(Color backgroundColor, Form _parent, Form _body)
+        {
+            base.picBox_info_Click(backgroundColor, _parent, Program.infoPage);
         }
 
         private void InitializeComponent()

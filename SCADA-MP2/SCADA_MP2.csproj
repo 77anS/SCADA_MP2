@@ -68,6 +68,9 @@
     <Compile Include="BusinessLogic\HomePage\Home.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BusinessLogic\LineChart\LineChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DataAccess\PLC\RequestPLC1.cs" />
     <Compile Include="DataAccess\PLC\RequestPLC2.cs" />
     <Compile Include="DataAccess\PLC\RequestPLC3.cs" />
@@ -120,6 +123,15 @@
     <Compile Include="Presentation\InfoDeviceList.Designer.cs">
       <DependentUpon>InfoDeviceList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentation\LineChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\LineChart.Designer.cs">
+      <DependentUpon>LineChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Presentation\Faceplate_Motor.resx">
@@ -133,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation\InfoDeviceList.resx">
       <DependentUpon>InfoDeviceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\LineChart.resx">
+      <DependentUpon>LineChart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
